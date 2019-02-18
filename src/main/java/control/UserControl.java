@@ -1,6 +1,8 @@
 package control;
 
-import account.SimpleUserFactory;
+import account.CustomerFactory;
+import account.EmployeeFactory;
+import account.Factory;
 import account.User;
 import backgroundServices.API_Handlers.getRequestHandler;
 import backgroundServices.API_Handlers.insertRequestHandler;
@@ -8,14 +10,13 @@ import org.json.JSONObject;
 
 public class UserControl {
 
-    private SimpleUserFactory userFactory;
+    private Factory factory;
     // simple factory pattern implemented to support extensibility of user types and to better manage dependencies
     private getRequestHandler dbPullHandler;
     private insertRequestHandler dbInsertHandler;
 
 
     public UserControl(){
-        userFactory = new SimpleUserFactory();
         dbPullHandler = new getRequestHandler();
         dbInsertHandler = new insertRequestHandler();
     }
@@ -25,7 +26,15 @@ public class UserControl {
         try {
             JSONObject[] obj = dbPullHandler.getApiResponseResults();
             if(obj[0].get("password").equals(password) && obj[0].get("username").equals(username)) {
-                return userFactory.createUser(obj[0]);
+                if(obj[0].getInt("userType") == 0) {
+                    factory = new CustomerFactory();
+                    return factory.createUser(obj[0]);
+                }
+                else if (obj[0].getInt("userType") == 1){
+                    factory = new EmployeeFactory();
+                    return factory.createUser(obj[0]);
+                } else
+                    return null;
             }
             else {
                 return null;
