@@ -159,6 +159,23 @@ public class getRequestHandler implements ApiRequestHandler{
         }
     }
 
+    public void getHotelsByAirportID(int id){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getHotelsByAirportID"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"id\":\""+id+"\"" +
+                                    "}"
+                            )
+                            .asString();
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     /**
      * Method that formats the AWS response to the last query executed and returns a JSON object.
@@ -179,7 +196,10 @@ public class getRequestHandler implements ApiRequestHandler{
         // store results in array of JSONs
         JSONObject [] formatedDataFromAPI = new JSONObject[resultsArray.length];
         for (int i = 0; i < resultsArray.length; i++){
-            formatedDataFromAPI[i] = new JSONObject(resultsArray[i]);
+            if(!resultsArray[i].isEmpty()){
+                formatedDataFromAPI[i] = new JSONObject(resultsArray[i]);
+            }
+
         }
         return formatedDataFromAPI;
     }
