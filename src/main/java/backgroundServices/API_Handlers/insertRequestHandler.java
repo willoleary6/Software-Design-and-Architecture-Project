@@ -39,6 +39,27 @@ public class insertRequestHandler  implements ApiRequestHandler{
     }
 
 
+    public void addNewHotel(String hotelName, int airport, int liason, String extendedDataInJSON){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("insertUrl")+apiProperties.getProperty("addNewHotel"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"name\":\""+hotelName+"\"," +
+                                    "\"airport\":\""+airport+"\"," +
+                                    "\"liason\":\""+liason+"\"," +
+                                    "\"extendedDataInJSON\":\""+extendedDataInJSON+"\"" +
+                                    "}")
+                            .asString();
+
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public void addNewDiscount(String userID, String flightID,String discountStartDate,
                                String discountEndDate, String discountPercentage){
         try {
@@ -67,6 +88,7 @@ public class insertRequestHandler  implements ApiRequestHandler{
      */
     public JSONObject [] getApiResponseResults(){
         // get the raw results data and remove any characters we cant play with.
+        System.out.println(apiResponse);
         String results = apiResponse.get("results").toString()
                 .replaceAll("\\[", "").replaceAll("\\]", "");
         /*
