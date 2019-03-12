@@ -1,5 +1,6 @@
 package ui.controller;
 
+import routeCalculation.Airport;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
 import ui.model.FlightSearchResultsTableModel;
@@ -32,6 +33,9 @@ public class FlightSearchResultsController extends BaseFrameController {
 
     private void initListeners() {
         mainMenuButton.addActionListener(e -> coordinator.start());
-        bookFlightButton.addActionListener(e -> System.out.print("Book flight " + flightSearchResultsTable.getSelectedRow()));
+        bookFlightButton.addActionListener(e -> {
+            Airport destination = (Airport) flightSearchResultsTable.getValueAt(flightSearchResultsTable.getSelectedRow(), 1);
+            coordinator.goToHotelSearchResults(destination);
+        });
     }
 }
