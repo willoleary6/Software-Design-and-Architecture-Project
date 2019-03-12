@@ -1,10 +1,13 @@
 package ui.coordinator;
 
 
+import routeCalculation.Airport;
 import routeCalculation.Route;
 import ui.controller.FlightSearchFrameController;
 import ui.controller.FlightSearchResultsController;
+import ui.controller.HotelSearchResultsController;
 import ui.controller.MainMenuFrameController;
+import ui.view.HotelSearchFrame;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -43,5 +46,11 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
     public void goToFlightSearchResults(ArrayList<Route> results) {
         FlightSearchResultsController flightSearchResults = new FlightSearchResultsController(this, results);
         setViewController(flightSearchResults);
+    }
+    
+    @Override
+    public void goToHotelSearchResults(Airport destination) {
+        HotelSearchResultsController hotelSearchResults = new HotelSearchResultsController(this, destination);
+        setViewController(hotelSearchResults);
     }
 }
