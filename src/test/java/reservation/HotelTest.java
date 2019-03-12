@@ -24,4 +24,22 @@ class HotelTest {
         Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
         assertEquals(hotelTest.getLiaisonUserID(), 0);
     }
+
+    @Test
+    void getAdditionalServices_null_argument() {
+        Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
+        assertEquals(hotelTest.getAdditionalServices(), null);
+    }
+
+    @Test
+    void getAdditionalServices_valid_argument() {
+        Hotel hotelTest = new Hotel("test", 0,
+                0, new JSONObject(
+                        "{additional_services:[{name:\"test\", price:20.00, description:\"test_description\"}]}")
+        );
+        HotelService [] testArrayOf = {new HotelService("test",20.00, "test_description")};
+        assertEquals(hotelTest.getAdditionalServices()[0].getName(), testArrayOf[0].getName());
+        assertEquals(hotelTest.getAdditionalServices()[0].getPrice(), testArrayOf[0].getPrice());
+        assertEquals(hotelTest.getAdditionalServices()[0].getDescription(), testArrayOf[0].getDescription());
+    }
 }
