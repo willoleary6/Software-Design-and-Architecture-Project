@@ -1,23 +1,23 @@
 package ui.model;
 
+import org.json.JSONObject;
 import reservation.Hotel;
-import reservation.HotelService;
 import routeCalculation.Airport;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class HotelSearchModel {
-    private HotelService service;
+    private Hotel [] hotels;
     private Airport destination;
 
     public HotelSearchModel(Airport destination) {
-        service = new HotelService();
+        hotels = new Hotel[]{new Hotel("test", destination.getAutoKey(), 1, new JSONObject("{}"))};
         this.destination = destination;
     }
 
     public HotelSearchTableModel getTableModel() {
-        List<Hotel> hotels = service.getHotels(destination.getAutoKey());
-        return  new HotelSearchTableModel(hotels);
+        List<Hotel> hotelList = Arrays.asList(hotels);
+        return  new HotelSearchTableModel(hotelList);
     }
 }
