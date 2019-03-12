@@ -1,18 +1,25 @@
 package reservation;
 
-import java.util.ArrayList;
-import java.util.List;
-
-//TODO this object will handle hotels extra services such as room service and golden showers with a name, description and price....
 public class HotelService {
+    private String name;
+    private String description;
+    private Double price;
 
-    public List<Hotel> getHotels(int airportId) {
-        List<Hotel> hotels = new ArrayList();
-        hotels.add(new Hotel("Maldron", airportId, 0, null));
-        hotels.add(new Hotel("Jury's Inn", airportId, 0, null));
-        hotels.add(new Hotel("Strand Hotel", airportId, 0, null));
-        hotels.add(new Hotel("Clayton", airportId, 0, null));
-        return hotels;
+    public HotelService(String name, Double price, String description){
+        this.name = name;
+        this.price = price;
+        this.description = description;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public String getDescription(){
+        return description;
+    }
+
+    public Double getPrice(){
+        return price;
+    }
 }
