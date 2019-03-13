@@ -395,7 +395,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="reservation" />
       <option name="MAIN_CLASS_NAME" value="reservation.HotelTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
