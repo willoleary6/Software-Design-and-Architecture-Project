@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HotelSearchTableModel extends AbstractTableModel {
-    private String[] columnNames = { "Hotel Name", "Airport", "Liaison User ID" };
+    private String[] columnNames = { "Hotel Name", "Airport", "Liaison User ID", "Additional Services" };
     List<Hotel> hotels;
 
     public HotelSearchTableModel(List<Hotel> hotels) {
@@ -37,6 +37,7 @@ public class HotelSearchTableModel extends AbstractTableModel {
             case 0: return hotel.getHotelName();
             case 1: return hotel.getAirportID();
             case 2: return hotel.getLiaisonUserID();
+            case 3: return hotel.getAdditionalServices();
             default: return null;
         }
     }
