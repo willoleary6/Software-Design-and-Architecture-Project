@@ -15,9 +15,8 @@ public class insertRequestHandler  implements ApiRequestHandler{
 
     public insertRequestHandler(){
         myReader = new reader();
-        apiProperties = myReader.readFromResources("APIs.properties");
+        apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
-
 
     public void addNewUser(String username, String email, String password){
         try {
@@ -49,6 +48,26 @@ public class insertRequestHandler  implements ApiRequestHandler{
                                     "\"name\":\""+hotelName+"\"," +
                                     "\"airport\":\""+airport+"\"," +
                                     "\"liason\":\""+liason+"\"," +
+                                    "\"extendedDataInJSON\":\""+extendedDataInJSON+"\"" +
+                                    "}")
+                            .asString();
+
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void addNewLog(int userID, int type, String message, String extendedDataInJSON){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("insertUrl")+apiProperties.getProperty("addNewLog"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"userID\":\""+userID+"\"," +
+                                    "\"type\":\""+type+"\"," +
+                                    "\"message\":\""+message+"\"," +
                                     "\"extendedDataInJSON\":\""+extendedDataInJSON+"\"" +
                                     "}")
                             .asString();
@@ -113,7 +132,6 @@ public class insertRequestHandler  implements ApiRequestHandler{
      */
     public String [] getApiResponseKeys(){
         // remove any problem characters and split it on the comma.
-        System.out.println(apiResponse);
         String [] keys = apiResponse.get("keys").toString()
                 .replaceAll("\\[", "")
                 .replaceAll("\\]", "")

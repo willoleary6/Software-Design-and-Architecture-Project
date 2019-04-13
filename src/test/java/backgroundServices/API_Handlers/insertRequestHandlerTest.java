@@ -16,4 +16,17 @@ class insertRequestHandlerTest {
         JSONObject[] responseKeys = hotelTest.getApiResponseResults();
         assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
     }
+
+    @Test
+    void addNewLog() {
+        int userID = 1;
+        int logType = 1;
+        String logMessage = "Test";
+        String extendedDataInJSON = "";
+        insertRequestHandler logTest = new insertRequestHandler();
+        logTest.addNewLog(userID, logType, logMessage, extendedDataInJSON);
+        JSONObject[] responseKeys = logTest.getApiResponseResults();
+        assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
+    }
+
 }

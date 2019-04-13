@@ -1,6 +1,10 @@
 package interceptor;
 
+import backgroundServices.API_Handlers.insertRequestHandler;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class LogToServer {
     private ArrayList<LogMessage> messagesCache = new ArrayList<>();
@@ -25,12 +29,17 @@ public class LogToServer {
     }
 
     private Boolean logMessageToServer(LogMessage newMessage){
-        System.out.println(
-                "User id: "+newMessage.getUserID()+"\n"+
-                "loggingType: "+newMessage.getLoggingType()+"\n"+
-                "logMessage: "+newMessage.getLogMessage()+"\n"+
-                "extendedData: "+newMessage.getExtendedDataInJSON()
+        insertRequestHandler insertApiRequestHandler = new insertRequestHandler();
+        insertApiRequestHandler.addNewLog(
+                newMessage.getUserID(),
+                newMessage.getLoggingType(),
+                newMessage.getLogMessage(),
+                newMessage.getExtendedDataInJSON()
         );
-        return true;
+        JSONObject[] responseKeys = insertApiRequestHandler.getApiResponseResults();
+        if(Arrays.toString(responseKeys).equals("[{\"result\":null}]")){
+            return true;
+        }
+        return false;
     }
 }

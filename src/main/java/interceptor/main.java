@@ -5,7 +5,7 @@ public class main {
         LogToServer testLog = new LogToServer();
         int userID = 1;
         int logType = 1;
-        String logMessage = "Test";
+        String logMessage = "Test will ";
         String extendedDataInJSON = "";
 
         //testLog.proccessNewLogMessage(newMessage);
@@ -21,8 +21,5 @@ public class main {
         // hooks simply copy and paste following commands to where ever else in the instance.
         ConcreteLogMessage newMessage = new ConcreteLogMessage(userID, logType, logMessage, extendedDataInJSON);
         LoggingDispatcher.getCurrentInstance().onLogRequest(newMessage);
-
-
-
     }
 }

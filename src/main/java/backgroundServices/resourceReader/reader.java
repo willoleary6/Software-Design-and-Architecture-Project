@@ -1,5 +1,6 @@
 package backgroundServices.resourceReader;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -13,10 +14,11 @@ public class reader {
      */
     public Properties readFromResources(String filename){
         Properties prop = new Properties();
-        InputStream input = reader.class.getClassLoader().getResourceAsStream(filename);
         try {
+            InputStream input =  new FileInputStream(filename);
             prop.load(input);
         } catch (IOException e) {
+
             e.printStackTrace();
         }
         return prop;
