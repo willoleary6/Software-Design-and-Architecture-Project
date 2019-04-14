@@ -16,7 +16,7 @@ public class getRequestHandler implements ApiRequestHandler{
 
     public getRequestHandler(){
         myReader = new reader();
-        apiProperties = myReader.readFromResources("APIs.properties");
+        apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
 
     /**
