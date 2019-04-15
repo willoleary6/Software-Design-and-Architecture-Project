@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class FlightSearchResultsController extends BaseFrameController {
     private JTable flightSearchResultsTable;
     private JButton bookFlightButton;
-    private JButton mainMenuButton;
+    private JButton backButton;
     private IMainMenuCoordinator coordinator;
 
     public FlightSearchResultsController(IMainMenuCoordinator coordinator, ArrayList<Route> routes) {
@@ -25,14 +25,14 @@ public class FlightSearchResultsController extends BaseFrameController {
         FlightSearchResultsFrame flightSearchResultsFrame = new FlightSearchResultsFrame();
         this.frame = flightSearchResultsFrame;
         bookFlightButton = flightSearchResultsFrame.getBookFlightButton();
-        mainMenuButton = flightSearchResultsFrame.getMainMenuButton();
+        backButton = flightSearchResultsFrame.getBackButton();
         flightSearchResultsTable = flightSearchResultsFrame.getFlightSearchResultsTable();
         FlightSearchResultsTableModel tableModel = new FlightSearchResultsTableModel(routes);
         flightSearchResultsTable.setModel(tableModel);
     }
 
     private void initListeners() {
-        mainMenuButton.addActionListener(e -> coordinator.start());
+        backButton.addActionListener(e -> coordinator.goBackToFlightSearch());
         bookFlightButton.addActionListener(e -> {
             Airport destination = (Airport) flightSearchResultsTable.getValueAt(flightSearchResultsTable.getSelectedRow(), 1);
             coordinator.goToHotelSearchResults(destination);

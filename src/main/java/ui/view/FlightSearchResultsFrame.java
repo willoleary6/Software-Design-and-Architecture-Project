@@ -6,7 +6,7 @@ public class FlightSearchResultsFrame extends JFrame {
     private JTable flightSearchResultsTable;
     private JPanel panel1;
     private JButton bookFlightButton;
-    private JButton mainMenuButton;
+    private JButton backButton;
 
 
     public FlightSearchResultsFrame() {
@@ -24,7 +24,7 @@ public class FlightSearchResultsFrame extends JFrame {
         return bookFlightButton;
     }
 
-    public JButton getMainMenuButton() {
-        return mainMenuButton;
+    public JButton getBackButton() {
+        return backButton;
     }
 }

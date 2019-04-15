@@ -1,5 +1,9 @@
 package ui.controller;
 
+import memento.CareTaker;
+import memento.FlightSearchMemento;
+import memento.Memento;
+import memento.Originator;
 import routeCalculation.Airport;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
@@ -15,7 +19,7 @@ import java.beans.PropertyChangeListener;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-public class FlightSearchFrameController extends BaseFrameController implements PropertyChangeListener {
+public class FlightSearchFrameController extends BaseFrameController implements PropertyChangeListener, Originator {
     private IMainMenuCoordinator coordinator;
     private JComboBox departureComboBox;
     private JComboBox destinationComboBox;
@@ -60,19 +64,42 @@ public class FlightSearchFrameController extends BaseFrameController implements 
         destinationComboBox.setModel(boxModel2);
     }
 
+    @Override
+    public void restore(Memento m) {
+        FlightSearchMemento memento = (FlightSearchMemento) m;
+        this.model = memento.getSavedState();
+        departureDateField.setText(model.getDepartureDate().toString());
+        departureComboBox.setSelectedItem(model.getDepartureAirport());
+        destinationComboBox.setSelectedItem(model.getDestinationAirport());
+        costRadioButton.setSelected(model.isCostBased());
+        timeRadioButton.setSelected(!model.isCostBased());
+    }
+
+    @Override
+    public Memento createMemento() {
+        setModelDetails();
+        return new FlightSearchMemento(model);
+    }
+
+    private void setModelDetails() {
+        try {
+            model.setDepartureDate(departureDateField.getText());
+            model.setDepartureAirport((Airport) departureComboBox.getSelectedItem());
+            model.setDestinationAirport((Airport) destinationComboBox.getSelectedItem());
+            model.setCostBased(costRadioButton.isSelected());
+        } catch (ParseException exception) {
+            System.out.print(exception);
+        }
+    }
+
     private class SearchFlightButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            try {
-                model.setDepartureDate(departureDateField.getText());
-                model.setDepartureAirport((Airport) departureComboBox.getSelectedItem());
-                model.setDestinationAirport((Airport) destinationComboBox.getSelectedItem());
-                model.setCostBased(costRadioButton.isSelected());
-                ArrayList<Route> route = model.searchForFlight();
-                coordinator.goToFlightSearchResults(route);
-            } catch (ParseException exception) {
-                System.out.print(exception);
-            }
+            setModelDetails();
+            ArrayList<Route> route = model.searchForFlight();
+            CareTaker careTaker = (CareTaker) coordinator;
+            careTaker.add(createMemento());
+            coordinator.goToFlightSearchResults(route);
         }
     }
 }

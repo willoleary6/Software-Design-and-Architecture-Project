@@ -31,7 +31,7 @@ public class HotelSearchResultsController extends BaseFrameController {
     }
 
     private void initListeners() {
-        cancelButton.addActionListener(e -> coordinator.goToFlightSearch());
+        cancelButton.addActionListener(e -> coordinator.goBackToFlightSearch());
         bookHotelButton.addActionListener(e -> System.out.println("Booked Hotel!"));
     }
 }
