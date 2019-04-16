@@ -33,6 +33,8 @@ public class FlightSearchResultsTableModel extends AbstractTableModel {
     public Object getValueAt(int rowIndex, int columnIndex) {
         Route route = routes.get(rowIndex);
         switch (columnIndex) {
+            case -1:
+                return route;
             case 0:
                 return route.getOrigin();
             case 1:

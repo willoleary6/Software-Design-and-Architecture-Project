@@ -7,6 +7,7 @@ public class FlightSearchResultsFrame extends JFrame {
     private JPanel panel1;
     private JButton bookFlightButton;
     private JButton mainMenuButton;
+    private JButton bookHotelButton;
 
 
     public FlightSearchResultsFrame() {
@@ -26,5 +27,9 @@ public class FlightSearchResultsFrame extends JFrame {
 
     public JButton getMainMenuButton() {
         return mainMenuButton;
+    }
+
+    public JButton getBookHotelButton() {
+        return bookHotelButton;
     }
 }

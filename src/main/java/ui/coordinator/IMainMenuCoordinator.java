@@ -10,5 +10,6 @@ public interface IMainMenuCoordinator {
     void logout();
     void goToFlightSearch();
     void goToFlightSearchResults(ArrayList<Route> results);
-    void goToHotelSearchResults(Airport destination);
+    void goToHotelSearchResults(ArrayList<Route> routes);
+    void goToBookingConfirmScreen(ArrayList<Route> routes);
 }

@@ -1,47 +1,52 @@
 package booking;
 
-public class FlightBooking implements Booking {
+import java.util.ArrayList;
+
+public class BookingComposite implements Booking {
+    private ArrayList<Booking> childBookings = new ArrayList<>();
 
     @Override
-    public double getCost() {
-        return 0;
+    public double getTotalCost() {
+        Double childBookingsCosts = 0.0;
+        for(Booking currentChild: childBookings){
+            childBookingsCosts += currentChild.getTotalCost();
+        }
+        return childBookingsCosts;
     }
 
     @Override
-    public void addChildBooking() {
-
+    public ArrayList<Double> getListOfCosts() {
+        ArrayList<Double> listOfCosts = new ArrayList<>();
+        for(Booking currentChild: childBookings){
+            listOfCosts.addAll(currentChild.getListOfCosts());
+        }
+        return listOfCosts;
     }
 
     @Override
-    public void removeChildBooking() {
+    public void addChildBooking(Booking bookingToAdd) {
+        childBookings.add(bookingToAdd);
+    }
+    @Override
+    public void removeChildBooking(Booking bookingToRemove) {
+        childBookings.remove(bookingToRemove);
+    }
 
+    @Override
+    public ArrayList<String> getListOfNames() {
+        ArrayList<String> listOfString = new ArrayList<>();
+        for(Booking currentChild: childBookings){
+            listOfString.addAll(currentChild.getListOfNames());
+        }
+        return listOfString;
+    }
+
+    @Override
+    public ArrayList<String> getListOfTypeOfComposites() {
+        ArrayList<String> listOfString = new ArrayList<>();
+        for(Booking currentChild: childBookings){
+            listOfString.addAll(currentChild.getListOfTypeOfComposites());
+        }
+        return listOfString;
     }
 }
-
-/*
-import reservation.Hotel;
-import routeCalculation.Flight;
-
-public class Booking {
-    private Flight flight;
-    private Hotel hotelReservation;
-
-    public Booking(Flight flight, Hotel hotelReservation) {
-        this.flight = flight;
-        this.hotelReservation = hotelReservation;
-    }
-
-    public Booking(Flight flight) {
-        this.flight = flight;
-    }
-
-    public Flight getBookingFlight() {
-        return this.flight;
-    }
-
-    public Hotel getBookingHotelReservation() {
-        return this.hotelReservation;
-    }
-}
-
- */

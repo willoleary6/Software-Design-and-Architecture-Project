@@ -1,4 +1,5 @@
 package booking.compositePrototype;
 
-public class Department {
+public interface Department {
+    void printDepartmentName();
 }
