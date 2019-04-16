@@ -65,6 +65,7 @@ public class SearchController {
         int minutesPassedInDay = convertStringToMinutes(hour);
         return new Date(date.getTime() + minutesPassedInDay * minutes);
     }
+
     private int convertStringToMinutes(String stringTime){
         String [] hoursAndMinutes = stringTime.split(":");
         int hoursToMinutes = Integer.parseInt(hoursAndMinutes[0])*60;
