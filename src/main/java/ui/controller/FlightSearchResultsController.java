@@ -40,6 +40,7 @@ public class FlightSearchResultsController extends BaseFrameController {
             try {
                 coordinator.goToHotelSearchResults(routes);
             }catch (Exception exc){
+                exc.printStackTrace();
                 JOptionPane.showMessageDialog(null, "No Airport selected.");
             }
         });

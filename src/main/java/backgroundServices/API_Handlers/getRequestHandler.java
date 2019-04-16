@@ -93,6 +93,7 @@ public class getRequestHandler implements ApiRequestHandler{
         }
     }
 
+
     /**
      * Method that retrieves a users information by using that user's id number.
      * @param id integer number acting as a unique identifier

@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class HotelSearchTableModelTest {
     private List<Hotel> hotelList = Arrays.asList(new Hotel[]{new Hotel("test", 1,
-            1, new JSONObject("{}"))});
+            1,1, new JSONObject("{}"))});
     private HotelSearchTableModel testSearchTableModel = new HotelSearchTableModel(hotelList);
 
     @Test

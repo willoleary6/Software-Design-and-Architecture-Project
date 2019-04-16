@@ -31,6 +31,11 @@ public class FlightSearchFrameController extends BaseFrameController implements 
         initComponents();
         initListeners();
         this.model = new FlightSearchModel(this);
+
+        // debug
+        departureComboBox.setSelectedIndex(0);
+        destinationComboBox.setSelectedIndex(4);
+        departureDateField.setText("26/04/2019");
     }
 
     private void initComponents() {

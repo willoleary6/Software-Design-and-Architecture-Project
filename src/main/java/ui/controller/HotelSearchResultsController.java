@@ -1,5 +1,6 @@
 package ui.controller;
 
+import reservation.Hotel;
 import routeCalculation.Airport;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
@@ -35,7 +36,16 @@ public class HotelSearchResultsController extends BaseFrameController {
     }
 
     private void initListeners() {
-        cancelButton.addActionListener(e -> coordinator.goToFlightSearch());
-        bookHotelButton.addActionListener(e -> System.out.println("Booked Hotel!"));
+        cancelButton.addActionListener(e -> coordinator.goToFlightSearchResults(routes));
+        bookHotelButton.addActionListener(e -> {
+            try {
+                // Airport destination = (Airport) flightSearchResultsTable.getValueAt(flightSearchResultsTable.getSelectedRow(), 1);
+                //
+                Hotel selectedHotel = (Hotel) hotelTable.getValueAt(hotelTable.getSelectedRow(), -1);
+                coordinator.goToBookingConfirmScreen(routes, selectedHotel);
+            }catch (Exception exc){
+                JOptionPane.showMessageDialog(null, "No Hotel selected.");
+            }
+        });
     }
 }
