@@ -24,7 +24,7 @@ class LoggingDispatcherTest {
     @Test
     void getNumberOfInterceptors() {
         int results = testDispatcher.getNumberOfInterceptors();
-        int answer = 1;
+        int answer = 4;
 
         assertEquals(answer ,results);
     }
