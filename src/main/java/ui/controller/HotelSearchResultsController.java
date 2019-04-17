@@ -1,5 +1,8 @@
 package ui.controller;
 
+import booking.BookingComposite;
+import booking.FlightBooking;
+import booking.HotelBooking;
 import reservation.Hotel;
 import routeCalculation.Airport;
 import routeCalculation.Route;
@@ -17,6 +20,7 @@ public class HotelSearchResultsController extends BaseFrameController {
     private JTable hotelTable;
     private JButton cancelButton;
     private JButton bookHotelButton;
+    private BookingComposite reservations;
 
     public HotelSearchResultsController(IMainMenuCoordinator coordinator,  ArrayList<Route> routes) {
         this.routes = routes;
@@ -24,6 +28,19 @@ public class HotelSearchResultsController extends BaseFrameController {
         this.model = new HotelSearchModel(routes.get(routes.size()-1).getDestination());
         initComponents();
         initListeners();
+    }
+
+    private void initialiseComposite(ArrayList<Route> routes, Hotel selectedHotel){
+        HotelBooking test = new HotelBooking(selectedHotel);
+        reservations = new BookingComposite();
+        for(int i = 0; i < routes.size(); i++){
+            FlightBooking newBooking = new FlightBooking(routes.get(i));
+            if(i == routes.size()-1){
+                newBooking.addChildBooking(test);
+            }
+            reservations.addChildBooking(newBooking);
+
+        }
     }
 
     private void initComponents() {
@@ -39,10 +56,9 @@ public class HotelSearchResultsController extends BaseFrameController {
         cancelButton.addActionListener(e -> coordinator.goToFlightSearchResults(routes));
         bookHotelButton.addActionListener(e -> {
             try {
-                // Airport destination = (Airport) flightSearchResultsTable.getValueAt(flightSearchResultsTable.getSelectedRow(), 1);
-                //
                 Hotel selectedHotel = (Hotel) hotelTable.getValueAt(hotelTable.getSelectedRow(), -1);
-                coordinator.goToBookingConfirmScreen(routes, selectedHotel);
+                initialiseComposite(routes, selectedHotel);
+                coordinator.goToBookingConfirmScreen(reservations);
             }catch (Exception exc){
                 JOptionPane.showMessageDialog(null, "No Hotel selected.");
             }

@@ -19,20 +19,12 @@ public class BookingCheckoutController extends BaseFrameController {
     private IMainMenuCoordinator coordinator;
     private BookingComposite reservations;
 
-    public BookingCheckoutController(IMainMenuCoordinator coordinator, ArrayList<Route> routes) {
+    public BookingCheckoutController(IMainMenuCoordinator coordinator,BookingComposite reservations) {
         this.coordinator = coordinator;
-        initialiseComposite(routes);
+        this.reservations = reservations;
         initComponents();
-        //initListeners();
+        initListeners();
     }
-
-    public BookingCheckoutController(IMainMenuCoordinator coordinator, ArrayList<Route> routes, Hotel selectedHotel) {
-        this.coordinator = coordinator;
-        initialiseComposite(routes, selectedHotel);
-        initComponents();
-        //initListeners();
-    }
-
 
     private void initComponents() {
         BookingCheckoutFrame bookingCheckoutFrame = new BookingCheckoutFrame();
@@ -46,29 +38,14 @@ public class BookingCheckoutController extends BaseFrameController {
 
     }
 
-    private void initialiseComposite(ArrayList<Route> routes){
-        reservations = new BookingComposite();
-        for(Route route: routes){
-            reservations.addChildBooking(new FlightBooking(route));
-        }
-    }
-
-    private void initialiseComposite(ArrayList<Route> routes, Hotel selectedHotel){
-        HotelBooking test = new HotelBooking(selectedHotel);
-        reservations = new BookingComposite();
-        //for(Route route: routes){
-          //  reservations.addChildBooking(new FlightBooking(route));
-        //}
-
-        //todo move composite creation back
-        for(int i = 0; i < routes.size(); i++){
-            FlightBooking newBooking = new FlightBooking(routes.get(i));
-            if(i == routes.size()-1){
-                newBooking.addChildBooking(test);
+    private void initListeners() {
+        MainMenuButton.addActionListener(e -> coordinator.start());
+        ConfirmBookingButton.addActionListener(e -> {
+            try {
+                System.out.println("Booking confirmed");
+            }catch (Exception exc){
+                exc.printStackTrace();
             }
-            reservations.addChildBooking(newBooking);
-
-        }
-
+        });
     }
 }

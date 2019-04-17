@@ -1,5 +1,6 @@
 package ui.coordinator;
 
+import booking.BookingComposite;
 import reservation.Hotel;
 import routeCalculation.Airport;
 import routeCalculation.Route;
@@ -12,6 +13,5 @@ public interface IMainMenuCoordinator {
     void goToFlightSearch();
     void goToFlightSearchResults(ArrayList<Route> results);
     void goToHotelSearchResults(ArrayList<Route> routes);
-    void goToBookingConfirmScreen(ArrayList<Route> routes);
-    void goToBookingConfirmScreen(ArrayList<Route> routes, Hotel selectedHotel);
+    void goToBookingConfirmScreen(BookingComposite reservations);
 }

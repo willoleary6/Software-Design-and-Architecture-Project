@@ -1,5 +1,7 @@
 package ui.controller;
 
+import booking.BookingComposite;
+import booking.FlightBooking;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
 import ui.model.FlightSearchResultsTableModel;
@@ -13,6 +15,7 @@ public class FlightSearchResultsController extends BaseFrameController {
     private JButton bookFlightButton;
     private JButton bookHotelButton;
     private JButton mainMenuButton;
+    private BookingComposite reservations;
     private IMainMenuCoordinator coordinator;
     private ArrayList<Route> routes;
 
@@ -20,7 +23,15 @@ public class FlightSearchResultsController extends BaseFrameController {
         this.coordinator = coordinator;
         this.routes = routes;
         initComponents(routes);
+        initialiseComposite(routes);
         initListeners();
+    }
+
+    private void initialiseComposite(ArrayList<Route> routes){
+        reservations = new BookingComposite();
+        for(Route route: routes){
+            reservations.addChildBooking(new FlightBooking(route));
+        }
     }
 
     private void initComponents(ArrayList<Route> routes) {
@@ -47,7 +58,7 @@ public class FlightSearchResultsController extends BaseFrameController {
 
         bookFlightButton.addActionListener(e -> {
             try {
-                coordinator.goToBookingConfirmScreen(routes);
+                coordinator.goToBookingConfirmScreen(reservations);
             }catch (Exception exc){
                 JOptionPane.showMessageDialog(null, "No Airport selected.");
             }
