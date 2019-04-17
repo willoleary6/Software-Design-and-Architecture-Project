@@ -8,4 +8,5 @@ public interface Booking {
     void removeChildBooking(Booking bookingToRemove);
     ArrayList<String> getListOfNames();
     ArrayList<String> getListOfTypeOfComposites();
+    int getNumberOfChildBookings();
 }

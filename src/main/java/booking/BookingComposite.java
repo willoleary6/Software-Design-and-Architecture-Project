@@ -6,6 +6,15 @@ public class BookingComposite implements Booking {
     private ArrayList<Booking> childBookings = new ArrayList<>();
 
     @Override
+    public int getNumberOfChildBookings(){
+        int numberOfBookings = childBookings.size();
+        for(Booking childBooking: childBookings){
+            numberOfBookings += childBooking.getNumberOfChildBookings();
+        }
+        return numberOfBookings;
+    }
+
+    @Override
     public double getTotalCost() {
         Double childBookingsCosts = 0.0;
         for(Booking currentChild: childBookings){

@@ -18,6 +18,14 @@ public class HotelBooking implements Booking {
     }
 
     @Override
+    public int getNumberOfChildBookings(){
+        int numberOfBookings = childBookings.size();
+        for(Booking childBooking: childBookings){
+            numberOfBookings += childBooking.getNumberOfChildBookings();
+        }
+        return numberOfBookings;
+    }
+    @Override
     public double getTotalCost() {
         Double childBookingsCosts = 0.0;
         for(Booking currentChild: childBookings){

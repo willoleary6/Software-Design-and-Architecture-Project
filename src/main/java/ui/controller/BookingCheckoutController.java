@@ -1,5 +1,6 @@
 package ui.controller;
 
+import booking.Booking;
 import booking.BookingComposite;
 import booking.FlightBooking;
 import booking.HotelBooking;
@@ -17,9 +18,9 @@ public class BookingCheckoutController extends BaseFrameController {
     private JButton MainMenuButton;
     private JButton ConfirmBookingButton;
     private IMainMenuCoordinator coordinator;
-    private BookingComposite reservations;
+    private Booking reservations;
 
-    public BookingCheckoutController(IMainMenuCoordinator coordinator,BookingComposite reservations) {
+    public BookingCheckoutController(IMainMenuCoordinator coordinator, Booking reservations) {
         this.coordinator = coordinator;
         this.reservations = reservations;
         initComponents();

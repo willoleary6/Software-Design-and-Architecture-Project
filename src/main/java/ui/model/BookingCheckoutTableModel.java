@@ -1,15 +1,16 @@
 package ui.model;
 
+import booking.Booking;
 import booking.BookingComposite;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.ArrayList;
 
 public class BookingCheckoutTableModel extends AbstractTableModel {
-    private BookingComposite bookings;
+    private Booking bookings;
     private String[] columnNames = { "Name", "Type", "Cost"};
 
-    public BookingCheckoutTableModel(BookingComposite bookings) {
+    public BookingCheckoutTableModel(Booking bookings) {
         this.bookings = bookings;
     }
 

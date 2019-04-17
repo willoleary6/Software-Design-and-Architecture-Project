@@ -1,5 +1,6 @@
 package ui.controller;
 
+import booking.Booking;
 import booking.BookingComposite;
 import booking.FlightBooking;
 import booking.HotelBooking;
@@ -20,7 +21,7 @@ public class HotelSearchResultsController extends BaseFrameController {
     private JTable hotelTable;
     private JButton cancelButton;
     private JButton bookHotelButton;
-    private BookingComposite reservations;
+    private Booking reservations;
 
     public HotelSearchResultsController(IMainMenuCoordinator coordinator,  ArrayList<Route> routes) {
         this.routes = routes;

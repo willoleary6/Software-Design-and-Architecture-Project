@@ -15,6 +15,17 @@ public class FlightBooking implements Booking{
         this.routeName = route.getFlightDecorator().getFlight().getFlightNumber()+": "+route.getOrigin().getAirportName()+" - "+route.getDestination().getAirportName();
         this.cost = route.getFlightDecorator().getFlight().getWeight();
     }
+
+
+    @Override
+    public int getNumberOfChildBookings(){
+        int numberOfBookings = childBookings.size();
+        for(Booking childBooking: childBookings){
+            numberOfBookings += childBooking.getNumberOfChildBookings();
+        }
+        return numberOfBookings;
+    }
+
     @Override
     public double getTotalCost() {
         Double childBookingsCosts = 0.0;

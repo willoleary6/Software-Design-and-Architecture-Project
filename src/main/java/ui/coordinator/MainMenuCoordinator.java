@@ -1,6 +1,7 @@
 package ui.coordinator;
 
 
+import booking.Booking;
 import booking.BookingComposite;
 import reservation.Hotel;
 import routeCalculation.Airport;
@@ -54,7 +55,7 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
     }
 
     @Override
-    public void goToBookingConfirmScreen(BookingComposite reservations) {
+    public void goToBookingConfirmScreen(Booking reservations) {
         BookingCheckoutController bookingCheckoutController = new BookingCheckoutController(this, reservations);
         setViewController(bookingCheckoutController);
     }
