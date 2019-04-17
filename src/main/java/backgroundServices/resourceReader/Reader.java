@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class reader {
+public class Reader {
     /**
      *
      * @param filename String parameter containing the filepath of the desired properties file with respect to the

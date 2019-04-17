@@ -4,21 +4,22 @@ import account.CustomerFactory;
 import account.EmployeeFactory;
 import account.Factory;
 import account.User;
-import backgroundServices.API_Handlers.getRequestHandler;
-import backgroundServices.API_Handlers.insertRequestHandler;
+import backgroundServices.API_Handlers.GetRequestHandler;
+import backgroundServices.API_Handlers.InsertRequestHandler;
 import org.json.JSONObject;
 
 public class UserControl {
 
     private Factory factory;
     // simple factory pattern implemented to support extensibility of user types and to better manage dependencies
-    private getRequestHandler dbPullHandler;
-    private insertRequestHandler dbInsertHandler;
+    private GetRequestHandler dbPullHandler;
+    private InsertRequestHandler dbInsertHandler;
 
 
     public UserControl(){
-        dbPullHandler = new getRequestHandler();
-        dbInsertHandler = new insertRequestHandler();
+        // dbPullHandler = new GetRequestHandler();
+        dbPullHandler = new GetRequestHandler();
+        dbInsertHandler = new InsertRequestHandler();
     }
 
     public User getUser(String username, String password){

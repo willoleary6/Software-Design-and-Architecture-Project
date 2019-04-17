@@ -27,9 +27,9 @@ class _CMACContext(object):
 
         if ctx is None:
             registry = self._backend._cipher_registry
-            adapter = registry[type(algorithm), CBC]
+            backgroundServices.API_Handlers.adapter = registry[type(algorithm), CBC]
 
-            evp_cipher = adapter(self._backend, algorithm, CBC)
+            evp_cipher = backgroundServices.API_Handlers.adapter(self._backend, algorithm, CBC)
 
             ctx = self._backend._lib.CMAC_CTX_new()
 

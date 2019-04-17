@@ -194,18 +194,18 @@ class Backend(object):
 
     def cipher_supported(self, cipher, mode):
         try:
-            adapter = self._cipher_registry[type(cipher), type(mode)]
+            backgroundServices.API_Handlers.adapter = self._cipher_registry[type(cipher), type(mode)]
         except KeyError:
             return False
-        evp_cipher = adapter(self, cipher, mode)
+        evp_cipher = backgroundServices.API_Handlers.adapter(self, cipher, mode)
         return self._ffi.NULL != evp_cipher
 
-    def register_cipher_adapter(self, cipher_cls, mode_cls, adapter):
+    def register_cipher_adapter(self, cipher_cls, mode_cls, backgroundServices.API_Handlers.adapter):
         if (cipher_cls, mode_cls) in self._cipher_registry:
             raise ValueError("Duplicate registration for: {0} {1}.".format(
                 cipher_cls, mode_cls)
             )
-        self._cipher_registry[cipher_cls, mode_cls] = adapter
+        self._cipher_registry[cipher_cls, mode_cls] = backgroundServices.API_Handlers.adapter
 
     def _register_default_ciphers(self):
         for mode_cls in [CBC, CTR, ECB, OFB, CFB, CFB8, GCM]:

@@ -1,6 +1,6 @@
 package interceptor;
 
-import backgroundServices.API_Handlers.insertRequestHandler;
+import backgroundServices.API_Handlers.InsertRequestHandler;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ public class LogToServer {
     }
 
     private Boolean logMessageToServer(LogMessage newMessage){
-        insertRequestHandler insertApiRequestHandler = new insertRequestHandler();
+        InsertRequestHandler insertApiRequestHandler = new InsertRequestHandler();
         insertApiRequestHandler.addNewLog(
                 newMessage.getUserID(),
                 newMessage.getLoggingType(),

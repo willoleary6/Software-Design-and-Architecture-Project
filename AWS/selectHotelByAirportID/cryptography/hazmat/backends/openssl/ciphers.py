@@ -37,7 +37,7 @@ class _CipherContext(object):
 
         registry = self._backend._cipher_registry
         try:
-            adapter = registry[type(cipher), type(mode)]
+            backgroundServices.API_Handlers.adapter = registry[type(cipher), type(mode)]
         except KeyError:
             raise UnsupportedAlgorithm(
                 "cipher {0} in {1} mode is not supported "
@@ -46,7 +46,7 @@ class _CipherContext(object):
                 _Reasons.UNSUPPORTED_CIPHER
             )
 
-        evp_cipher = adapter(self._backend, cipher, mode)
+        evp_cipher = backgroundServices.API_Handlers.adapter(self._backend, cipher, mode)
         if evp_cipher == self._backend._ffi.NULL:
             raise UnsupportedAlgorithm(
                 "cipher {0} in {1} mode is not supported "

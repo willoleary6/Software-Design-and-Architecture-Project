@@ -1,7 +1,7 @@
 package backgroundServices.API_Handlers;
 
 
-import backgroundServices.resourceReader.reader;
+import backgroundServices.resourceReader.Reader;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
@@ -9,20 +9,20 @@ import org.json.JSONObject;
 
 import java.util.Properties;
 
-public class getRequestHandler implements ApiRequestHandler{
-    private reader myReader;
+public class GetRequestHandler implements ApiRequestHandler {
+    private Reader myReader;
     private Properties apiProperties;
     private JSONObject apiResponse;
 
-    public getRequestHandler(){
-        myReader = new reader();
+    public GetRequestHandler() {
+        myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
 
     /**
      * Method that retrieves a list of airports from AWS
      */
-    public void getAllAirports(){
+    public void getAllAirports() {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.get(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getAllAirports"))
@@ -37,7 +37,7 @@ public class getRequestHandler implements ApiRequestHandler{
     /**
      * Method that retrieves a list of flights from AWS
      */
-    public void getAllFlights(){
+    public void getAllFlights() {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.get(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getAllFlights"))
@@ -53,7 +53,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * Method that retrieves a list of flights by the id number of their departing airport.
      * @param id integer number acting as a unique identifier
      */
-    public void getFlightsByDepartureAirport(int id){
+    public void getFlightsByDepartureAirport(int id) {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getFlightsInfoByDepartureAirportID"))
@@ -75,7 +75,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * Method that retrieves any discounts applied to specified Flight.
      * @param id integer number acting as a unique identifier for the Flight
      */
-    public void getDiscountsByFlightID(int id){
+    public void getDiscountsByFlightID(int id) {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getDiscountsByFlightID"))
@@ -97,7 +97,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * Method that retrieves a users information by using that user's id number.
      * @param id integer number acting as a unique identifier
      */
-    public void getUserInformation(int id){
+    public void getUserInformation(int id) {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getUserById"))
@@ -119,7 +119,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * Will only return user's username back if it exists (Use with registration)
      * @param username String containing user's username
      */
-    public void getUserInformation(String username){
+    public void getUserInformation(String username) {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getUserByUsername"))
@@ -141,7 +141,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * @param username String containing user's username
      * @param password String containing user's password
      */
-    public void getUserInformation(String username, String password){
+    public void getUserInformation(String username, String password) {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getUserByUsernameAndPassword"))
@@ -181,8 +181,8 @@ public class getRequestHandler implements ApiRequestHandler{
      * Method that formats the AWS response to the last query executed and returns a JSON object.
      * @return Returns an array of JSONObjects that contain the response from AWS.
      */
-    public JSONObject [] getApiResponseResults(){
-        // get the raw results data and remove any characters we cant play with.
+    public JSONObject [] getApiResponseResults() {
+        // getRequest the raw results data and remove any characters we cant play with.
         String results = apiResponse.get("results").toString()
                 .replaceAll("\\[", "").replaceAll("\\]", "");
         /*
@@ -208,7 +208,7 @@ public class getRequestHandler implements ApiRequestHandler{
      * Method that formats and returns an array of keys to be used access the server response of the last query.
      * @return String array containing the keys to the last server response.
      */
-    public String [] getApiResponseKeys(){
+    public String [] getApiResponseKeys() {
         // remove any problem characters and split it on the comma.
         String [] keys = apiResponse.get("keys").toString()
                 .replaceAll("\\[", "")

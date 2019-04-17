@@ -1,6 +1,6 @@
 package control;
 
-import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.GetRequestHandler;
 import org.json.JSONObject;
 import routeCalculation.*;
 
@@ -17,12 +17,12 @@ import java.util.Locale;
 //import routeCalculation.CostGrapher;
 
 public class SearchController {
-    private getRequestHandler dbHandler;
+    private GetRequestHandler dbHandler;
     private ArrayList<Airport> airports = new ArrayList<Airport>();
     private Grapher shortestPath;
 
     public SearchController(){
-        dbHandler = new getRequestHandler();
+        dbHandler = new GetRequestHandler();
         retrieveAirports();
     }
 
@@ -36,7 +36,7 @@ public class SearchController {
 
     public void routeCalculation(int searchType) {
         Date input = new Date();
-        //shortestPath.startCalculation(airports.get(2), airports.get(8), airports);
+        //shortestPath.startCalculation(airports.getRequest(2), airports.getRequest(8), airports);
         Grapher g = new Grapher(searchType);
         g.startCalculation(airports.get(2), airports, new Date());
         ArrayList<Route> routeToDestination =  g.calculateTraceBack(airports.get(8));
