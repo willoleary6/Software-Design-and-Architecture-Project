@@ -124,7 +124,6 @@ public class SearchController {
     }
 
     private Flight jsonObjectToFlight(JSONObject jsonObject) {
-        System.out.println(jsonObject);
         JSONObject depart = new JSONObject(jsonObject.getString("departureTime"));
         JSONObject arrive = new JSONObject(jsonObject.getString("arrivalTime"));
         return new Flight(

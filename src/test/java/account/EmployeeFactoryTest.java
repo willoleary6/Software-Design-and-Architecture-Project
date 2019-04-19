@@ -27,10 +27,10 @@ class EmployeeFactoryTest {
     // passes correct json and expects correct object returned
     @Test
     void createUserCorrect() {
-        JSONObject obj = new JSONObject("{userType : 1, username: unitTest, userID: 69," +
-                " extendedDataInJSON: 675}");
+        JSONObject obj = new JSONObject("{userType : 2, username: unitTest, userID: 69," +
+                " extendedDataInJSON: \"{airlineID: 1}\"}");
         AirlineEmployee a =  (AirlineEmployee)factory.createUser(obj);
-        AirlineEmployee correctA = new AirlineEmployee("unitTest", 69, 1, 675);
+        AirlineEmployee correctA = new AirlineEmployee("unitTest", 69, 2, 1);
         assertEquals(a.getUserName(), correctA.getUserName());
         assertEquals(a.getAirlineID(),correctA.getAirlineID());
         assertEquals(a.getUserType(), correctA.getUserType());

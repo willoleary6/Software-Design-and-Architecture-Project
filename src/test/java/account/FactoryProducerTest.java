@@ -22,7 +22,6 @@ public class FactoryProducerTest {
 
     @Test
     void nullFactoryTest(){
-        Factory employeeFactory = new EmployeeFactory();
         assertEquals(null, producer.produceFactory(5));
     }
 

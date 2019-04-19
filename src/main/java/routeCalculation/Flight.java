@@ -73,4 +73,13 @@ public class Flight implements Edge {
     public void setCost(double cost) {
         this.cost = cost;
     }
+
+    @Override
+    public String toString(){
+        String str = "FLight ID: " + flightID + " FLight Number: " + flightNumber + " Airline ID: " + airlineID +
+                " Source Airport: " + sourceAirportID + " Dest Airport: " + targetAirportID + " depart day + time : " +
+                departDay + " " + departTime + " arrival day + time : " + arriveDay + " " + arriveTime +
+                " Ticket Price: " + cost;
+        return str;
+    }
 }

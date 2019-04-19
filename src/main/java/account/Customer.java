@@ -1,6 +1,6 @@
 package account;
 
-public class Customer extends User {
+public class Customer extends User implements UserVisitable {
 
     private LoyaltyPoints points;
 
@@ -13,5 +13,10 @@ public class Customer extends User {
 
     public LoyaltyPoints getPoints() {
         return points;
+    }
+
+    @Override
+    public void accept(UserVisitor visitor) {
+        visitor.visit(this);
     }
 }

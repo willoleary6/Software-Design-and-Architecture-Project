@@ -4,7 +4,7 @@ import routeCalculation.Flight;
 
 import java.util.ArrayList;
 
-public class AirlineEmployee extends User {
+public class AirlineEmployee extends User implements UserVisitable {
     private int airlineID;
     private ArrayList<Flight> airlineFlights;
 
@@ -25,6 +25,20 @@ public class AirlineEmployee extends User {
 
     public void showFlights(){
         System.out.println("Flights baiiis");
+        for(Flight i : airlineFlights)
+            System.out.println(i);
+    }
+
+    @Override
+    public void accept(UserVisitor visitor) {
+        visitor.visit(this);
+    }
+
+    public ArrayList<Integer> getFlightsNumbers(){
+        ArrayList<Integer> flightNums = new ArrayList<Integer>();
+        for(Flight i : airlineFlights)
+            flightNums.add(i.getFlightID());
+        return flightNums;
     }
 }
 

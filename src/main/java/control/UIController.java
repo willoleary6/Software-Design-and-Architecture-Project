@@ -4,12 +4,10 @@ import account.AirlineEmployee;
 import account.User;
 import routeCalculation.Flight;
 
-import java.util.ArrayList;
-
 
 public class UIController {
     public static UIController shared = new UIController();
-    public AccountController employeeAccount;
+    public AirlineAccountController employeeAccount;
     public User currentUser;
     private UserControl userCon;
     //private Arrylist<Flight> archivedRoutes;
@@ -60,7 +58,9 @@ public class UIController {
          *  checks if the user is an airline employee thus giving access to cancellations and change system
          *  */
         if(currentUser.getUserType() == 2) {
-            employeeAccount = new AccountController((AirlineEmployee) currentUser);
+            employeeAccount = new AirlineAccountController((AirlineEmployee) currentUser);
+            employeeAccount.cancelFlight();
+            employeeAccount.populateEmployeeFlights();
             return true;
         }
         else

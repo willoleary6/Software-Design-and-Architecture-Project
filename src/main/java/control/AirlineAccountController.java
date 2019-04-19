@@ -1,24 +1,24 @@
 package control;
 
 import account.AirlineEmployee;
-import control.SearchController;
+import account.CancelBookings;
 import routeCalculation.Flight;
 
 import java.util.ArrayList;
 
-public class AccountController {
+public class AirlineAccountController {
 
     private AirlineEmployee currentUser;
     private SearchController search;
 
-    public AccountController(AirlineEmployee user){
+    public AirlineAccountController(AirlineEmployee user){
         currentUser = user;
         search = new SearchController();
         populateEmployeeFlights();
     }
 
 
-    private void populateEmployeeFlights(){
+    protected void populateEmployeeFlights(){
         //Call on the search controller to return all flights then filter flights by airlineID
         ArrayList<Flight> flights = search.retrieveAllFlights();
         flights = filterFlights(flights);
@@ -32,6 +32,11 @@ public class AccountController {
             if(i.getAirlineID() == currentUser.getAirlineID())
                 newFlights.add(i);
         return newFlights;
+    }
+
+    public void cancelFlight(){
+        CancelBookings visitor = new CancelBookings();
+        currentUser.accept(visitor);
     }
 
 }

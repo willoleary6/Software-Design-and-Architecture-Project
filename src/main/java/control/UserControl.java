@@ -30,6 +30,7 @@ public class UserControl {
             JSONObject[] obj = dbPullHandler.getApiResponseResults();
             // check credentials match then passes type to factory producer and passes object to factor
             if(obj[0].get("password").equals(password) && obj[0].get("username").equals(username)) {
+                System.out.println(obj[0]);
                 factory = prodcuer.produceFactory(obj[0].getInt("userType"));
                 return factory.createUser(obj[0]);
             }
