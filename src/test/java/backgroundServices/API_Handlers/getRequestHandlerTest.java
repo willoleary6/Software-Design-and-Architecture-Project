@@ -34,4 +34,18 @@ class getRequestHandlerTest {
                         "\"airport\":6}, {\"price\":70,\"extendedDataInJSON\":\"{}" +
                         "\",\"autoID\":7,\"name\":\"test3\",\"liaison\":27,\"isActive\":1,\"airport\":6}]");
     }
+    @Test
+    void getBookingByID(){
+        getRequestHandler bookingTest = new getRequestHandler();
+        bookingTest.getBookingByID(1);
+        JSONObject [] responseKeys = bookingTest.getApiResponseResults();
+        assertEquals(Arrays.toString(responseKeys),
+                "[{\"departureTime\":\"2018-10-30 14:00:00\"," +
+                        "\"arrivalTime\":\"2018-10-30 15:00:00\"," +
+                        "\"extendedDataInJSON\":\"None\"," +
+                        "\"autoID\":\"1\"," +
+                        "\"passengerID\":\"1\"," +
+                        "\"flightID\":\"1\"," +
+                        "\"isActive\":\"1\"}]");
+    }
 }

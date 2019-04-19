@@ -177,6 +177,23 @@ public class getRequestHandler implements ApiRequestHandler{
         }
     }
 
+    public void getBookingByID(int id){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getBookingByID"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"id\":\""+id+"\"" +
+                                    "}"
+                            )
+                            .asString();
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     /**
      * Method that formats the AWS response to the last query executed and returns a JSON object.
