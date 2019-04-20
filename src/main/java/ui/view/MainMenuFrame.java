@@ -12,6 +12,7 @@ public class MainMenuFrame extends JFrame {
     private JButton logoutButton;
     private JLabel usernameLabel;
     private JLabel availablePointsLabel;
+    private JButton accountControlButton;
 
     public MainMenuFrame() {
         setTitle("Canoe - Flight Booking Service");
@@ -60,5 +61,9 @@ public class MainMenuFrame extends JFrame {
 
     public JLabel getAvailablePointsLabel() {
         return availablePointsLabel;
+    }
+
+    public JButton getAccountControlButton() {
+        return accountControlButton;
     }
 }
