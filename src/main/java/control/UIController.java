@@ -23,7 +23,7 @@ public class UIController {
         User user = userCon.getUser(username, password);
         if(user != null) {
             currentUser = user;
-            checkForHigherAccess();
+            //checkForHigherAccess();
             return true;
         }
         else
