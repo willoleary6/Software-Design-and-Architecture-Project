@@ -15,9 +15,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoordinator, CareTaker {
-
-    private Stack<Memento> mementoStack = new Stack<>();
+public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoordinator {
 
     @Override
     public void start() {
@@ -49,7 +47,6 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
 
     public void goBackToFlightSearch() {
         FlightSearchFrameController flightSearch = new FlightSearchFrameController(this);
-        flightSearch.restore(getLastMemento());
         setViewController(flightSearch);
     }
 
@@ -63,16 +60,6 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
     public void goToHotelSearchResults(Airport destination) {
         HotelSearchResultsController hotelSearchResults = new HotelSearchResultsController(this, destination);
         setViewController(hotelSearchResults);
-    }
-
-    @Override
-    public void add(Memento m) {
-        mementoStack.push(m);
-    }
-
-    @Override
-    public Memento getLastMemento() {
-        return mementoStack.pop();
     }
 
 }
