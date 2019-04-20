@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9e46a0-913f-4f7c-90e9-6442532d50ba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/AirlineAccountController.class" afterPath="$PROJECT_DIR$/target/classes/control/AirlineAccountController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/SearchController.class" afterPath="$PROJECT_DIR$/target/classes/control/SearchController.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/control/SearchControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/control/SearchControllerTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/CompositeDemo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/Department.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/FinancialDepartment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/HeadDepartment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/SalesDepartment.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,46 +22,22 @@
       <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="569">
+              <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Software-Design-and-Architecture-Project 7.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/Software-Design-and-Architecture-Project 7.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/html/main_report/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Software-Design-and-Architecture-Project 6.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 6/Software-Design-and-Architecture-Project 6.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonObjectConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonObjectConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="969">
-              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
@@ -75,25 +47,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeConversion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java">
+      <file leaf-file-name="JsonObjectConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonObjectConverterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
+      <file leaf-file-name="Accounts.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background services.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Software-Design-and-Architecture-Project.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Software-Design-and-Architecture-Project 1.mdl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
           </provider>
         </entry>
       </file>
@@ -101,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="719">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -111,16 +99,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Software-Design-and-Architecture-Project 8.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 8/Software-Design-and-Architecture-Project 8.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
           </provider>
         </entry>
       </file>
@@ -586,6 +567,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -605,10 +587,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -753,18 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 8/Software-Design-and-Architecture-Project 8.mdl">
       <provider selected="true" editor-type-id="CodeMR.Model">
         <state />
@@ -773,7 +743,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -781,16 +751,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="969">
+          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -798,22 +772,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
       </provider>
     </entry>
   </component>
