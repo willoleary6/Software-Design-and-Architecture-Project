@@ -20,7 +20,7 @@ public class AirlineAccountController {
 
     protected void populateEmployeeFlights(){
         //Call on the search controller to return all flights then filter flights by airlineID
-        ArrayList<Flight> flights = search.retrieveAllFlights();
+        ArrayList<Flight> flights = search.retrieveAllFlightsFromServer();
         flights = filterFlights(flights);
         currentUser.populateFlights(flights);
 
