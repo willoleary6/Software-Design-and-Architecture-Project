@@ -65,6 +65,7 @@ public class SearchController {
         int minutesPassedInDay = convertStringToMinutes(hour);
         return new Date(date.getTime() + minutesPassedInDay * minutes);
     }
+
     private int convertStringToMinutes(String stringTime){
         String [] hoursAndMinutes = stringTime.split(":");
         int hoursToMinutes = Integer.parseInt(hoursAndMinutes[0])*60;
@@ -88,12 +89,25 @@ public class SearchController {
         ArrayList<FlightDiscountDecorator> flights = new ArrayList<FlightDiscountDecorator>();
         JSONObject[] response = dbHandler.getApiResponseResults();
         for(int i = 0; i < response.length;i++) {
-            flights.add(jsonObjectToFlight(response[i]));
+            flights.add(jsonObjectToFlightDecorator(response[i]));
         }
         return flights;
     }
 
-    private FlightDiscountDecorator jsonObjectToFlight(JSONObject jsonObject) {
+    /**
+     *  method to retrieve all flights as opposed to flight decorator
+     * @return all flights
+     */
+    public ArrayList<Flight> retrieveAllFlights(){
+        dbHandler.getAllFlights();
+        ArrayList<Flight> flights = new ArrayList<Flight>();
+        JSONObject[] response = dbHandler.getApiResponseResults();
+        for(JSONObject i : response)
+            flights.add(jsonObjectToFlight(i));
+        return flights;
+    }
+
+    private FlightDiscountDecorator jsonObjectToFlightDecorator(JSONObject jsonObject) {
         JSONObject depart = new JSONObject(jsonObject.getString("departureTime"));
         JSONObject arrive = new JSONObject(jsonObject.getString("arrivalTime"));
         return new FlightDiscountDecorator( new Flight(
@@ -106,6 +120,22 @@ public class SearchController {
                 arrive.getString("day"),
                 jsonObject.getInt("price")
         ), retrieveDiscountByFlightID(jsonObject.getInt("autoID")));
+
+    }
+
+    private Flight jsonObjectToFlight(JSONObject jsonObject) {
+        JSONObject depart = new JSONObject(jsonObject.getString("departureTime"));
+        JSONObject arrive = new JSONObject(jsonObject.getString("arrivalTime"));
+        return new Flight(
+                jsonObject.getInt("autoID"),
+                jsonObject.getInt("departureAirport"),
+                jsonObject.getInt("destinationAirport"),
+                jsonObject.getInt("airlineID"),
+                jsonObject.getString("flightNumber"),
+                depart.getString("time"), arrive.getString("time"), depart.getString("day"),
+                arrive.getString("day"),
+                jsonObject.getInt("price")
+        );
 
     }
 

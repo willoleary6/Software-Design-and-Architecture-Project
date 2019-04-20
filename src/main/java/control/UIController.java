@@ -7,6 +7,7 @@ import routeCalculation.Flight;
 
 public class UIController {
     public static UIController shared = new UIController();
+    public AirlineAccountController employeeAccount;
     public User currentUser;
     private UserControl userCon;
     //private Arrylist<Flight> archivedRoutes;
@@ -22,6 +23,7 @@ public class UIController {
         User user = userCon.getUser(username, password);
         if(user != null) {
             currentUser = user;
+            checkForHigherAccess();
             return true;
         }
         else
@@ -34,14 +36,6 @@ public class UIController {
             currentUser = user;
     }
 
-    /*public ArrayList<Arrylist<Flight>> getPreviousSearchs() {
-        return archivedRoutes;
-    }*/
-
-    public void searchForFlights(int searchParams, String origin, String destination, String timestamp) {
-        /* search param is either 0 or 1, 0 being search for shortest time, 1 for lowest price*/
-
-    }
 
     public void applyDiscount(Flight flight, int percentage) {
         if(checkForHigherAccess()) {
@@ -61,10 +55,14 @@ public class UIController {
 
     public boolean checkForHigherAccess(){
         /**
-         *  checks if the user is an airline employee thus giving access to discount system
+         *  checks if the user is an airline employee thus giving access to cancellations and change system
          *  */
-        if(currentUser.getUserType() > 0)
+        if(currentUser.getUserType() == 2) {
+            employeeAccount = new AirlineAccountController((AirlineEmployee) currentUser);
+            employeeAccount.cancelFlight();
+            employeeAccount.populateEmployeeFlights();
             return true;
+        }
         else
             return false;
     }
