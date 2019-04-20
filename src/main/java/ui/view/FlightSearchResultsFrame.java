@@ -6,8 +6,8 @@ public class FlightSearchResultsFrame extends JFrame {
     private JTable flightSearchResultsTable;
     private JPanel panel1;
     private JButton bookFlightButton;
-    private JButton backButton;
-
+    private JButton mainMenuButton;
+    private JButton bookHotelButton;
 
     public FlightSearchResultsFrame() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -26,5 +26,9 @@ public class FlightSearchResultsFrame extends JFrame {
 
     public JButton getBackButton() {
         return backButton;
+    }
+
+    public JButton getBookHotelButton() {
+        return bookHotelButton;
     }
 }

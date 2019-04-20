@@ -9,31 +9,31 @@ class HotelTest {
 
     @Test
     void getHotelName() {
-        Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
+        Hotel hotelTest = new Hotel("test", 0, 0, 0, new JSONObject("{}"));
         assertEquals(hotelTest.getHotelName(), "test");
     }
 
     @Test
     void getAirportID() {
-        Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
+        Hotel hotelTest = new Hotel("test", 0, 0, 0, new JSONObject("{}"));
         assertEquals(hotelTest.getAirportID(), 0);
     }
 
     @Test
     void getLiaisonUserID() {
-        Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
+        Hotel hotelTest = new Hotel("test", 0, 0, 0, new JSONObject("{}"));
         assertEquals(hotelTest.getLiaisonUserID(), 0);
     }
 
     @Test
     void getAdditionalServices_null_argument() {
-        Hotel hotelTest = new Hotel("test", 0, 0, new JSONObject("{}"));
+        Hotel hotelTest = new Hotel("test", 0, 0, 0, new JSONObject("{}"));
         assertEquals(hotelTest.getAdditionalServices(), null);
     }
 
     @Test
     void getAdditionalServices_valid_argument() {
-        Hotel hotelTest = new Hotel("test", 0,
+        Hotel hotelTest = new Hotel("test", 0,0,
                 0, new JSONObject(
                         "{additional_services:[{name:\"test\", price:20.00, description:\"test_description\"}]}")
         );

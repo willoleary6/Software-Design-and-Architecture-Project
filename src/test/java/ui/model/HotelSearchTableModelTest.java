@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class HotelSearchTableModelTest {
     private List<Hotel> hotelList = Arrays.asList(new Hotel[]{new Hotel("test", 1,
-            1, new JSONObject("{}"))});
+            1,1, new JSONObject("{}"))});
     private HotelSearchTableModel testSearchTableModel = new HotelSearchTableModel(hotelList);
 
     @Test
@@ -21,23 +21,20 @@ class HotelSearchTableModelTest {
 
     @Test
     void getColumnCount() {
-        assertEquals(testSearchTableModel.getColumnCount(), 4);
+        assertEquals(testSearchTableModel.getColumnCount(), 2);
     }
 
     @Test
     void getColumnName() {
         assertEquals(testSearchTableModel.getColumnName(0), "Hotel Name");
-        assertEquals(testSearchTableModel.getColumnName(1), "Airport");
-        assertEquals(testSearchTableModel.getColumnName(2), "Liaison User ID");
-        assertEquals(testSearchTableModel.getColumnName(3), "Additional Services");
-
+        assertEquals(testSearchTableModel.getColumnName(1), "Price");
     }
 
     @Test
     void getValueAt() {
         assertEquals(testSearchTableModel.getValueAt(0,0), "test");
-        assertEquals(testSearchTableModel.getValueAt(0,1), 1);
-        assertEquals(testSearchTableModel.getValueAt(0,2), 1);
+        assertEquals(testSearchTableModel.getValueAt(0,1), 1.0);
+        assertEquals(testSearchTableModel.getValueAt(0,2), null);
         assertEquals(testSearchTableModel.getValueAt(0,3), null);
     }
 

@@ -101,6 +101,23 @@ public class insertRequestHandler  implements ApiRequestHandler{
         }
     }
 
+    public void disableBookingByID(int id){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("insertUrl")+apiProperties.getProperty("disableBookingByID"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"id\":\""+id+"\"" +
+                                    "}")
+                            .asString();
+
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * Method that formats the AWS response to the last query executed and returns a JSON object.
      * @return Returns an array of JSONObjects that contain the response from AWS.
