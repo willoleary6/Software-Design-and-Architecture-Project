@@ -13,14 +13,14 @@ public class CustomerAccountController {
     public CustomerAccountController(Customer user){
         currentUser = user;
         search = new SearchController();
-        populateCustomerBookings();
+       // populateCustomerBookings();
     }
 
     protected void populateEmployeeFlights(){
         //Call on the search controller to return all flights then filter flights by airlineID
-        ArrayList<Booking> bookings = search.retrieveAllBookings();
-        bookings = filterBookings(bookings);
-        currentUser.populatebookings(bookings);
+        //ArrayList<Booking> bookings = search.retrieveAllBookings();
+        //bookings = filterBookings(bookings);
+        //currentUser.populatebookings(bookings);
 
     }
 }
