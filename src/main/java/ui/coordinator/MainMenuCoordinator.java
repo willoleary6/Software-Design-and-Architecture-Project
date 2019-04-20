@@ -1,6 +1,8 @@
 package ui.coordinator;
 
 
+import memento.CareTaker;
+import memento.Memento;
 import booking.Booking;
 import booking.BookingComposite;
 import reservation.Hotel;
@@ -11,6 +13,7 @@ import ui.view.HotelSearchFrame;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoordinator {
 
@@ -38,6 +41,11 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
 
     @Override
     public void goToFlightSearch() {
+        FlightSearchFrameController flightSearch = new FlightSearchFrameController(this);
+        setViewController(flightSearch);
+    }
+
+    public void goBackToFlightSearch() {
         FlightSearchFrameController flightSearch = new FlightSearchFrameController(this);
         setViewController(flightSearch);
     }

@@ -14,6 +14,7 @@ public class MainMenuFrameController extends BaseFrameController  {
     private JButton logoutButton;
     private JLabel usernameLabel;
     private JLabel availablePointsLabel;
+    private JButton accountControlButton;
 
     public MainMenuFrameController(IMainMenuCoordinator coordinator) {
         this.coordinator = coordinator;
@@ -30,6 +31,12 @@ public class MainMenuFrameController extends BaseFrameController  {
         logoutButton = mainMenuFrame.getLogoutButton();
         usernameLabel = mainMenuFrame.getUsernameLabel();
         availablePointsLabel = mainMenuFrame.getAvailablePointsLabel();
+        accountControlButton = mainMenuFrame.getAccountControlButton();
+
+        int userType = UIController.shared.currentUser.getUserType();
+        if(userType == 1 || userType == 3) {
+            accountControlButton.setVisible(true);
+        }
 
         usernameLabel.setText(UIController.shared.currentUser.getUserName());
     }

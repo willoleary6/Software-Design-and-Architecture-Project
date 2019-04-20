@@ -9,7 +9,6 @@ public class FlightSearchResultsFrame extends JFrame {
     private JButton mainMenuButton;
     private JButton bookHotelButton;
 
-
     public FlightSearchResultsFrame() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(500, 500);
