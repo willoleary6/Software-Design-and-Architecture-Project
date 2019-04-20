@@ -24,8 +24,8 @@ public class FlightSearchResultsFrame extends JFrame {
         return bookFlightButton;
     }
 
-    public JButton getBackButton() {
-        return backButton;
+    public JButton getMainMenuButton() {
+        return mainMenuButton;
     }
 
     public JButton getBookHotelButton() {
