@@ -1,7 +1,7 @@
 package control;
 
 import account.AirlineEmployee;
-import account.CancelBookings;
+import account.CancellationsVisitor;
 import routeCalculation.Flight;
 
 import java.util.ArrayList;
@@ -36,7 +36,7 @@ public class AirlineAccountController {
     }
 
     private void cancelFlight(){
-        CancelBookings visitor = new CancelBookings();
+        CancellationsVisitor visitor = new CancellationsVisitor();
         currentUser.accept(visitor);
     }
 

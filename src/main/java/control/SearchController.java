@@ -57,7 +57,7 @@ public class SearchController {
         return airports;
     }
 
-    private Date convertFlightTimeToDate(String day, String hour, Date input){
+    private Date convertFlightTimeToDate(String day, String hour, Date input) {
         int minutes = 60*1000;
         LocalDate ld = input.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         ld = ld.with(TemporalAdjusters.next(DayOfWeek.valueOf(day.toUpperCase())));

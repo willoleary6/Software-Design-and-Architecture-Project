@@ -4,6 +4,8 @@ import booking.Booking;
 import booking.BookingComposite;
 import booking.FlightBooking;
 import booking.HotelBooking;
+import control.UIController;
+import interceptor.NewLoggingDispatcher;
 import reservation.Hotel;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
@@ -44,6 +46,9 @@ public class BookingCheckoutController extends BaseFrameController {
         ConfirmBookingButton.addActionListener(e -> {
             try {
                 System.out.println("Booking confirmed");
+                NewLoggingDispatcher.getInstanceOfDispatcher().bookingMade(
+                        UIController.shared.createLoggingContext(" " + reservations.getListOfNames() +
+                                " Booking confirmed"));
             }catch (Exception exc){
                 exc.printStackTrace();
             }

@@ -1,11 +1,15 @@
 package account;
 
+import interceptor.LoggingContext;
+import interceptor.LoggingDispatcher;
+import interceptor.NewLoggingDispatcher;
+import prototypes.interceptor.Dispatcher;
 import routeCalculation.Flight;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CancelBookings implements UserVisitor {
+public class CancellationsVisitor implements UserVisitor {
 
     @Override
     public void visit(Customer user) {
@@ -29,6 +33,7 @@ public class CancelBookings implements UserVisitor {
                     ArrayList<Integer> flightNums = user.getFlightsNumbers();
                     if (flightNums.contains(flightID)) {
                         //execute delete
+                        NewLoggingDispatcher.getInstanceOfDispatcher().accountChange(createContext(user, flightID));
                         System.out.println("Flight canceled");
                         end = true;
                     } else {
@@ -39,6 +44,12 @@ public class CancelBookings implements UserVisitor {
                 }
             }
         } while (!end);
+    }
+
+    private LoggingContext createContext(AirlineEmployee user, int flightID) {
+        LoggingContext context = new LoggingContext(user.getUserID(), "Flight canceled", user.getUserName(),
+                user.getAirlineID(), flightID);
+        return context;
     }
 
 }

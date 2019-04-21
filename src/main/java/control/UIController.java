@@ -18,17 +18,13 @@ public class UIController {
 
     /**
      * Method which create new user object for the current session and call log in interception point
-     * @param username
-     * @param password
      * @return boolean for login success
      */
     public boolean logIn(String username, String password) {
         User user = userCon.getUser(username, password);
         if (user != null) {
             currentUser = user;
-            LoggingContext context = new LoggingContext(currentUser.getUserID(), 1, "logged in",
-                    "none boii");
-            NewLoggingDispatcher.getInstanceOfDispatcher().logIn(context);
+            NewLoggingDispatcher.getInstanceOfDispatcher().logIn(createLoggingContext("Logged in"));
             return true;
         } else
             return false;
@@ -43,9 +39,7 @@ public class UIController {
 
     public void logout() {
         NewLoggingDispatcher.getInstanceOfDispatcher();
-        LoggingContext context = new LoggingContext(currentUser.getUserID(), 1, "logged out",
-                "none boii");
-        NewLoggingDispatcher.getInstanceOfDispatcher().logOut(context);
+        NewLoggingDispatcher.getInstanceOfDispatcher().logOut(createLoggingContext("Logged out"));
         currentUser = null;
     }
 
@@ -59,5 +53,10 @@ public class UIController {
         } else if (currentUser.getUserType() == 1) {
             //do customer control
         }
+    }
+
+    public LoggingContext createLoggingContext(String msg) {
+        return new LoggingContext(currentUser.getUserID(), msg,
+                currentUser.getUserName());
     }
 }
