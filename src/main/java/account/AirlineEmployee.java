@@ -24,9 +24,11 @@ public class AirlineEmployee extends User implements UserVisitable {
     }
 
     public void showFlights(){
+        System.out.println("-------------------------------------------------------------------------------------");
         System.out.println("Flights baiiis");
         for(Flight i : airlineFlights)
             System.out.println(i);
+        System.out.println("-------------------------------------------------------------------------------------");
     }
 
     @Override

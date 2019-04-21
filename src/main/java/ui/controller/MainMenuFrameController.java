@@ -44,5 +44,6 @@ public class MainMenuFrameController extends BaseFrameController  {
     private void initListeners() {
         logoutButton.addActionListener(e -> coordinator.logout());
         bookFlightsButton.addActionListener(e -> coordinator.goToFlightSearch());
+        accountControlButton.addActionListener(e -> UIController.shared.accountControl());
     }
 }

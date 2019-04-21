@@ -41,5 +41,4 @@ public class CancelBookings implements UserVisitor {
         } while (!end);
     }
 
-
 }

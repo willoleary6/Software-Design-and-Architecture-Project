@@ -5,6 +5,7 @@ import account.CancelBookings;
 import routeCalculation.Flight;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class AirlineAccountController {
 
@@ -34,9 +35,33 @@ public class AirlineAccountController {
         return newFlights;
     }
 
-    public void cancelFlight(){
+    private void cancelFlight(){
         CancelBookings visitor = new CancelBookings();
         currentUser.accept(visitor);
+    }
+
+    public void displayMenu(){
+        if(currentUser.getFlightsNumbers().size() > 0){
+            boolean end = false;
+            Scanner in = new Scanner(System.in);
+            System.out.println("-------------------------------------------------------------------------------------");
+            System.out.println("1:\tcancel flight");
+            System.out.println("e/E:\texit menu");
+            System.out.println("-------------------------------------------------------------------------------------");
+            do {
+                System.out.println("Please enter option: ");
+                String input = in.nextLine();
+                if(input.matches("e") || input.matches("E"))
+                    end = true;
+                else{
+                    int option = Integer.parseInt(input);
+                    if(option == 1)
+                        cancelFlight();
+                }
+            } while (!end);
+        } else {
+            System.out.println("No options available");
+        }
     }
 
 }

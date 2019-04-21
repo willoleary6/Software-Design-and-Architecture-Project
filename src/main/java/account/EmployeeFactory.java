@@ -10,7 +10,7 @@ public class EmployeeFactory extends Factory{
         if(user.length() == 0) {
             return null;
         }
-        else if(user.getInt("userType") == 2) {
+        else if(user.getInt("userType") == 2 || user.getInt("userType") == 3) {
             JSONObject airlineID = new JSONObject(user.getString("extendedDataInJSON"));
             return new AirlineEmployee(user.getString("username"), user.getInt("userID"),
                     user.getInt("userType"), airlineID.getInt("airlineID"));

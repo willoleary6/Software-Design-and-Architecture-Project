@@ -1,6 +1,7 @@
 package ui.coordinator;
 
 
+import control.UIController;
 import memento.CareTaker;
 import memento.Memento;
 import booking.Booking;
@@ -36,6 +37,7 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
             ILoginCoordinator loginCoordinator = new LoginCoordinator();
             loginCoordinator.start();
             setViewController(null);
+            UIController.shared.logout();
         }
     }
 

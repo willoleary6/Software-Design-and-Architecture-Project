@@ -15,6 +15,6 @@ public class VisitorTest {
                 " extendedDataInJSON: \"{airlineID: 1}\"}");
         AirlineEmployee user =  (AirlineEmployee)factory.createUser(obj);
         AirlineAccountController control = new AirlineAccountController(user);
-        control.cancelFlight();
+        //control.cancelFlight();
     }
 }
