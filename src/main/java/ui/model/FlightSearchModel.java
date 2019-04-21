@@ -83,6 +83,6 @@ public class FlightSearchModel {
     }
 
     public ArrayList<Route> searchForFlight() {
-        return searchController.searchForFlight(departureAirport, destinationAirport, departureDate, costBased);
+        return searchController.searchForRoute(departureAirport, destinationAirport, departureDate, costBased);
     }
 }

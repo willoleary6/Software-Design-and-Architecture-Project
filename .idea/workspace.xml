@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9e46a0-913f-4f7c-90e9-6442532d50ba" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/CostBasedCalculation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationStrategy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/TimeBasedCalculation.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/CompositeDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/Department.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/FinancialDepartment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/HeadDepartment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/SalesDepartment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/FlightDayAndTimeToDateLambdaFunctions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/Grapher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/GrapherLambdaFunctions.java" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationLambdaFunctions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/GrapherState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/GrapherState.puml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/MoneyGrapherState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/TimeGrapherState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/TraceBackGrapherState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/routeCalculation/routeCalculation.plantuml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/model/FlightSearchModel.java" afterPath="$PROJECT_DIR$/src/main/java/ui/model/FlightSearchModel.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/JsonObjectConverter.class" afterPath="$PROJECT_DIR$/target/classes/Utilities/JsonObjectConverter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/TimeConversion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/booking/compositePrototype/CompositeDemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/booking/compositePrototype/Department.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/booking/compositePrototype/FinancialDepartment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/booking/compositePrototype/HeadDepartment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/booking/compositePrototype/SalesDepartment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/SearchController.class" afterPath="$PROJECT_DIR$/target/classes/control/SearchController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/FlightDayAndTimeToDateLambdaFunctions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Grapher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/GrapherLambdaFunctions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/GrapherState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/MoneyGrapherState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/TimeGrapherState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/TraceBackGrapherState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchModel.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,88 +43,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonObjectConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
+      <file leaf-file-name="FlightDiscountDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/FlightDiscountDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="50">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteCalculationLambdaFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationLambdaFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1076">
+              <caret line="67" column="67" lean-forward="true" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonObjectConverterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
+      <file leaf-file-name="CostBasedCalculation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/CostBasedCalculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Route.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Route.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteCalculationStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeBasedCalculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/TimeBasedCalculation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-              <folding />
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Accounts.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="background services.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Software-Design-and-Architecture-Project.mdl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Software-Design-and-Architecture-Project 1.mdl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
-          <provider selected="true" editor-type-id="CodeMR.Model">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Flight.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="100">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -110,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -146,10 +171,17 @@
         <option value="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/StrategyPattern/routeCalculationStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/Grapher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/StrategyPattern/CostBasedCalculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationLambdaFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/StrategyPattern/TimeBasedCalculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/TimeBasedCalculation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/routeCalculation/CostBasedCalculation.java" />
       </list>
     </option>
   </component>
@@ -174,8 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,14 +265,6 @@
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,20 +296,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="reservation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,35 +585,35 @@
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -641,11 +657,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/reservation/HotelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="67" column="46" lean-forward="false" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/APIs.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +708,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1051">
           <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10650">
+          <caret line="509" column="10" lean-forward="true" selection-start-line="509" selection-start-column="10" selection-end-line="509" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reservation/HotelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/APIs.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -697,49 +797,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 2/Software-Design-and-Architecture-Project 2.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 3/Software-Design-and-Architecture-Project 3.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 4/Software-Design-and-Architecture-Project 4.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 5/Software-Design-and-Architecture-Project 5.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 6/Software-Design-and-Architecture-Project 6.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/Software-Design-and-Architecture-Project 7.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/html/main_report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 8/Software-Design-and-Architecture-Project 8.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 2/Software-Design-and-Architecture-Project 2.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 3/Software-Design-and-Architecture-Project 3.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 4/Software-Design-and-Architecture-Project 4.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 5/Software-Design-and-Architecture-Project 5.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 6/Software-Design-and-Architecture-Project 6.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/Software-Design-and-Architecture-Project 7.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/html/main_report/index.html" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 8/Software-Design-and-Architecture-Project 8.mdl" />
     <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -768,52 +833,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl" />
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/UIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/TraceBackGrapherState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="475">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/FlightDiscountDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/GrapherState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/MoneyGrapherState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
-      <provider selected="true" editor-type-id="CodeMR.Model">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/TimeGrapherState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/GrapherState.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Grapher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/FlightDayAndTimeToDateLambdaFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationLambdaFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1076">
+          <caret line="67" column="67" lean-forward="true" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/RouteCalculationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/TimeBasedCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/CostBasedCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
