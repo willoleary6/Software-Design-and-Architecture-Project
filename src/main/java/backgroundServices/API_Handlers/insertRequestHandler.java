@@ -1,5 +1,6 @@
-package backgroundServices.API_Handlers.adapter;
+package backgroundServices.API_Handlers;
 
+import backgroundServices.API_Handlers.adapter.OtherAPIRequests;
 import backgroundServices.resourceReader.Reader;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
@@ -8,11 +9,11 @@ import org.json.JSONObject;
 
 import java.util.Properties;
 
-public class InsertRequestHandler implements OtherAPIRequests {
+public class insertRequestHandler implements GetRequest {
     private Properties apiProperties;
     private JSONObject apiResponse;
 
-    public InsertRequestHandler(){
+    public insertRequestHandler() {
         Reader myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
@@ -120,7 +121,7 @@ public class InsertRequestHandler implements OtherAPIRequests {
      * Method that formats the AWS response to the last query executed and returns a JSON object.
      * @return Returns an array of JSONObjects that contain the response from AWS.
      */
-    public JSONObject [] getApiResponseResult() {
+    public JSONObject [] getApiResponseResults() {
         // getRequest the raw results data and remove any characters we cant play with.
         System.out.println(apiResponse);
         String results = apiResponse.get("results").toString()
@@ -144,7 +145,7 @@ public class InsertRequestHandler implements OtherAPIRequests {
      * Method that formats and returns an array of keys to be used access the server response of the last query.
      * @return String array containing the keys to the last server response.
      */
-    public String [] getApiResponseKey() {
+    public String [] getApiResponseKeys() {
         // remove any problem characters and split it on the comma.
 
         return apiResponse.get("keys").toString()

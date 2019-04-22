@@ -11,21 +11,21 @@ class getRequestHandlerTest {
 
     @Test
     void getHotelsByAirportIDKeysTest() {
-        GetRequestHandler hotelTest = new GetRequestHandler();
+        getRequestHandler hotelTest = new getRequestHandler();
         hotelTest.getHotelsByAirportID(0);
         String [] responseKeys = hotelTest.getApiResponseKeys();
         assertEquals(Arrays.toString(responseKeys), "[autoID, name, price, airport, liaison, isActive, extendedDataInJSON]");
     }
     @Test
     void getHotelsByAirportIDValuesNullTest() {
-        GetRequestHandler hotelTest = new GetRequestHandler();
+        getRequestHandler hotelTest = new getRequestHandler();
         hotelTest.getHotelsByAirportID(0);
         JSONObject [] responseKeys = hotelTest.getApiResponseResults();
         assertEquals(Arrays.toString(responseKeys), "[null]");
     }
     @Test
     void getHotelsByAirportIDValuesTest() {
-        GetRequestHandler hotelTest = new GetRequestHandler();
+        getRequestHandler hotelTest = new getRequestHandler();
         hotelTest.getHotelsByAirportID(6);
         JSONObject [] responseKeys = hotelTest.getApiResponseResults();
         assertEquals(Arrays.toString(responseKeys),

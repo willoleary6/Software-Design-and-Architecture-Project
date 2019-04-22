@@ -9,12 +9,12 @@ import org.json.JSONObject;
 
 import java.util.Properties;
 
-public class GetRequestHandler implements GetRequest {
+public class getRequestHandler implements GetRequest {
     private Reader myReader;
     private Properties apiProperties;
     private JSONObject apiResponse;
 
-    public GetRequestHandler() {
+    public getRequestHandler() {
         myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
