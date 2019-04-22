@@ -40,6 +40,8 @@ public class BookingCheckoutController extends BaseFrameController {
         ConfirmBookingButton.addActionListener(e -> {
             try {
                 System.out.println("Booking confirmed");
+                System.out.println(reservations.getListOfNames());
+                System.out.println(reservations.getListOfCosts());
                 LoggingDispatcher.getInstanceOfDispatcher().bookingMade(
                         UIController.shared.createLoggingContext(" " + reservations.getListOfNames() +
                                 " Booking confirmed"));
