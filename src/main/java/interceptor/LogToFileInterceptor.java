@@ -5,10 +5,9 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class LogToFileInterceptor implements NewLoggingInterceptor {
+public class LogToFileInterceptor implements LoggingInterceptor {
 
     private static LogToFileInterceptor myInterceptor;
-    private File file = new File("src/main/log/log.txt");
     private String filePath = "src/main/log/log.txt";
     private DateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
@@ -53,9 +52,11 @@ public class LogToFileInterceptor implements NewLoggingInterceptor {
         writeToFile(output);
     }
 
-    public static NewLoggingInterceptor getInstanceOfInterceptor(){
-        if(myInterceptor == null)
-            return new LogToFileInterceptor();
+    public static LoggingInterceptor getInstanceOfInterceptor(){
+        if(myInterceptor == null) {
+            myInterceptor = new LogToFileInterceptor();
+            return myInterceptor;
+        }
         else
             return myInterceptor;
     }

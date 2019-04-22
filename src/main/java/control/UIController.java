@@ -24,7 +24,7 @@ public class UIController {
         User user = userCon.getUser(username, password);
         if (user != null) {
             currentUser = user;
-            NewLoggingDispatcher.getInstanceOfDispatcher().logIn(createLoggingContext("Logged in"));
+            LoggingDispatcher.getInstanceOfDispatcher().logIn(createLoggingContext("Logged in"));
             return true;
         } else
             return false;
@@ -38,8 +38,8 @@ public class UIController {
 
 
     public void logout() {
-        NewLoggingDispatcher.getInstanceOfDispatcher();
-        NewLoggingDispatcher.getInstanceOfDispatcher().logOut(createLoggingContext("Logged out"));
+        LoggingDispatcher.getInstanceOfDispatcher();
+        LoggingDispatcher.getInstanceOfDispatcher().logOut(createLoggingContext("Logged out"));
         currentUser = null;
     }
 

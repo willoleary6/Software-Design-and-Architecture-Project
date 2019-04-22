@@ -8,9 +8,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        LogToFileApp userLog = new LogToFileApp();
-        NewLoggingDispatcher dispatcher = NewLoggingDispatcher.getInstanceOfDispatcher();
-        userLog.loggingRegister(dispatcher);
+        LogToFileApp userLogFile = new LogToFileApp();
+        LogToServerApp userLogServer = new LogToServerApp();
+        LoggingDispatcher dispatcher = LoggingDispatcher.getInstanceOfDispatcher();
+        userLogFile.loggingRegister(dispatcher);
+        userLogServer.loggingRegister(dispatcher);
         ILoginCoordinator loginCoordinator = new LoginCoordinator();
         loginCoordinator.start();
 

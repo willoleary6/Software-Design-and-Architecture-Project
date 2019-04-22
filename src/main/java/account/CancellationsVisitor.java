@@ -2,9 +2,6 @@ package account;
 
 import interceptor.LoggingContext;
 import interceptor.LoggingDispatcher;
-import interceptor.NewLoggingDispatcher;
-import prototypes.interceptor.Dispatcher;
-import routeCalculation.Flight;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -33,7 +30,7 @@ public class CancellationsVisitor implements UserVisitor {
                     ArrayList<Integer> flightNums = user.getFlightsNumbers();
                     if (flightNums.contains(flightID)) {
                         //execute delete
-                        NewLoggingDispatcher.getInstanceOfDispatcher().accountChange(createContext(user, flightID));
+                        LoggingDispatcher.getInstanceOfDispatcher().accountChange(createContext(user, flightID));
                         System.out.println("Flight canceled");
                         end = true;
                     } else {

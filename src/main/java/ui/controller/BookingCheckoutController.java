@@ -1,19 +1,13 @@
 package ui.controller;
 
 import booking.Booking;
-import booking.BookingComposite;
-import booking.FlightBooking;
-import booking.HotelBooking;
 import control.UIController;
-import interceptor.NewLoggingDispatcher;
-import reservation.Hotel;
-import routeCalculation.Route;
+import interceptor.LoggingDispatcher;
 import ui.coordinator.IMainMenuCoordinator;
 import ui.model.BookingCheckoutTableModel;
 import ui.view.BookingCheckoutFrame;
 
 import javax.swing.*;
-import java.util.ArrayList;
 
 public class BookingCheckoutController extends BaseFrameController {
     private JTable BookingCheckoutTable;
@@ -46,7 +40,7 @@ public class BookingCheckoutController extends BaseFrameController {
         ConfirmBookingButton.addActionListener(e -> {
             try {
                 System.out.println("Booking confirmed");
-                NewLoggingDispatcher.getInstanceOfDispatcher().bookingMade(
+                LoggingDispatcher.getInstanceOfDispatcher().bookingMade(
                         UIController.shared.createLoggingContext(" " + reservations.getListOfNames() +
                                 " Booking confirmed"));
             }catch (Exception exc){
