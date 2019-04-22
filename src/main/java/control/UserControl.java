@@ -4,8 +4,11 @@ import account.CustomerFactory;
 import account.EmployeeFactory;
 import account.Factory;
 import account.User;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.GetRequest;
 import backgroundServices.API_Handlers.GetRequestHandler;
-import backgroundServices.API_Handlers.InsertRequestHandler;
+import backgroundServices.API_Handlers.adapter.InsertRequestHandler;
+import backgroundServices.API_Handlers.adapter.OtherAPIRequestAdapter;
 import org.json.JSONObject;
 
 public class UserControl {
@@ -13,13 +16,15 @@ public class UserControl {
     private Factory factory;
     // simple factory pattern implemented to support extensibility of user types and to better manage dependencies
     private GetRequestHandler dbPullHandler;
-    private InsertRequestHandler dbInsertHandler;
+    private APIRequest dbInsertHandler;
+
 
 
     public UserControl(){
         // dbPullHandler = new GetRequestHandler();
         dbPullHandler = new GetRequestHandler();
-        dbInsertHandler = new InsertRequestHandler();
+        dbInsertHandler = new APIRequest();
+        dbInsertHandler.makeRequest(new OtherAPIRequestAdapter(new InsertRequestHandler()));
     }
 
     public User getUser(String username, String password){

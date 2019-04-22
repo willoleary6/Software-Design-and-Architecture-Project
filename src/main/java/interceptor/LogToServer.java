@@ -1,6 +1,6 @@
 package interceptor;
 
-import backgroundServices.API_Handlers.InsertRequestHandler;
+import backgroundServices.API_Handlers.adapter.InsertRequestHandler;
 import org.json.JSONObject;
 
 import java.util.ArrayList;

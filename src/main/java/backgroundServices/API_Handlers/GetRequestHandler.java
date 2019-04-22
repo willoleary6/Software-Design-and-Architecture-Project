@@ -9,7 +9,7 @@ import org.json.JSONObject;
 
 import java.util.Properties;
 
-public class GetRequestHandler implements ApiRequestHandler {
+public class GetRequestHandler implements GetRequest {
     private Reader myReader;
     private Properties apiProperties;
     private JSONObject apiResponse;
@@ -189,8 +189,7 @@ public class GetRequestHandler implements ApiRequestHandler {
          Since we need to convert this string to an array we need to
          specify where to split the string with out causing "issues".
         */
-        results = results.toString()
-                .replaceAll("\\},", "}~,");
+        results = results.replaceAll("\\},", "}~,");
 
         String [] resultsArray = results.split("~,") ;
         // store results in array of JSONs
@@ -210,12 +209,11 @@ public class GetRequestHandler implements ApiRequestHandler {
      */
     public String [] getApiResponseKeys() {
         // remove any problem characters and split it on the comma.
-        String [] keys = apiResponse.get("keys").toString()
+
+        return apiResponse.get("keys").toString()
                 .replaceAll("\\[", "")
                 .replaceAll("\\]", "")
                 .replaceAll(" ", "")
                 .replaceAll("\"", "").split(",");
-        
-        return keys;
     }
 }

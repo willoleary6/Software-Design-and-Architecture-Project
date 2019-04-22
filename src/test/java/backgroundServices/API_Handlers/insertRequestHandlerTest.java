@@ -1,5 +1,6 @@
 package backgroundServices.API_Handlers;
 
+import backgroundServices.API_Handlers.adapter.InsertRequestHandler;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +14,7 @@ class insertRequestHandlerTest {
     void addNewHotel() {
         InsertRequestHandler hotelTest = new InsertRequestHandler();
         hotelTest.addNewHotel("test3", 1,27, "{}");
-        JSONObject[] responseKeys = hotelTest.getApiResponseResults();
+        JSONObject[] responseKeys = hotelTest.getApiResponseResult();
         assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
     }
 
@@ -25,7 +26,7 @@ class insertRequestHandlerTest {
         String extendedDataInJSON = "";
         InsertRequestHandler logTest = new InsertRequestHandler();
         logTest.addNewLog(userID, logType, logMessage, extendedDataInJSON);
-        JSONObject[] responseKeys = logTest.getApiResponseResults();
+        JSONObject[] responseKeys = logTest.getApiResponseResult();
         assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
     }
 

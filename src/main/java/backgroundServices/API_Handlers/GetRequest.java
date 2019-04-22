@@ -2,8 +2,7 @@ package backgroundServices.API_Handlers;
 
 import org.json.JSONObject;
 
-/* File name : Animal.java */
-public interface ApiRequestHandler {
+public interface GetRequest {
     JSONObject[] getApiResponseResults();
     String [] getApiResponseKeys();
 }

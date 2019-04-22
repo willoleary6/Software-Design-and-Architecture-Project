@@ -1,4 +1,4 @@
-package backgroundServices.API_Handlers;
+package backgroundServices.API_Handlers.adapter;
 
 import backgroundServices.resourceReader.Reader;
 import com.mashape.unirest.http.HttpResponse;
@@ -8,13 +8,12 @@ import org.json.JSONObject;
 
 import java.util.Properties;
 
-public class InsertRequestHandler implements ApiRequestHandler {
-    private Reader myReader;
+public class InsertRequestHandler implements OtherAPIRequests {
     private Properties apiProperties;
     private JSONObject apiResponse;
 
     public InsertRequestHandler(){
-        myReader = new Reader();
+        Reader myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
 
@@ -36,7 +35,6 @@ public class InsertRequestHandler implements ApiRequestHandler {
             e.printStackTrace();
         }
     }
-
 
     public void addNewHotel(String hotelName, int airport, int liason, String extendedDataInJSON) {
         try {
@@ -105,7 +103,7 @@ public class InsertRequestHandler implements ApiRequestHandler {
      * Method that formats the AWS response to the last query executed and returns a JSON object.
      * @return Returns an array of JSONObjects that contain the response from AWS.
      */
-    public JSONObject [] getApiResponseResults() {
+    public JSONObject [] getApiResponseResult() {
         // getRequest the raw results data and remove any characters we cant play with.
         System.out.println(apiResponse);
         String results = apiResponse.get("results").toString()
@@ -114,8 +112,7 @@ public class InsertRequestHandler implements ApiRequestHandler {
          Since we need to convert this string to an array we need to
          specify where to split the string with out causing "issues".
         */
-        results = results.toString()
-                .replaceAll("\\},", "}~,");
+        results = results.replaceAll("\\},", "}~,");
 
         String [] resultsArray = results.split("~,") ;
         // store results in array of JSONs
@@ -130,14 +127,13 @@ public class InsertRequestHandler implements ApiRequestHandler {
      * Method that formats and returns an array of keys to be used access the server response of the last query.
      * @return String array containing the keys to the last server response.
      */
-    public String [] getApiResponseKeys() {
+    public String [] getApiResponseKey() {
         // remove any problem characters and split it on the comma.
-        String [] keys = apiResponse.get("keys").toString()
+
+        return apiResponse.get("keys").toString()
                 .replaceAll("\\[", "")
                 .replaceAll("\\]", "")
                 .replaceAll("\"", "").split(",");
-
-        return keys;
     }
 
 }
