@@ -32,10 +32,17 @@ class insertRequestHandlerTest {
     @Test
     void disableBookingByID() {
         insertRequestHandler disableBookingTest = new insertRequestHandler();
-        disableBookingTest.disableBookingByID(1);
+        disableBookingTest.disableBookingByID(0);
         JSONObject[] responseKeys = disableBookingTest.getApiResponseResults();
         assertEquals(Arrays.toString(responseKeys), "[{\"result\":\"\"}]");
     }
 
+    @Test
+    void disableFlightByID() {
+        insertRequestHandler disableBookingTest = new insertRequestHandler();
+        disableBookingTest.disableFlightByID(0);
+        JSONObject[] responseKeys = disableBookingTest.getApiResponseResults();
+        assertEquals(Arrays.toString(responseKeys), "[{\"result\":\"\"}]");
+    }
 
 }

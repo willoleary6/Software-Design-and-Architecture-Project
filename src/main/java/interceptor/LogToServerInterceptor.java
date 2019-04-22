@@ -10,21 +10,6 @@ public class LogToServerInterceptor implements LoggingInterceptor{
 
     private static LogToServerInterceptor myInterceptor;
 
-    /*public void processNewLogMessage(LogMessage newMessage){
-        messagesCache.add(newMessage);
-        ArrayList<Boolean> messagesToRemoveFromCache = new ArrayList<>();
-        for(int i = 0; i < messagesCache.size(); i++){
-            messagesToRemoveFromCache.add(logMessageToServer(messagesCache.get(i)));
-        }
-        int offsetCounter = 0;
-        for(int j = 0; j < messagesToRemoveFromCache.size(); j++){
-            if (messagesToRemoveFromCache.get(j)){
-                messagesCache.remove(messagesCache.get(j + offsetCounter));
-                offsetCounter--;
-            }
-        }
-    }*/
-
 
     private void logMessageToServer(LoggingContext context){
         insertRequestHandler insertApiRequestHandler = new insertRequestHandler();
@@ -34,11 +19,7 @@ public class LogToServerInterceptor implements LoggingInterceptor{
                 context.getLogMessage(),
                 context.getExtendedDataInJSON()
         );
-        //JSONObject[] responseKeys = insertApiRequestHandler.getApiResponseResults();
-        /*if(Arrays.toString(responseKeys).equals("[{\"result\":null}]")){
-            return true;
-        }
-        return false;*/
+
     }
 
     @Override

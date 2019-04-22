@@ -1,51 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="14f6ced9-2bf6-4ff7-990b-e9be77beb8ad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interceptor/LogToFileInterceptor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/log/log.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/CancelBookings.java" afterPath="$PROJECT_DIR$/src/main/java/account/CancellationsVisitor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/UIController.java" afterPath="$PROJECT_DIR$/src/main/java/control/UIController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/LogToFile.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/LoggingContext.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/LoggingContext.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/controller/BookingCheckoutController.java" afterPath="$PROJECT_DIR$/src/main/java/ui/controller/BookingCheckoutController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/LogToServerInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/LogToServerInterceptor.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/AirlineEmployee.class" afterPath="$PROJECT_DIR$/target/classes/account/AirlineEmployee.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/EmployeeFactory.class" afterPath="$PROJECT_DIR$/target/classes/account/EmployeeFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/UserAccountControl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/getRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/getRequestHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/insertRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/insertRequestHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/booking/BookingComposite.class" afterPath="$PROJECT_DIR$/target/classes/booking/BookingComposite.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/AccountController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/UIController.class" afterPath="$PROJECT_DIR$/target/classes/control/UIController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/UserControl.class" afterPath="$PROJECT_DIR$/target/classes/control/UserControl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reservation/Hotel.class" afterPath="$PROJECT_DIR$/target/classes/reservation/Hotel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController$SearchFlightButtonListener.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController$SearchFlightButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchResultsController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchResultsController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/HotelSearchResultsController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/HotelSearchResultsController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$LoginButtonListener.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$LoginButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/MainMenuFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/MainMenuFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController$SignUpButtonListener.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController$SignUpButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/BaseCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/BaseCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/ILoginCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/ILoginCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/IMainMenuCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/IMainMenuCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/LoginCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/LoginCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/MainMenuCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/MainMenuCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchResultsTableModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchResultsTableModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchTableModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchTableModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/EmployeeFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/FactoryProducer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/UIController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/UserControl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LoggingDispatcher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LoggingInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$LoginButtonListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/MainMenuFrameController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/LoginCoordinator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/MainMenuCoordinator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/LoginModel.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/model/RegisterModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/RegisterModel.class" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchResultsFrame.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchResultsFrame.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame$1.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/account/VisitorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/account/VisitorTest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/LoggingDispatcherTest.class" afterPath="$PROJECT_DIR$/target/test-classes/interceptor/LoggingDispatcherTest.class" />
+=======
+    <list default="true" id="8d9e46a0-913f-4f7c-90e9-6442532d50ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/CompositeDemo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/Department.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/FinancialDepartment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/HeadDepartment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/SalesDepartment.java" afterPath="" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,44 +51,15 @@
     <SUITE FILE_PATH="coverage/Software_Design_and_Architecture_Project$Main.coverage" NAME="Main Coverage Results" MODIFIED="1555885468439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.41923937">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BookingComposite.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/booking/BookingComposite.java">
+          <file leaf-file-name="LogToFileInterceptor.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileInterceptor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FlightBooking.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/booking/FlightBooking.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HotelBooking.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/booking/HotelBooking.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UIController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/control/UIController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+                <state relative-caret-position="752">
+                  <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -104,38 +67,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BookingCheckoutController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/BookingCheckoutController.java">
+          <file leaf-file-name="LogToFileApp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="687">
-                  <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+                <state relative-caret-position="224">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoggingContext.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingContext.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#1019#1020#0" expanded="true" />
+                    <element signature="e#1050#1051#0" expanded="true" />
+                    <element signature="e#1083#1084#0" expanded="true" />
+                    <element signature="e#1115#1116#0" expanded="true" />
+                    <element signature="e#1147#1148#0" expanded="true" />
+                    <element signature="e#1178#1179#0" expanded="true" />
+                    <element signature="e#1219#1220#0" expanded="true" />
+                    <element signature="e#1255#1256#0" expanded="true" />
+                    <element signature="e#1303#1304#0" expanded="true" />
+                    <element signature="e#1343#1344#0" expanded="true" />
+                    <element signature="e#1390#1391#0" expanded="true" />
+                    <element signature="e#1432#1433#0" expanded="true" />
+                    <element signature="e#1477#1478#0" expanded="true" />
+                    <element signature="e#1517#1518#0" expanded="true" />
+                    <element signature="e#1569#1570#0" expanded="true" />
+                    <element signature="e#1613#1614#0" expanded="true" />
+                    <element signature="e#1681#1682#0" expanded="true" />
+                    <element signature="e#1741#1742#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MainMenuCoordinator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/MainMenuCoordinator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="67" column="56" lean-forward="true" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CancellationsVisitor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/account/CancellationsVisitor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -143,72 +109,115 @@
           <file leaf-file-name="LoggingDispatcher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingDispatcher.java">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="38" column="69" lean-forward="false" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainMenuFrame.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ui/view/MainMenuFrame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="689">
+                  <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#1841#1842#0" expanded="true" />
+                    <element signature="e#1884#1885#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="insertRequestHandler.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CancellationsVisitor.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/account/CancellationsVisitor.java">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="416">
-                  <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+                  <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LogToFileInterceptor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileInterceptor.java">
+          <file leaf-file-name="LogToFileApp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+                <state relative-caret-position="224">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LogToServerInterceptor.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServerInterceptor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="464">
+                  <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#704#705#0" expanded="true" />
+                    <element signature="e#747#748#0" expanded="true" />
+                    <element signature="e#811#812#0" expanded="true" />
+                    <element signature="e#854#855#0" expanded="true" />
+                    <element signature="e#925#926#0" expanded="true" />
+                    <element signature="e#968#969#0" expanded="true" />
+                    <element signature="e#1037#1038#0" expanded="true" />
+                    <element signature="e#1080#1081#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UIController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/control/UIController.java">
+          <file leaf-file-name="MainMenuFrameController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/MainMenuFrameController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="26" column="100" lean-forward="true" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="NewLoggingInterceptor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/NewLoggingInterceptor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state relative-caret-position="464">
+                  <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Booking.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/booking/Booking.java">
+          <file leaf-file-name="LoginCoordinator.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/LoginCoordinator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+                <state relative-caret-position="560">
+                  <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/account/User.java">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+                <state relative-caret-position="32">
+                  <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NewLoggingDispatcher.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/NewLoggingDispatcher.java">
+          <file leaf-file-name="LogToServerApp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServerApp.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="38" column="72" lean-forward="true" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+                <state relative-caret-position="144">
+                  <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
@@ -217,16 +226,108 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+    <leaf>
+      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonObjectConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonObjectConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Accounts.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background services.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Software-Design-and-Architecture-Project.mdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Software-Design-and-Architecture-Project 1.mdl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
+          <provider selected="true" editor-type-id="CodeMR.Model">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Flight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="719">
+              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotelTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>flight</find>
       <find>Dispatcher</find>
       <find>booking co</find>
@@ -234,6 +335,15 @@
     <replaceStrings>
       <replace>NewLoggingDispatcher</replace>
     </replaceStrings>
+=======
+      <find>searchForFlight</find>
+      <find>routeCalculation</find>
+      <find>jsonObjectToFlight</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\SourceCode\Software-Design-and-Architecture-Project\src\main\java</dir>
+    </dirStrings>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -243,9 +353,15 @@
       <projects_view />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/account/EmployeeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/CancelBookings.java" />
         <option value="$PROJECT_DIR$/src/test/java/account/VisitorTest.java" />
@@ -267,6 +383,7 @@
         <option value="$PROJECT_DIR$/src/main/java/control/UIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/interceptor/LogToFileInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/controller/BookingCheckoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interceptor/LogToServerInterceptor.java" />
       </list>
     </option>
   </component>
@@ -281,6 +398,25 @@
     <option name="y" value="-8" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/APIs.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1940" />
+    <option name="height" value="2110" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -297,10 +433,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,6 +455,7 @@
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,23 +478,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
               <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +511,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="booking" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -366,6 +523,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="control" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +532,53 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="routeCalculation" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="routeCalculation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -382,11 +587,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
@@ -407,11 +616,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,6 +625,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -427,12 +644,75 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="account" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,7 +720,27 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interceptor" />
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Utilities" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -454,7 +754,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Application.Main">
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -490,6 +794,7 @@
       <module name="" />
       <envs />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -497,6 +802,151 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+=======
+    <configuration name="JsonObjectConverterTest.jsonObjectToAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Software-Design-and-Architecture-Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.JsonObjectConverterTest" />
+      <option name="METHOD_NAME" value="jsonObjectToAirport" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+<<<<<<< HEAD
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+=======
+    <configuration name="JsonObjectConverterTest.jsonObjectToFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Software-Design-and-Architecture-Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.JsonObjectConverterTest" />
+      <option name="METHOD_NAME" value="jsonObjectToFlight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JsonObjectConverterTest.jsonObjectToFlightDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Software-Design-and-Architecture-Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.JsonObjectConverterTest" />
+      <option name="METHOD_NAME" value="jsonObjectToFlightDecorator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+<<<<<<< HEAD
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+=======
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="insertRequestHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backgroundServices.API_Handlers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Software-Design-and-Architecture-Project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="backgroundServices.API_Handlers" />
+      <option name="MAIN_CLASS_NAME" value="backgroundServices.API_Handlers.insertRequestHandlerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -544,15 +994,33 @@
       <properties />
       <listeners />
     </configuration>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+<<<<<<< HEAD
+=======
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.insertRequestHandlerTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToFlightDecorator" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToFlight" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToAirport" />
+    </list>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+<<<<<<< HEAD
+=======
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToAirport" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToFlight" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JsonObjectConverterTest.jsonObjectToFlightDecorator" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.insertRequestHandlerTest" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
       </list>
     </recent_temporary>
   </component>
@@ -564,6 +1032,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="14f6ced9-2bf6-4ff7-990b-e9be77beb8ad" name="Default" comment="" />
       <created>1555768048995</created>
       <option name="number" value="Default" />
@@ -571,6 +1040,8 @@
       <updated>1555768048995</updated>
       <workItem from="1555768050142" duration="5355000" />
       <workItem from="1555852501868" duration="14748000" />
+      <workItem from="1555937448807" duration="455000" />
+      <workItem from="1555937973180" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="Interceptor refactored to correct structure, expanded on visitor pattern functionality">
       <created>1555877308086</created>
@@ -583,12 +1054,49 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="20103000" />
+=======
+      <changelist id="8d9e46a0-913f-4f7c-90e9-6442532d50ba" name="Default" comment="" />
+      <created>1555782984125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555782984125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JsonObjectConverterTest_jsonObjectToAirport - 2019.04.20 at 20h 01m 46s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToAirport" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonObjectConverterTest_jsonObjectToFlight - 2019.04.20 at 19h 58m 07s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToFlight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonObjectConverterTest_jsonObjectToFlightDecorator - 2019.04.20 at 19h 43m 28s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToFlightDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonObjectConverterTest_jsonObjectToFlightDecorator - 2019.04.20 at 19h 50m 02s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToFlightDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonObjectConverterTest_jsonObjectToFlightDecorator - 2019.04.20 at 19h 50m 17s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToFlightDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonObjectConverterTest_jsonObjectToFlightDecorator - 2019.04.20 at 19h 50m 52s.xml">
+      <configuration name="JsonObjectConverterTest.jsonObjectToFlightDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="insertRequestHandlerTest - 2019.04.20 at 19h 06m 46s.xml">
+      <configuration name="insertRequestHandlerTest" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+    <option name="totallyTimeSpent" value="22392000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,17 +1111,15 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.089025326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.323868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26400614" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26400614" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40234375" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12695312" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -623,8 +1129,78 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
+=======
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40234375" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
     </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -634,12 +1210,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Interceptor refactored to correct structure, expanded on visitor pattern functionality" />
     <option name="LAST_COMMIT_MESSAGE" value="Interceptor refactored to correct structure, expanded on visitor pattern functionality" />
+=======
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/control/CustomerAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -648,22 +1230,44 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/java/account/EmployeeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/APIs.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/account/VisitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/IMainMenuCoordinator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -685,27 +1289,70 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/LoginCoordinator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10650">
+          <caret line="618" column="10" lean-forward="false" selection-start-line="618" selection-start-column="10" selection-end-line="618" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reservation/HotelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/model/HotelSearchModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/CustomerAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/account/FactoryProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,14 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/view/MainMenuFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,15 +1388,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 2/Software-Design-and-Architecture-Project 2.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 3/Software-Design-and-Architecture-Project 3.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 4/Software-Design-and-Architecture-Project 4.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 5/Software-Design-and-Architecture-Project 5.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 6/Software-Design-and-Architecture-Project 6.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/Software-Design-and-Architecture-Project 7.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 7/html/main_report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/model/LoginModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,17 +1456,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="2048">
           <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
+=======
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 8/Software-Design-and-Architecture-Project 8.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
+=======
+        <state relative-caret-position="0">
+          <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/memento/CareTaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,42 +1504,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/MainMenuFrameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -857,14 +1518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/ConcreteLogMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/ConcreteLogMessage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/control/UserControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -885,15 +1539,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/routeCalculation/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/account/AirlineEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,14 +1564,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/account/CancellationsVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        <state relative-caret-position="416">
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -917,6 +1579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+<<<<<<< Updated upstream
           <folding />
         </state>
       </provider>
@@ -925,10 +1588,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/JsonObjectConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/NewLoggingDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -942,9 +1624,13 @@
         <state relative-caret-position="128">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/NewLoggingDispatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/NewLoggingInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -953,37 +1639,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="320">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,22 +1670,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="608">
+          <caret line="38" column="69" lean-forward="false" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="752">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1018,7 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +1718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1726,7 @@
         <state relative-caret-position="339">
           <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1061,8 +1736,69 @@
         <state relative-caret-position="687">
           <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToFileApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/MainMenuFrameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/view/MainMenuFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/LoginCoordinator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,5 +1852,47 @@
       <option name="useAntialiasedConnectors" value="true" />
       <option name="packageNameCompressionLevel" value="2" />
     </Packagediagram>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/JsonObjectConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Accounts/Accounts.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/background services/background services.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project/Software-Design-and-Architecture-Project.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codemr/Software-Design-and-Architecture-Project 1/Software-Design-and-Architecture-Project 1.mdl">
+      <provider selected="true" editor-type-id="CodeMR.Model">
+        <state />
+      </provider>
+    </entry>
+>>>>>>> a676c39acfdeb09833ce5836cda6d45ed4adfae4
   </component>
 </project>
