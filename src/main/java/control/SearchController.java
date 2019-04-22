@@ -3,6 +3,9 @@ package control;
 import backgroundServices.API_Handlers.getRequestHandler;
 import org.json.JSONObject;
 import routeCalculation.*;
+import routeCalculation.CostBasedCalculation;
+import routeCalculation.RouteCalculationStrategy;
+import routeCalculation.TimeBasedCalculation;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -26,12 +29,12 @@ public class SearchController {
         retrieveAirports();
     }
 
-    public ArrayList<Route> searchForFlight(Airport departure, Airport destination, Date departureDate, boolean costBased) {
-        int searchType = costBased ? 0 : 1;
-        Grapher g = new Grapher(searchType);
-        g.startCalculation(departure, airports, departureDate);
-        ArrayList<Route> routeToDestination =  g.calculateTraceBack(destination);
-        return routeToDestination;
+    public ArrayList<Route> searchForRoute(Airport departure, Airport destination, Date departureDate, boolean costBased) {
+        RouteCalculationStrategy [] arrayOfStrategies = {new CostBasedCalculation(), new TimeBasedCalculation()};
+        RouteCalculationStrategy routeCalculation;
+        int calculationType = costBased ? 0 : 1;
+        routeCalculation = arrayOfStrategies[calculationType];
+        return routeCalculation.calculateBestRouteToDestination(departure,destination,departureDate,airports);
     }
 
     public void routeCalculation(int searchType) {
