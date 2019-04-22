@@ -21,6 +21,22 @@ title __MODEL's Class Diagram__\n
 
   package  {
     package ui.model {
+      class BookingCheckoutTableModel {
+          - columnNames : String[]
+          + BookingCheckoutTableModel()
+          + getRowCount()
+          + getColumnCount()
+          + getValueAt()
+          - getListOfNamesAndTotal()
+          - getListOfCostsAndTotal()
+          - getListOfTypesAndTotal()
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
       class FlightSearchModel {
           {static} + AIRPORT_PROPERTY : String
           - support : PropertyChangeSupport
@@ -63,6 +79,32 @@ title __MODEL's Class Diagram__\n
 
   package  {
     package ui.model {
+      class HotelSearchModel {
+          - hotels : ArrayList<Hotel>
+          + HotelSearchModel()
+          + getTableModel()
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class HotelSearchTableModel {
+          - columnNames : String[]
+          ~ hotels : List<Hotel>
+          + HotelSearchTableModel()
+          + getRowCount()
+          + getColumnCount()
+          + getColumnName()
+          + getValueAt()
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
       class LoginModel {
           - username : String
           - password : String
@@ -86,6 +128,9 @@ title __MODEL's Class Diagram__\n
           + setEmail()
           + setPassword()
           + createUser()
+          + getUserName()
+          + getEmail()
+          + getPassword()
       }
     }
   }
@@ -103,10 +148,14 @@ title __MODEL's Class Diagram__\n
   
 
   AirportComboBoxModel -up-|> ComboBoxModel
+  BookingCheckoutTableModel -up-|> AbstractTableModel
+  BookingCheckoutTableModel o-- Booking : bookings
   FlightSearchModel o-- SearchController : searchController
   FlightSearchModel o-- Airport : departureAirport
   FlightSearchModel o-- Airport : destinationAirport
   FlightSearchResultsTableModel -up-|> AbstractTableModel
+  HotelSearchModel o-- Airport : destination
+  HotelSearchTableModel -up-|> AbstractTableModel
   LoginModel o-- Validator : validator
   RegisterModel o-- Validator : validator
 

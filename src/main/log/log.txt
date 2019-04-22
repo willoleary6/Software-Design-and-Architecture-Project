@@ -1,0 +1,38 @@
+user id: 26, username: will, Logged in at 2019/04/21 22:31:43
+
+user id: 26, username: will, logged out at 2019/04/21 22:31:45
+
+user id: 26, username: will, Logged in at 2019/04/21 22:32:02
+
+user id: 26, username: will, logged out at 2019/04/21 22:32:04
+user id: 26, username: will, Logged in at 2019/04/21 22:44:31
+
+user id: 26, username: will, logged out at 2019/04/21 22:44:34
+user id: 2, username: basicAirlineEmployee, Logged in at 2019/04/21 22:44:47
+
+user id: 2, AirlineID: 1, username: basicAirlineEmployee, Flight canceledflightID: 12 at 2019/04/21 22:45:05
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:18:45
+
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:20:09
+
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:23:00
+
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:24:31
+
+user id: 2, username: basicAirlineEmployee, msg: Logged in at 2019/04/21 23:38:29
+
+user id: 2, AirlineID: 1, username: basicAirlineEmployee, msg: Flight canceled flightID: 4 at 2019/04/21 23:38:49
+user id: 2, username: basicAirlineEmployee, msg:  Booking confirmed at 2019/04/21 23:39:46
+user id: 2, username: basicAirlineEmployee, msg: Logged out at 2019/04/21 23:39:55
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:44:10
+
+user id: 26, username: will, msg:  Booking confirmed at 2019/04/21 23:44:23
+user id: 26, username: will, msg: Logged in at 2019/04/21 23:45:14
+
+user id: 26, username: will, msg:  [AS23534: Shannon - Standstead, SP132: Standstead - Paris] Booking confirmed at 2019/04/21 23:45:32
+user id: 26, username: will, msg: Logged in at 2019/04/22 01:08:24
+
+user id: 26, username: will, msg: Logged out at 2019/04/22 01:08:35
+user id: 26, username: will, msg: Logged in at 2019/04/22 01:12:42
+
+user id: 26, username: will, msg: Logged out at 2019/04/22 01:12:45

@@ -4,7 +4,7 @@ import ui.controller.ViewController;
 
 abstract class BaseCoordinator {
 
-    private ViewController currentViewController;
+    ViewController currentViewController;
 
     void setViewController(ViewController controller) {
         if (controller != null) {

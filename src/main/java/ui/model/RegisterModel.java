@@ -44,4 +44,16 @@ public class RegisterModel {
     public void createUser() {
         UIController.shared.register(userName, password, email,0);
     }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
 }

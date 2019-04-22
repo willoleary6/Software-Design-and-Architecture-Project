@@ -93,6 +93,7 @@ public class GetRequestHandler implements GetRequest {
         }
     }
 
+
     /**
      * Method that retrieves a users information by using that user's id number.
      * @param id integer number acting as a unique identifier
@@ -163,6 +164,23 @@ public class GetRequestHandler implements GetRequest {
         try {
             HttpResponse<String> jsonResponse =
                     Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getHotelsByAirportID"))
+                            .header("accept", "application/json")
+                            .body("" +
+                                    "{" +
+                                    "\"id\":\""+id+"\"" +
+                                    "}"
+                            )
+                            .asString();
+            apiResponse =  new JSONObject(jsonResponse.getBody());
+        } catch (UnirestException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void getBookingByID(int id){
+        try {
+            HttpResponse<String> jsonResponse =
+                    Unirest.post(apiProperties.getProperty("getUrl")+apiProperties.getProperty("getBookingByID"))
                             .header("accept", "application/json")
                             .body("" +
                                     "{" +

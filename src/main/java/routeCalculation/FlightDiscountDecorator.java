@@ -2,10 +2,12 @@ package routeCalculation;
 
 public class FlightDiscountDecorator extends EdgeDecorator {
     private double discountOnFlight;
+
     public FlightDiscountDecorator(Flight flightToBeDiscounted, double discountOnFlight){
         super.decoratedEdge = flightToBeDiscounted;
         this.discountOnFlight = discountOnFlight/100;
     }
+
     public Flight getFlight(){
         return (Flight) super.decoratedEdge;
     }

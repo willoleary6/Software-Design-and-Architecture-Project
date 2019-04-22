@@ -30,4 +30,13 @@ class insertRequestHandlerTest {
         assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
     }
 
+    @Test
+    void disableBookingByID() {
+        insertRequestHandler disableBookingTest = new insertRequestHandler();
+        disableBookingTest.disableBookingByID(1);
+        JSONObject[] responseKeys = disableBookingTest.getApiResponseResults();
+        assertEquals(Arrays.toString(responseKeys), "[{\"result\":\"\"}]");
+    }
+
+
 }

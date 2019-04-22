@@ -1,0 +1,873 @@
+@startuml
+
+title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
+
+  package  {
+    package control {
+      class AirlineAccountController {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class AirlineEmployee {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class Airport {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class AirportComboBoxModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      interface ApiRequestHandler {
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      class Application {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.coordinator {
+      abstract class BaseCoordinator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      abstract class BaseFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      interface Booking {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class BookingCheckoutController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class BookingCheckoutFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class BookingCheckoutTableModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      class BookingComposite {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class CancellationsVisitor {
+      }
+    }
+  }
+  
+
+  package  {
+    package memento {
+      class CareTaker {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      package booking.compositePrototype {
+        class CompositeDemo {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      class ConcreteFrameWork {
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      class ConcreteInterceptor {
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      class Context {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class CostBasedCalculation {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class Customer {
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
+      class CustomerAccountController {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class CustomerFactory {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      package booking.compositePrototype {
+        interface Department {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      class Dispatcher {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      interface Edge {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class EdgeDecorator {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class EmployeeFactory {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      abstract class Factory {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class FactoryProducer {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      package booking.compositePrototype {
+        class FinancialDepartment {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class Flight {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      class FlightBooking {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class FlightDiscountDecorator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class FlightSearchFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class FlightSearchFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class FlightSearchModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class FlightSearchResultsController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class FlightSearchResultsFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class FlightSearchResultsTableModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      package booking.compositePrototype {
+        class HeadDepartment {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package reservation {
+      class Hotel {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      class HotelBooking {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class HotelSearchFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class HotelSearchModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class HotelSearchResultsController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class HotelSearchTableModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package reservation {
+      class HotelService {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.coordinator {
+      interface ILoginCoordinator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.coordinator {
+      interface IMainMenuCoordinator {
+      }
+    }
+  }
+  
+
+  package  {
+    package prototypes.interceptor {
+      interface Interceptor {
+      }
+    }
+  }
+  
+
+  package  {
+    package Utilities {
+      class JsonObjectConverter {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LogToFileApp {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LogToFileInterceptor {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LogToServerApp {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LogToServerInterceptor {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LoggingContext {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class LoggingDispatcher {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      interface LoggingInterceptor {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.coordinator {
+      class LoginCoordinator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class LoginFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class LoginFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class LoginModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class LoyaltyPoints {
+      }
+    }
+  }
+  
+
+  package  {
+    class Main {
+    }
+  }
+  
+
+  package  {
+    package ui.coordinator {
+      class MainMenuCoordinator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class MainMenuFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class MainMenuFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package memento {
+      interface Memento {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      interface Node {
+      }
+    }
+  }
+  
+
+  package  {
+    package memento {
+      interface Originator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class RegisterFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class RegisterFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package memento {
+      class RegisterMemento {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class RegisterModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class Route {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      interface RouteCalculationLambdaFunctions {
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      interface RouteCalculationStrategy {
+      }
+    }
+  }
+  
+
+  package  {
+    package booking {
+      package booking.compositePrototype {
+        class SalesDepartment {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
+      class SearchController {
+      }
+    }
+  }
+  
+
+  package  {
+    class TDD {
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class TimeBasedCalculation {
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
+      class UIController {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      abstract class User {
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
+      class UserControl {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      interface UserVisitable {
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      interface UserVisitor {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.model {
+      class Validator {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      interface ViewController {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.view {
+      class WelcomeFrame {
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class WelcomeFrameController {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      class getRequestHandler {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      class insertRequestHandler {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.resourceReader {
+      class reader {
+      }
+    }
+  }
+  
+
+  AirlineAccountController o-- AirlineEmployee : currentUser
+  AirlineAccountController o-- SearchController : search
+  AirlineEmployee -up-|> UserVisitable
+  AirlineEmployee -up-|> User
+  Airport -up-|> Comparable
+  Airport -up-|> Node
+  AirportComboBoxModel -up-|> ComboBoxModel
+  BaseCoordinator o-- ViewController : currentViewController
+  BaseFrameController -up-|> ViewController
+  BookingCheckoutController -up-|> BaseFrameController
+  BookingCheckoutController o-- IMainMenuCoordinator : coordinator
+  BookingCheckoutController o-- Booking : reservations
+  BookingCheckoutFrame -up-|> JFrame
+  BookingCheckoutTableModel -up-|> AbstractTableModel
+  BookingCheckoutTableModel o-- Booking : bookings
+  BookingComposite -up-|> Booking
+  CancellationsVisitor -up-|> UserVisitor
+  ConcreteInterceptor -up-|> Interceptor
+  CostBasedCalculation -up-|> RouteCalculationStrategy
+  CostBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationsLambdaFunctions
+  Customer -up-|> UserVisitable
+  Customer -up-|> User
+  Customer o-- LoyaltyPoints : points
+  CustomerAccountController o-- Customer : currentUser
+  CustomerAccountController o-- SearchController : search
+  CustomerFactory -up-|> Factory
+  Dispatcher -up-|> Interceptor
+  EdgeDecorator -up-|> Edge
+  EdgeDecorator o-- Edge : decoratedEdge
+  EmployeeFactory -up-|> Factory
+  FinancialDepartment -up-|> Department
+  Flight -up-|> Edge
+  FlightBooking -up-|> Booking
+  FlightDiscountDecorator -up-|> EdgeDecorator
+  FlightSearchFrame -up-|> JFrame
+  FlightSearchFrameController -up-|> PropertyChangeListener
+  FlightSearchFrameController -up-|> BaseFrameController
+  FlightSearchFrameController o-- IMainMenuCoordinator : coordinator
+  FlightSearchFrameController o-- FlightSearchModel : model
+  FlightSearchModel o-- SearchController : searchController
+  FlightSearchModel o-- Airport : departureAirport
+  FlightSearchModel o-- Airport : destinationAirport
+  FlightSearchResultsController -up-|> BaseFrameController
+  FlightSearchResultsController o-- Booking : reservations
+  FlightSearchResultsController o-- IMainMenuCoordinator : coordinator
+  FlightSearchResultsFrame -up-|> JFrame
+  FlightSearchResultsTableModel -up-|> AbstractTableModel
+  HeadDepartment -up-|> Department
+  HotelBooking -up-|> Booking
+  HotelSearchFrame -up-|> JFrame
+  HotelSearchModel o-- Airport : destination
+  HotelSearchResultsController -up-|> BaseFrameController
+  HotelSearchResultsController o-- IMainMenuCoordinator : coordinator
+  HotelSearchResultsController o-- HotelSearchModel : model
+  HotelSearchResultsController o-- Booking : reservations
+  HotelSearchTableModel -up-|> AbstractTableModel
+  JsonObjectConverter o-- getRequestHandler : dbHandler
+  LogToFileInterceptor -up-|> LoggingInterceptor
+  LogToServerInterceptor -up-|> LoggingInterceptor
+  LoggingDispatcher -up-|> LoggingInterceptor
+  LoginCoordinator -up-|> ILoginCoordinator
+  LoginCoordinator -up-|> BaseCoordinator
+  LoginCoordinator o-- CareTaker : careTaker
+  LoginFrame -up-|> JFrame
+  LoginFrameController -up-|> BaseFrameController
+  LoginFrameController o-- ILoginCoordinator : coordinator
+  LoginFrameController o-- LoginModel : model
+  LoginModel o-- Validator : validator
+  MainMenuCoordinator -up-|> IMainMenuCoordinator
+  MainMenuCoordinator -up-|> BaseCoordinator
+  MainMenuFrame -up-|> JFrame
+  MainMenuFrameController -up-|> BaseFrameController
+  MainMenuFrameController o-- IMainMenuCoordinator : coordinator
+  RegisterFrame -up-|> JFrame
+  RegisterFrameController -up-|> Originator
+  RegisterFrameController -up-|> BaseFrameController
+  RegisterFrameController o-- ILoginCoordinator : coordinator
+  RegisterFrameController o-- RegisterModel : model
+  RegisterMemento -up-|> Memento
+  RegisterModel o-- Validator : validator
+  Route o-- Airport : destination
+  Route o-- Airport : origin
+  Route o-- Edge : discountedFlight
+  SalesDepartment -up-|> Department
+  SearchController o-- getRequestHandler : dbHandler
+  SearchController o-- JsonObjectConverter : jsonObjectConverter
+  TimeBasedCalculation -up-|> RouteCalculationStrategy
+  TimeBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationLambdaFunctions
+  UIController o-- User : currentUser
+  UIController o-- UserControl : userCon
+  UserControl o-- Factory : factory
+  UserControl o-- FactoryProducer : prodcuer
+  UserControl o-- getRequestHandler : dbPullHandler
+  UserControl o-- insertRequestHandler : dbInsertHandler
+  WelcomeFrame -up-|> JFrame
+  WelcomeFrameController -up-|> BaseFrameController
+  WelcomeFrameController o-- ILoginCoordinator : coordinator
+  getRequestHandler -up-|> ApiRequestHandler
+  getRequestHandler o-- reader : myReader
+  insertRequestHandler -up-|> ApiRequestHandler
+  insertRequestHandler o-- reader : myReader
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

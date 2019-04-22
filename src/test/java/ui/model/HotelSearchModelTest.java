@@ -15,7 +15,7 @@ class HotelSearchModelTest {
     @Test
     void getTableModel() {
         HotelSearchModel testModel = new HotelSearchModel(new Airport(1, "test"));
-        List<Hotel> hotelList = Arrays.asList(new Hotel[]{new Hotel("test", 1, 1, new JSONObject("{}"))});
+        List<Hotel> hotelList = Arrays.asList(new Hotel[]{new Hotel("test3", 1,70, 1, new JSONObject("{}"))});
         assertEquals(testModel.getTableModel().hotels.get(0).getHotelName(), hotelList.get(0).getHotelName());
     }
 }

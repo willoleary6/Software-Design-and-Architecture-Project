@@ -1,5 +1,8 @@
 package ui.controller;
 
+import memento.Memento;
+import memento.Originator;
+import memento.RegisterMemento;
 import ui.coordinator.ILoginCoordinator;
 import ui.model.RegisterModel;
 import ui.view.RegisterFrame;
@@ -9,7 +12,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.security.InvalidParameterException;
 
-public class RegisterFrameController extends BaseFrameController {
+public class RegisterFrameController extends BaseFrameController implements Originator {
     private ILoginCoordinator coordinator;
     private RegisterModel model;
     private JTextField usernameField;
@@ -40,8 +43,27 @@ public class RegisterFrameController extends BaseFrameController {
     }
 
     private void initListeners() {
-        backButton.addActionListener(e -> coordinator.start());
+        backButton.addActionListener(e -> coordinator.goBackToWelcome());
         signUpButton.addActionListener(new SignUpButtonListener());
+    }
+
+    @Override
+    public void restore(Memento m) {
+        RegisterMemento memento = (RegisterMemento) m;
+        usernameField.setText(memento.getUsername());
+        emailField.setText(memento.getEmail());
+        passwordField1.setText(memento.getPassword());
+        passwordField2.setText(memento.getConfirmPassword());
+    }
+
+    @Override
+    public Memento createMemento() {
+        RegisterMemento memento = new RegisterMemento();
+        memento.setUsername(usernameField.getText());
+        memento.setEmail(emailField.getText());
+        memento.setPassword(passwordField1.getText());
+        memento.setConfirmPassword(passwordField2.getText());
+        return memento;
     }
 
     private class SignUpButtonListener implements ActionListener {

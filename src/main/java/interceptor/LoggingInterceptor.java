@@ -1,5 +1,8 @@
 package interceptor;
 
 public interface LoggingInterceptor {
-    void onLogRequest(LogMessage context);
+    void logIn(LoggingContext context);
+    void logOut(LoggingContext context);
+    void accountChange(LoggingContext context);
+    void bookingMade(LoggingContext context);
 }

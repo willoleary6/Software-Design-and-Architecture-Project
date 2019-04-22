@@ -6,8 +6,24 @@ title __ACCOUNT's Class Diagram__\n
     package account {
       class AirlineEmployee {
           - airlineID : int
+          - airlineFlights : ArrayList<Flight>
           + AirlineEmployee()
           + getAirlineID()
+          + populateFlights()
+          + showFlights()
+          + accept()
+          + getFlightsNumbers()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class CancellationsVisitor {
+          + visit()
+          + visit()
+          - createContext()
       }
     }
   }
@@ -18,6 +34,45 @@ title __ACCOUNT's Class Diagram__\n
       class Customer {
           + Customer()
           + getPoints()
+          + accept()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class CustomerFactory {
+          + CustomerFactory()
+          + createUser()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class EmployeeFactory {
+          + EmployeeFactory()
+          + createUser()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      abstract class Factory {
+          {abstract} + createUser()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      class FactoryProducer {
+          + produceFactory()
       }
     }
   }
@@ -31,16 +86,6 @@ title __ACCOUNT's Class Diagram__\n
           + getNumOfPoints()
           + getValueOfPointsInEuro()
           + updatePoints()
-      }
-    }
-  }
-  
-
-  package  {
-    package account {
-      class SimpleUserFactory {
-          + SimpleUserFactory()
-          + createUser()
       }
     }
   }
@@ -63,9 +108,33 @@ title __ACCOUNT's Class Diagram__\n
   }
   
 
+  package  {
+    package account {
+      interface UserVisitable {
+          {abstract} + accept()
+      }
+    }
+  }
+  
+
+  package  {
+    package account {
+      interface UserVisitor {
+          {abstract} + visit()
+          {abstract} + visit()
+      }
+    }
+  }
+  
+
+  AirlineEmployee -up-|> UserVisitable
   AirlineEmployee -up-|> User
+  CancellationsVisitor -up-|> UserVisitor
+  Customer -up-|> UserVisitable
   Customer -up-|> User
   Customer o-- LoyaltyPoints : points
+  CustomerFactory -up-|> Factory
+  EmployeeFactory -up-|> Factory
 
 
 right footer

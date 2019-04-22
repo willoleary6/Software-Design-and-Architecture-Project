@@ -5,11 +5,13 @@ import org.json.JSONObject;
 public class Hotel {
     private String hotelName;
     private int airportID;
+    private double price;
     private int liaisonUserID;
     private HotelService [] additionalServices;
 
-    public Hotel(String hotelName, int airportID, int liaisonUserID, JSONObject extendedDataInJSON){
+    public Hotel(String hotelName, int airportID, double price, int liaisonUserID, JSONObject extendedDataInJSON){
         this.hotelName = hotelName;
+        this.price = price;
         this.airportID = airportID;
         this.liaisonUserID = liaisonUserID;
         this.additionalServices = extractAdditionalServicesFromExtendedDataInJSON(extendedDataInJSON);
@@ -62,4 +64,7 @@ public class Hotel {
     }
 
 
+    public double getPrice() {
+        return price;
+    }
 }

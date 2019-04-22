@@ -1,5 +1,8 @@
 package ui.controller;
 
+import memento.CareTaker;
+import memento.Memento;
+import memento.Originator;
 import routeCalculation.Airport;
 import routeCalculation.Route;
 import ui.coordinator.IMainMenuCoordinator;
@@ -15,7 +18,7 @@ import java.beans.PropertyChangeListener;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-public class FlightSearchFrameController extends BaseFrameController implements PropertyChangeListener {
+public class FlightSearchFrameController extends BaseFrameController implements PropertyChangeListener{
     private IMainMenuCoordinator coordinator;
     private JComboBox departureComboBox;
     private JComboBox destinationComboBox;
@@ -31,6 +34,11 @@ public class FlightSearchFrameController extends BaseFrameController implements 
         initComponents();
         initListeners();
         this.model = new FlightSearchModel(this);
+
+        // debug
+        departureComboBox.setSelectedIndex(0);
+        destinationComboBox.setSelectedIndex(4);
+        departureDateField.setText("26/04/2019");
     }
 
     private void initComponents() {
@@ -60,19 +68,23 @@ public class FlightSearchFrameController extends BaseFrameController implements 
         destinationComboBox.setModel(boxModel2);
     }
 
+    private void setModelDetails() {
+        try {
+            model.setDepartureDate(departureDateField.getText());
+            model.setDepartureAirport((Airport) departureComboBox.getSelectedItem());
+            model.setDestinationAirport((Airport) destinationComboBox.getSelectedItem());
+            model.setCostBased(costRadioButton.isSelected());
+        } catch (ParseException exception) {
+            System.out.print(exception);
+        }
+    }
+
     private class SearchFlightButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            try {
-                model.setDepartureDate(departureDateField.getText());
-                model.setDepartureAirport((Airport) departureComboBox.getSelectedItem());
-                model.setDestinationAirport((Airport) destinationComboBox.getSelectedItem());
-                model.setCostBased(costRadioButton.isSelected());
-                ArrayList<Route> route = model.searchForFlight();
-                coordinator.goToFlightSearchResults(route);
-            } catch (ParseException exception) {
-                System.out.print(exception);
-            }
+            setModelDetails();
+            ArrayList<Route> route = model.searchForFlight();
+            coordinator.goToFlightSearchResults(route);
         }
     }
 }

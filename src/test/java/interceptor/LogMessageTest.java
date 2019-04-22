@@ -1,4 +1,4 @@
-package interceptor;
+/*package interceptor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -43,4 +43,4 @@ class ConcreteLogMessageTest {
         String trueResult = "";
         assertEquals(trueResult, result);
     }
-}
+}*/

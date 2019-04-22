@@ -1,46 +1,37 @@
 package control;
 
-import account.CustomerFactory;
-import account.EmployeeFactory;
-import account.Factory;
-import account.User;
-import backgroundServices.API_Handlers.APIRequest;
-import backgroundServices.API_Handlers.GetRequest;
-import backgroundServices.API_Handlers.GetRequestHandler;
-import backgroundServices.API_Handlers.adapter.InsertRequestHandler;
-import backgroundServices.API_Handlers.adapter.OtherAPIRequestAdapter;
+import account.*;
+import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.insertRequestHandler;
 import org.json.JSONObject;
 
 public class UserControl {
 
     private Factory factory;
+    private FactoryProducer prodcuer;
     // simple factory pattern implemented to support extensibility of user types and to better manage dependencies
-    private GetRequestHandler dbPullHandler;
-    private APIRequest dbInsertHandler;
-
+    private getRequestHandler dbPullHandler;
+    private insertRequestHandler dbInsertHandler;
 
 
     public UserControl(){
-        // dbPullHandler = new GetRequestHandler();
-        dbPullHandler = new GetRequestHandler();
-        dbInsertHandler = new APIRequest();
-        dbInsertHandler.makeRequest(new OtherAPIRequestAdapter(new InsertRequestHandler()));
+        prodcuer = new FactoryProducer();
+        dbPullHandler = new getRequestHandler();
+        dbInsertHandler = new insertRequestHandler();
     }
 
+    /**
+     * Method that sets the user factory by using the factory producer based on the user type
+     * then uses the user factory to create the user and return it
+     */
     public User getUser(String username, String password){
         dbPullHandler.getUserInformation(username,password);
         try {
             JSONObject[] obj = dbPullHandler.getApiResponseResults();
+            // check credentials match then passes type to factory producer and passes object to factor
             if(obj[0].get("password").equals(password) && obj[0].get("username").equals(username)) {
-                if(obj[0].getInt("userType") == 0) {
-                    factory = new CustomerFactory();
-                    return factory.createUser(obj[0]);
-                }
-                else if (obj[0].getInt("userType") == 1){
-                    factory = new EmployeeFactory();
-                    return factory.createUser(obj[0]);
-                } else
-                    return null;
+                factory = prodcuer.produceFactory(obj[0].getInt("userType"));
+                return factory.createUser(obj[0]);
             }
             else {
                 return null;

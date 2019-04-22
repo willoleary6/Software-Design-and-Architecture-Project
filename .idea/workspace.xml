@@ -1,41 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a524fc81-cd57-4f80-9647-58743b94a0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/aaron.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/APIRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequestAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/ApiRequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/InsertRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/RequestAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/RequestType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/UserControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java" afterDir="false" />
+    <list default="true" id="dbc8cc93-f01a-4c83-8f12-c68615bd2569" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utilities.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/booking/booking.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/compositePrototype.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/memento/memento.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prototypes/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reservation/reservation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/routeCalculation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/account/account.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/API_Handlers.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/booking/booking.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/control/control.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/java.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/reservation/reservation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/model/model.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/view/view.plantuml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/account.plantuml" afterPath="$PROJECT_DIR$/src/main/java/account/account.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/API_Handlers.plantuml" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/API_Handlers.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/resourceReader.plantuml" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/resourceReader.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/control.plantuml" afterPath="$PROJECT_DIR$/src/main/java/control/control.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java.plantuml" afterPath="$PROJECT_DIR$/src/main/java/java.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/controller/controller.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/controller/controller.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/coordinator/coordinator.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/coordinator/coordinator.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/model/model.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/model/model.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/view/view.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/view/view.plantuml" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/getRequestHandlerTest.java">
+    <leaf>
+      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="900">
+              <caret line="63" column="57" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#585#594#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#2033#2058#0" expanded="true" />
+                <element signature="e#2565#2573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AirlineAccountController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/account/EmployeeFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,265 +80,73 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequest.java">
+      <file leaf-file-name="HotelServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
+      <file leaf-file-name="SearchControllerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequestHandler.java">
+      <file leaf-file-name="Software-Design-and-Architecture-Project.plantuml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequestAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/control/UserControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/APIRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-765">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="175">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ui/view/HotelSearchFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reservation/HotelService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/controller/HotelSearchResultsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/controller/FlightSearchResultsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/coordinator/MainMenuCoordinator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/view/HotelSearchFrameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/model/HotelSearchModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/model/HotelSearchModelTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/model/HotelSearchTableModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/model/HotelSearchTableModelTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/Context.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/Interceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/Dispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/ConcreteInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototypes/interceptor/ConcreteFrameWork.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/LoggingInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/LogMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interceptor/LogMessageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/ConcreteLogMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/LoggingDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interceptor/LoggingDispatcherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/interceptor/LogToServerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/controller/LoginFrameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/APIs.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/getRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/insertRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/GetRequestHandlerAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/RequestType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/ApiRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/RequestAdapter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/adapter/RequestAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/RequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/InsertRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/OtherAPIRequestAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/APIRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequestAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/APIRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/control/UserControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Software-Design-and-Architecture-Project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
-              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
-              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
-              <item name="adapter" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="reservation" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,7 +157,7 @@
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -338,7 +183,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -346,86 +191,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
+              <item name="routeCalculation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552402313013" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="backgroundServices.API_Handlers.adapter" />
-      <recent name="interceptor" />
-      <recent name="ui.model" />
-      <recent name="ui.view" />
-      <recent name="reservation" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="backgroundServices.API_Handlers" />
-      <recent name="backgroundServices.API_Handlers.adapter" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\SourceCode\Software-Design-and-Architecture-Project\src\main\java\backgroundServices\resourceReader" />
-      <recent name="C:\SourceCode\Software-Design-and-Architecture-Project\src\main" />
-      <recent name="C:\SourceCode\Software-Design-and-Architecture-Project\src\main\java" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -439,821 +213,232 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Software-Design-and-Architecture-Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <envs />
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interceptor.main" />
-      <module name="Software-Design-and-Architecture-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interceptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
-    <configuration name="HotelSearchModelTest.getTableModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Design-and-Architecture-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui.model" />
-      <option name="MAIN_CLASS_NAME" value="ui.model.HotelSearchModelTest" />
-      <option name="METHOD_NAME" value="getTableModel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="insertRequestHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Design-and-Architecture-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backgroundServices.API_Handlers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backgroundServices.API_Handlers" />
-      <option name="MAIN_CLASS_NAME" value="backgroundServices.API_Handlers.insertRequestHandlerTest" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
-    <configuration name="insertRequestHandlerTest.addNewLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Design-and-Architecture-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backgroundServices.API_Handlers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backgroundServices.API_Handlers" />
-      <option name="MAIN_CLASS_NAME" value="backgroundServices.API_Handlers.insertRequestHandlerTest" />
-      <option name="METHOD_NAME" value="addNewLog" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="JUnit.insertRequestHandlerTest.addNewLog" />
-      <item itemvalue="JUnit.insertRequestHandlerTest" />
-      <item itemvalue="JUnit.HotelSearchModelTest.getTableModel" />
-    </list>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HotelSearchModelTest.getTableModel" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.insertRequestHandlerTest" />
-        <item itemvalue="JUnit.insertRequestHandlerTest.addNewLog" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a524fc81-cd57-4f80-9647-58743b94a0a6" name="Default Changelist" comment="" />
-      <created>1550334926077</created>
+      <changelist id="dbc8cc93-f01a-4c83-8f12-c68615bd2569" name="Default" comment="" />
+      <created>1555960539086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550334926077</updated>
-      <workItem from="1552399409404" duration="71000" />
-      <workItem from="1552399501930" duration="2765000" />
-      <workItem from="1555439506896" duration="10360000" />
+      <updated>1555960539086</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 13m 14s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 14m 01s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 15m 24s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 15m 39s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 16m 19s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 16m 52s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 17m 26s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="insertRequestHandlerTest_addNewLog - 2019.04.13 at 16h 18m 24s.xml">
-      <configuration name="insertRequestHandlerTest.addNewLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelSearchModelTest_getTableModel - 2019.04.16 at 19h 33m 04s.xml">
-      <configuration name="HotelSearchModelTest.getTableModel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HotelSearchModelTest_getTableModel - 2019.04.17 at 18h 30m 41s.xml">
-      <configuration name="HotelSearchModelTest.getTableModel" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25377000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3448819" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Code Iris" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Database" order="11" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7485411" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41527987" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3448819" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Code Iris" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Database" order="11" />
-    </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototypes/interceptor/ConcreteInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="250">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototypes/interceptor/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="900">
+          <caret line="63" column="57" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#585#594#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#2033#2058#0" expanded="true" />
+            <element signature="e#2565#2573#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototypes/interceptor/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="575">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogToServer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/account/EmployeeFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/ConcreteLogMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LogMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/LoggingInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reservation/HotelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reservation/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="98" />
+        <state relative-caret-position="225">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="525">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/LoyaltyPoints.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="350">
+          <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TDD.java">
+    <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="175">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequestHandlerAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/GetRequestHandlerAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/EmployeeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/booking/BookingComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/LoginFrameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/model/LoginModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/UIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/view/LoginFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/LoginCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/BaseCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/coordinator/ILoginCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/RequestType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/GetRequestHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/adapter/RequestHandlerAdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/AirlineEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/backgroundServices.API_Handlers.GetRequestHandler">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>backgroundServices.API_Handlers.GetRequestHandler</OriginalElement>
-          <nodes>
-            <node x="" y="">backgroundServices.API_Handlers.ApiRequestHandler</node>
-            <node x="" y="">backgroundServices.API_Handlers.GetRequestHandler</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="91.0" y="52.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/backgroundServices.API_Handlers.adapter.RequestHandlerAdapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>backgroundServices.API_Handlers.adapter.RequestHandlerAdapter</OriginalElement>
-          <nodes>
-            <node x="122.0" y="0.0">backgroundServices.API_Handlers.ApiRequestHandler</node>
-            <node x="0.0" y="0.0">backgroundServices.API_Handlers.Request</node>
-            <node x="25.0" y="77.0">backgroundServices.API_Handlers.adapter.RequestHandlerAdapter</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="backgroundServices.API_Handlers.adapter.RequestHandlerAdapter" target="backgroundServices.API_Handlers.Request">
-              <point x="-53.5" y="-13.5" />
-              <point x="78.5" y="52.0" />
-              <point x="51.0" y="52.0" />
-              <point x="0.0" y="13.5" />
-            </edge>
-            <edge source="backgroundServices.API_Handlers.adapter.RequestHandlerAdapter" target="backgroundServices.API_Handlers.ApiRequestHandler">
-              <point x="53.5" y="-13.5" />
-              <point x="185.5" y="52.0" />
-              <point x="213.0" y="52.0" />
-              <point x="0.0" y="13.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-136.5" y="12.0" />
-          <SelectedNodes>
-            <node>backgroundServices.API_Handlers.adapter.RequestHandlerAdapter</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/backgroundServices.API_Handlers">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>backgroundServices.API_Handlers</OriginalElement>
-          <nodes>
-            <node x="" y="">backgroundServices.API_Handlers.getRequestHandlerTest</node>
-            <node x="" y="">backgroundServices.API_Handlers.ApiRequestHandler</node>
-            <node x="" y="">backgroundServices.API_Handlers.Request</node>
-            <node x="" y="">backgroundServices.API_Handlers.insertRequestHandlerTest</node>
-            <node x="" y="">backgroundServices.API_Handlers.adapter</node>
-            <node x="" y="">backgroundServices.API_Handlers.GetRequestHandler</node>
-            <node x="" y="">backgroundServices.API_Handlers.InsertRequestHandler</node>
-            <node x="" y="">backgroundServices.API_Handlers.RequestHandler</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="88.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/backgroundServices.API_Handlers.adapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>backgroundServices.API_Handlers.adapter</OriginalElement>
-          <nodes>
-            <node x="" y="">backgroundServices.API_Handlers.adapter.RequestType</node>
-            <node x="" y="">backgroundServices.API_Handlers.adapter.RequestHandlerAdapter</node>
-            <node x="" y="">backgroundServices.API_Handlers.adapter.RequestHandlerAdapterTest</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="85.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">interceptor.main</node>
-            <node x="" y="">prototypes.interceptor.Context</node>
-            <node x="" y="">booking.Booking</node>
-            <node x="" y="">routeCalculation.FlightDayAndTimeToDateLambdaFunctions</node>
-            <node x="" y="">routeCalculation.FlightDiscountDecorator</node>
-            <node x="" y="">backgroundServices.API_Handlers.RequestHandler</node>
-            <node x="" y="">backgroundServices.resourceReader</node>
-            <node x="" y="">interceptor.LogToServerTest</node>
-            <node x="" y="">reservation.HotelServiceTest</node>
-            <node x="" y="">routeCalculation.GrapherState</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">ui</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">interceptor.LoggingDispatcher</node>
-            <node x="" y="">interceptor.LogMessage</node>
-            <node x="" y="">backgroundServices.API_Handlers.getRequestHandlerTest</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">routeCalculation.Edge</node>
-            <node x="" y="">backgroundServices.API_Handlers.adapter</node>
-            <node x="" y="">mozilla</node>
-            <node x="" y="">routeCalculation.TimeGrapherState</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">backgroundServices.API_Handlers.insertRequestHandlerTest</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">routeCalculation.Route</node>
-            <node x="" y="">backgroundServices.API_Handlers.GetRequestHandler</node>
-            <node x="" y="">backgroundServices.API_Handlers.InsertRequestHandler</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">groovyjarjarantlr</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">prototypes.interceptor.ConcreteInterceptor</node>
-            <node x="" y="">interceptor.LoggingDispatcherTest</node>
-            <node x="" y="">reservation.Hotel</node>
-            <node x="" y="">prototypes.interceptor.ConcreteFrameWork</node>
-            <node x="" y="">interceptor.LogToServer</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">interceptor.ConcreteLogMessageTest</node>
-            <node x="" y="">backgroundServices.API_Handlers.ApiRequestHandler</node>
-            <node x="" y="">reservation.HotelTest</node>
-            <node x="" y="">TDD</node>
-            <node x="" y="">reservation.HotelService</node>
-            <node x="" y="">routeCalculation.EdgeDecorator</node>
-            <node x="" y="">routeCalculation.MoneyGrapherState</node>
-            <node x="" y="">routeCalculation.TraceBackGrapherState</node>
-            <node x="" y="">prototypes.interceptor.Application</node>
-            <node x="" y="">backgroundServices.API_Handlers.Request</node>
-            <node x="" y="">routeCalculation.GrapherLambdaFunctions</node>
-            <node x="" y="">org</node>
-            <node x="" y="">prototypes.interceptor.Interceptor</node>
-            <node x="" y="">control</node>
-            <node x="" y="">interceptor.ConcreteLogMessage</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">interceptor.LoggingInterceptor</node>
-            <node x="" y="">booking.BookingComposite</node>
-            <node x="" y="">routeCalculation.Flight</node>
-            <node x="" y="">routeCalculation.Grapher</node>
-            <node x="" y="">prototypes.interceptor.Dispatcher</node>
-            <node x="" y="">routeCalculation.Airport</node>
-            <node x="" y="">routeCalculation.Node</node>
-            <node x="" y="">TDDTest</node>
-            <node x="" y="">Main</node>
-            <node x="" y="">account</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.898876404494382" x="579.9562500000001" y="575.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/ApiRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/getRequestHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/GetRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/APIRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/OtherAPIRequestAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/adapter/InsertRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/UserControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Software-Design-and-Architecture-Project</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.apiguardian:apiguardian-api:1.0.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

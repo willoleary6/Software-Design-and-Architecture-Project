@@ -9,5 +9,8 @@
         <module name="Software-Design-and-Architecture-Project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Software-Design-and-Architecture-Project" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

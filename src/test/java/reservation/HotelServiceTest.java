@@ -15,7 +15,7 @@ class HotelServiceTest {
     @Test
     void getPrice() {
         HotelService testHotelService = new HotelService("test", 20.05, "test description");
-        assertEquals(testHotelService.getPrice(), 20.05);
+        assertEquals(java.util.Optional.ofNullable(testHotelService.getPrice()), 20.05);
     }
 
     @Test

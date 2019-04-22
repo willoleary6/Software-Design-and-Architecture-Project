@@ -4,19 +4,37 @@ title __CONTROL's Class Diagram__\n
 
   package  {
     package control {
+      class AirlineAccountController {
+          + AirlineAccountController()
+          # populateEmployeeFlights()
+          - filterFlights()
+          - cancelFlight()
+          + displayMenu()
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
+      class CustomerAccountController {
+          + CustomerAccountController()
+          # populateEmployeeFlights()
+      }
+    }
+  }
+  
+
+  package  {
+    package control {
       class SearchController {
           - airports : ArrayList<Airport>
           + SearchController()
-          + searchForFlight()
-          + routeCalculation()
+          + searchForRoute()
           + getAirports()
-          - convertFlightTimeToDate()
-          - convertStringToMinutes()
           + retrieveAirports()
-          - retrieveFlights()
-          - jsonObjectToFlight()
-          - retrieveDiscountByFlightID()
-          - jsonObjectToAirport()
+          - retrieveFlightsFromServerByAirport()
+          + retrieveAllFlightsFromServer()
       }
     }
   }
@@ -31,10 +49,9 @@ title __CONTROL's Class Diagram__\n
           + UIController()
           + logIn()
           + register()
-          + searchForFlights()
-          + applyDiscount()
           + logout()
-          + checkForHigherAccess()
+          + accountControl()
+          + createLoggingContext()
       }
     }
   }
@@ -53,11 +70,16 @@ title __CONTROL's Class Diagram__\n
   }
   
 
+  AirlineAccountController o-- AirlineEmployee : currentUser
+  AirlineAccountController o-- SearchController : search
+  CustomerAccountController o-- Customer : currentUser
+  CustomerAccountController o-- SearchController : search
   SearchController o-- getRequestHandler : dbHandler
-  SearchController o-- Grapher : shortestPath
+  SearchController o-- JsonObjectConverter : jsonObjectConverter
   UIController o-- User : currentUser
   UIController o-- UserControl : userCon
-  UserControl o-- SimpleUserFactory : userFactory
+  UserControl o-- Factory : factory
+  UserControl o-- FactoryProducer : prodcuer
   UserControl o-- getRequestHandler : dbPullHandler
   UserControl o-- insertRequestHandler : dbInsertHandler
 

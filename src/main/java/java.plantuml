@@ -9,6 +9,14 @@ title __JAVA's Class Diagram__\n
   }
   
 
+  package  {
+    class TDD {
+        {static} + main()
+        {static} + getText()
+    }
+  }
+  
+
 
 
 right footer

@@ -25,6 +25,16 @@ title __ROUTECALCULATION's Class Diagram__\n
 
   package  {
     package routeCalculation {
+      class CostBasedCalculation {
+          + CostBasedCalculation()
+          + calculateBestRouteToDestination()
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
       interface Edge {
           {abstract} + getOrigin()
           {abstract} + getTarget()
@@ -71,17 +81,7 @@ title __ROUTECALCULATION's Class Diagram__\n
           + getWeight()
           + getFlightID()
           + setCost()
-      }
-    }
-  }
-  
-
-  package  {
-    package routeCalculation {
-      interface FlightDayAndTimeToDateLambdaFunctions {
-          {abstract} + initialise()
-          + convertFlightTimeToDate()
-          + convertStringToMinutes()
+          + toString()
       }
     }
   }
@@ -94,56 +94,6 @@ title __ROUTECALCULATION's Class Diagram__\n
           + FlightDiscountDecorator()
           + getFlight()
           + getWeight()
-      }
-    }
-  }
-  
-
-  package  {
-    package routeCalculation {
-      class Grapher {
-          - states : GrapherState[]
-          + Grapher()
-          + setGrapherState()
-          + startCalculation()
-          + calculateTraceBack()
-      }
-    }
-  }
-  
-
-  package  {
-    package routeCalculation {
-      interface GrapherLambdaFunctions {
-          {abstract} + initialise()
-          + eliminateDuplicateTargets()
-          + checkForDuplicate()
-          + calculateCostOfTraceBack()
-          + getRouteWithSpecifiedDestination()
-          + getAirportByID()
-      }
-    }
-  }
-  
-
-  package  {
-    package routeCalculation {
-      interface GrapherState {
-          {abstract} + startCalculation()
-          {abstract} + calculateTraceBack()
-      }
-    }
-  }
-  
-
-  package  {
-    package routeCalculation {
-      class MoneyGrapherState {
-          - routes : ArrayList<Route>
-          + MoneyGrapherState()
-          + startCalculation()
-          + calculateTraceBack()
-          - computeShortestRouteToEveryAirport()
       }
     }
   }
@@ -176,12 +126,15 @@ title __ROUTECALCULATION's Class Diagram__\n
 
   package  {
     package routeCalculation {
-      class TimeGrapherState {
-          - routes : ArrayList<Route>
-          + TimeGrapherState()
-          + startCalculation()
-          + calculateTraceBack()
-          - computeShortestRouteToEveryAirport()
+      interface RouteCalculationLambdaFunctions {
+          {abstract} + initialise()
+          + eliminateDuplicateTargets()
+          + checkForDuplicate()
+          + calculateCostOfTraceBack()
+          + getRouteWithSpecifiedDestination()
+          + getAirportByID()
+          + convertFlightTimeToDate()
+          + convertStringToMinutes()
       }
     }
   }
@@ -189,11 +142,18 @@ title __ROUTECALCULATION's Class Diagram__\n
 
   package  {
     package routeCalculation {
-      class TraceBackGrapherState {
-          - routes : ArrayList<Route>
-          + TraceBackGrapherState()
-          + startCalculation()
-          + calculateTraceBack()
+      interface RouteCalculationStrategy {
+          {abstract} + calculateBestRouteToDestination()
+      }
+    }
+  }
+  
+
+  package  {
+    package routeCalculation {
+      class TimeBasedCalculation {
+          + TimeBasedCalculation()
+          + calculateBestRouteToDestination()
       }
     }
   }
@@ -201,24 +161,17 @@ title __ROUTECALCULATION's Class Diagram__\n
 
   Airport -up-|> Comparable
   Airport -up-|> Node
+  CostBasedCalculation -up-|> RouteCalculationStrategy
+  CostBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationsLambdaFunctions
   EdgeDecorator -up-|> Edge
   EdgeDecorator o-- Edge : decoratedEdge
   Flight -up-|> Edge
   FlightDiscountDecorator -up-|> EdgeDecorator
-  Grapher o-- GrapherState : grapher
-  MoneyGrapherState -up-|> GrapherState
-  MoneyGrapherState o-- GrapherLambdaFunctions : grapherLambdaFunctions
-  MoneyGrapherState o-- Grapher : currentGrapherState
   Route o-- Airport : destination
   Route o-- Airport : origin
   Route o-- Edge : discountedFlight
-  TimeGrapherState -up-|> GrapherState
-  TimeGrapherState o-- GrapherLambdaFunctions : grapherLambdaFunctions
-  TimeGrapherState o-- FlightDayAndTimeToDateLambdaFunctions : flightDayAndTimeToDateLambdaFunctions
-  TimeGrapherState o-- Grapher : currentGrapherState
-  TraceBackGrapherState -up-|> GrapherState
-  TraceBackGrapherState o-- GrapherLambdaFunctions : grapherLambdaFunctions
-  TraceBackGrapherState o-- Airport : start
+  TimeBasedCalculation -up-|> RouteCalculationStrategy
+  TimeBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationLambdaFunctions
 
 
 right footer

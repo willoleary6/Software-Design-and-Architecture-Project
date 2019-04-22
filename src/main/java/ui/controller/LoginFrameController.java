@@ -21,6 +21,11 @@ public class LoginFrameController extends BaseFrameController {
         model = new LoginModel();
         initComponents();
         initListeners();
+
+
+        // debug options
+        usernameField.setText("will");
+        passwordField.setText("pass");
     }
 
     private void initComponents() {

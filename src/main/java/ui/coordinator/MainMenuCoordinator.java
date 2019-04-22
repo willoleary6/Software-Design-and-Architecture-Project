@@ -1,16 +1,20 @@
 package ui.coordinator;
 
 
+import control.UIController;
+import memento.CareTaker;
+import memento.Memento;
+import booking.Booking;
+import booking.BookingComposite;
+import reservation.Hotel;
 import routeCalculation.Airport;
 import routeCalculation.Route;
-import ui.controller.FlightSearchFrameController;
-import ui.controller.FlightSearchResultsController;
-import ui.controller.HotelSearchResultsController;
-import ui.controller.MainMenuFrameController;
+import ui.controller.*;
 import ui.view.HotelSearchFrame;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoordinator {
 
@@ -33,11 +37,17 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
             ILoginCoordinator loginCoordinator = new LoginCoordinator();
             loginCoordinator.start();
             setViewController(null);
+            UIController.shared.logout();
         }
     }
 
     @Override
     public void goToFlightSearch() {
+        FlightSearchFrameController flightSearch = new FlightSearchFrameController(this);
+        setViewController(flightSearch);
+    }
+
+    public void goBackToFlightSearch() {
         FlightSearchFrameController flightSearch = new FlightSearchFrameController(this);
         setViewController(flightSearch);
     }
@@ -49,8 +59,14 @@ public class MainMenuCoordinator extends BaseCoordinator implements IMainMenuCoo
     }
     
     @Override
-    public void goToHotelSearchResults(Airport destination) {
-        HotelSearchResultsController hotelSearchResults = new HotelSearchResultsController(this, destination);
+    public void goToHotelSearchResults(ArrayList<Route> routes) {
+        HotelSearchResultsController hotelSearchResults = new HotelSearchResultsController(this, routes);
         setViewController(hotelSearchResults);
+    }
+
+    @Override
+    public void goToBookingConfirmScreen(Booking reservations) {
+        BookingCheckoutController bookingCheckoutController = new BookingCheckoutController(this, reservations);
+        setViewController(bookingCheckoutController);
     }
 }
