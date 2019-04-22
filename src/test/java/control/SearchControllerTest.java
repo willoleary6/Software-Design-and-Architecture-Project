@@ -16,7 +16,7 @@ class SearchControllerTest {
         dbHandler.getAllFlights();
         JSONObject[] response = dbHandler.getApiResponseResults();
         System.out.print(response[1]);
-        assertEquals(response.length, search.retrieveAllFlightsFromServer().size());
+        assertEquals(response.length, search.retrieveAllFlights().size());
     }
 
 
