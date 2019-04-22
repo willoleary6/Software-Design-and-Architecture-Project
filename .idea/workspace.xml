@@ -2,121 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc8cc93-f01a-4c83-8f12-c68615bd2569" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_0_M1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_0_M1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_0_M1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_0_M1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utilities.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/booking/booking.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/booking/compositePrototype/compositePrototype.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/memento/memento.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prototypes/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/reservation/reservation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/routeCalculation/routeCalculation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/account/account.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/API_Handlers.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/booking/booking.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/control/control.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/interceptor/interceptor.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/java.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/reservation/reservation.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/model/model.plantuml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/view/view.plantuml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.iml" afterPath="$PROJECT_DIR$/Software-Design-and-Architecture-Project.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/control/AirlineAccountController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/control/SearchController.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TDD.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/JsonObjectConverter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/AirlineEmployee.class" afterPath="$PROJECT_DIR$/target/classes/account/AirlineEmployee.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/Customer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/CustomerFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/EmployeeFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/Factory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/FactoryProducer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/LoyaltyPoints.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/UserVisitable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account/UserVisitor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/ApiRequestHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/getRequestHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/insertRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/backgroundServices/API_Handlers/insertRequestHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backgroundServices/resourceReader/reader.class" afterPath="$PROJECT_DIR$/target/classes/backgroundServices/resourceReader/reader.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/booking/Booking.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/booking/BookingComposite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/SearchController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/UIController.class" afterPath="$PROJECT_DIR$/target/classes/control/UIController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/UserControl.class" afterPath="$PROJECT_DIR$/target/classes/control/UserControl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/ConcreteLogMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LogMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LogToServer.class" afterPath="$PROJECT_DIR$/target/classes/interceptor/LogToServer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LoggingDispatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/LoggingInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/main$1.class" afterPath="$PROJECT_DIR$/target/classes/interceptor/main$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/main.class" afterPath="$PROJECT_DIR$/target/classes/interceptor/main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/Application.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/ConcreteFrameWork.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/ConcreteInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/Context.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/Dispatcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototypes/interceptor/Interceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reservation/Hotel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reservation/HotelService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Airport.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Edge.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/EdgeDecorator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Flight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/FlightDiscountDecorator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Node.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/routeCalculation/Route.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/BaseFrameController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController$SearchFlightButtonListener.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController$SearchFlightButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/FlightSearchResultsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/HotelSearchResultsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController$LoginButtonListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/LoginFrameController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/MainMenuFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/MainMenuFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController$SignUpButtonListener.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController$SignUpButtonListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController.class" afterPath="$PROJECT_DIR$/target/classes/ui/controller/RegisterFrameController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/ViewController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/WelcomeFrameController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/BaseCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/BaseCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/ILoginCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/ILoginCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/IMainMenuCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/IMainMenuCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/LoginCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/LoginCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/coordinator/MainMenuCoordinator.class" afterPath="$PROJECT_DIR$/target/classes/ui/coordinator/MainMenuCoordinator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/AirportComboBoxModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/FlightSearchResultsTableModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/HotelSearchTableModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/LoginModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/RegisterModel.class" afterPath="$PROJECT_DIR$/target/classes/ui/model/RegisterModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/model/Validator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchResultsFrame.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/FlightSearchResultsFrame.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/HotelSearchFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/LoginFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/LoginFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame$1.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame.class" afterPath="$PROJECT_DIR$/target/classes/ui/view/MainMenuFrame.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/RegisterFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/RegisterFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/WelcomeFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/view/WelcomeFrame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TDDTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/account/CustomerFactoryTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/account/EmployeeFactoryTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/account/FactoryProducerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/account/VisitorTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/backgroundServices/API_Handlers/insertRequestHandlerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/control/SearchControllerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/ConcreteLogMessageTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/LogToServerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/LoggingDispatcherTest$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/LoggingDispatcherTest$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/interceptor/LoggingDispatcherTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reservation/HotelServiceTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reservation/HotelTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/model/HotelSearchModelTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/model/HotelSearchTableModelTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/view/HotelSearchFrameTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ui/view/HotelSearchFrameTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/account.plantuml" afterPath="$PROJECT_DIR$/src/main/java/account/account.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/API_Handlers.plantuml" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/API_Handlers.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/resourceReader.plantuml" afterPath="$PROJECT_DIR$/src/main/java/backgroundServices/resourceReader/resourceReader.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/control.plantuml" afterPath="$PROJECT_DIR$/src/main/java/control/control.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java.plantuml" afterPath="$PROJECT_DIR$/src/main/java/java.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/controller/controller.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/controller/controller.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/coordinator/coordinator.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/coordinator/coordinator.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/model/model.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/model/model.plantuml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/view/view.plantuml" afterPath="$PROJECT_DIR$/src/main/java/ui/view/view.plantuml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,17 +84,27 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Software-Design-and-Architecture-Project.plantuml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -412,7 +335,7 @@
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7485411" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CodeMR Metrics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -423,9 +346,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CodeMR" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,7 +419,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -505,6 +428,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -15,6 +15,20 @@ title __CONTROLLER's Class Diagram__\n
 
   package  {
     package ui.controller {
+      class BookingCheckoutController {
+          - BookingCheckoutTable : JTable
+          - MainMenuButton : JButton
+          - ConfirmBookingButton : JButton
+          + BookingCheckoutController()
+          - initComponents()
+          - initListeners()
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
       class FlightSearchFrameController {
           - departureComboBox : JComboBox
           - destinationComboBox : JComboBox
@@ -27,6 +41,7 @@ title __CONTROLLER's Class Diagram__\n
           - initComponents()
           - initListeners()
           + propertyChange()
+          - setModelDetails()
       }
     }
   }
@@ -46,8 +61,27 @@ title __CONTROLLER's Class Diagram__\n
       class FlightSearchResultsController {
           - flightSearchResultsTable : JTable
           - bookFlightButton : JButton
+          - bookHotelButton : JButton
           - mainMenuButton : JButton
+          - routes : ArrayList<Route>
           + FlightSearchResultsController()
+          - initialiseComposite()
+          - initComponents()
+          - initListeners()
+      }
+    }
+  }
+  
+
+  package  {
+    package ui.controller {
+      class HotelSearchResultsController {
+          - routes : ArrayList<Route>
+          - hotelTable : JTable
+          - cancelButton : JButton
+          - bookHotelButton : JButton
+          + HotelSearchResultsController()
+          - initialiseComposite()
           - initComponents()
           - initListeners()
       }
@@ -89,6 +123,7 @@ title __CONTROLLER's Class Diagram__\n
           - logoutButton : JButton
           - usernameLabel : JLabel
           - availablePointsLabel : JLabel
+          - accountControlButton : JButton
           + MainMenuFrameController()
           - initComponents()
           - initListeners()
@@ -110,6 +145,8 @@ title __CONTROLLER's Class Diagram__\n
           + RegisterFrameController()
           - initComponents()
           - initListeners()
+          + restore()
+          + createMemento()
       }
     }
   }
@@ -148,6 +185,9 @@ title __CONTROLLER's Class Diagram__\n
   
 
   BaseFrameController -up-|> ViewController
+  BookingCheckoutController -up-|> BaseFrameController
+  BookingCheckoutController o-- IMainMenuCoordinator : coordinator
+  BookingCheckoutController o-- Booking : reservations
   FlightSearchFrameController -up-|> PropertyChangeListener
   FlightSearchFrameController -up-|> BaseFrameController
   FlightSearchFrameController o-- IMainMenuCoordinator : coordinator
@@ -155,7 +195,12 @@ title __CONTROLLER's Class Diagram__\n
   FlightSearchFrameController +-down- SearchFlightButtonListener
   SearchFlightButtonListener -up-|> ActionListener
   FlightSearchResultsController -up-|> BaseFrameController
+  FlightSearchResultsController o-- Booking : reservations
   FlightSearchResultsController o-- IMainMenuCoordinator : coordinator
+  HotelSearchResultsController -up-|> BaseFrameController
+  HotelSearchResultsController o-- IMainMenuCoordinator : coordinator
+  HotelSearchResultsController o-- HotelSearchModel : model
+  HotelSearchResultsController o-- Booking : reservations
   LoginFrameController -up-|> BaseFrameController
   LoginFrameController o-- ILoginCoordinator : coordinator
   LoginFrameController o-- LoginModel : model
@@ -163,6 +208,7 @@ title __CONTROLLER's Class Diagram__\n
   LoginButtonListener -up-|> ActionListener
   MainMenuFrameController -up-|> BaseFrameController
   MainMenuFrameController o-- IMainMenuCoordinator : coordinator
+  RegisterFrameController -up-|> Originator
   RegisterFrameController -up-|> BaseFrameController
   RegisterFrameController o-- ILoginCoordinator : coordinator
   RegisterFrameController o-- RegisterModel : model

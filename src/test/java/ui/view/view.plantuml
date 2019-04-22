@@ -1,18 +1,14 @@
 @startuml
 
-title __JAVA's Class Diagram__\n
+title __VIEW's Class Diagram__\n
 
   package  {
-    class Main {
-        {static} + main()
-    }
-  }
-  
-
-  package  {
-    class TDD {
-        {static} + main()
-        {static} + getText()
+    package ui.view {
+      class HotelSearchFrameTest {
+          ~ getHotelTable()
+          ~ getCancelButton()
+          ~ getBookHotelButton()
+      }
     }
   }
   

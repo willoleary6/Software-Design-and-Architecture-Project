@@ -1,21 +1,6 @@
 @startuml
 
-title __JAVA's Class Diagram__\n
-
-  package  {
-    class Main {
-        {static} + main()
-    }
-  }
-  
-
-  package  {
-    class TDD {
-        {static} + main()
-        {static} + getText()
-    }
-  }
-  
+title __INTERCEPTOR's Class Diagram__\n
 
 
 

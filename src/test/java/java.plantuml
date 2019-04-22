@@ -3,16 +3,11 @@
 title __JAVA's Class Diagram__\n
 
   package  {
-    class Main {
-        {static} + main()
-    }
-  }
-  
-
-  package  {
-    class TDD {
-        {static} + main()
-        {static} + getText()
+    class TDDTest {
+        ~ setUp()
+        ~ tearDown()
+        ~ main()
+        ~ getText()
     }
   }
   

@@ -18,6 +18,7 @@ title __COORDINATOR's Class Diagram__\n
           {abstract} + goToLogin()
           {abstract} + goToRegister()
           {abstract} + goToMainMenu()
+          {abstract} + goBackToWelcome()
       }
     }
   }
@@ -29,7 +30,10 @@ title __COORDINATOR's Class Diagram__\n
           {abstract} + start()
           {abstract} + logout()
           {abstract} + goToFlightSearch()
+          {abstract} + goBackToFlightSearch()
           {abstract} + goToFlightSearchResults()
+          {abstract} + goToHotelSearchResults()
+          {abstract} + goToBookingConfirmScreen()
       }
     }
   }
@@ -42,6 +46,7 @@ title __COORDINATOR's Class Diagram__\n
           + goToLogin()
           + goToRegister()
           + goToMainMenu()
+          + goBackToWelcome()
       }
     }
   }
@@ -53,7 +58,10 @@ title __COORDINATOR's Class Diagram__\n
           + start()
           + logout()
           + goToFlightSearch()
+          + goBackToFlightSearch()
           + goToFlightSearchResults()
+          + goToHotelSearchResults()
+          + goToBookingConfirmScreen()
       }
     }
   }
@@ -62,6 +70,7 @@ title __COORDINATOR's Class Diagram__\n
   BaseCoordinator o-- ViewController : currentViewController
   LoginCoordinator -up-|> ILoginCoordinator
   LoginCoordinator -up-|> BaseCoordinator
+  LoginCoordinator o-- CareTaker : careTaker
   MainMenuCoordinator -up-|> IMainMenuCoordinator
   MainMenuCoordinator -up-|> BaseCoordinator
 
