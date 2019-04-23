@@ -1,11 +1,12 @@
 package backgroundServices.API_Handlers.apiRequests.insertRequest;
 
+import backgroundServices.API_Handlers.apiRequests.OtherRequest;
 import backgroundServices.resourceReader.Reader;
 import org.json.JSONObject;
 
 import java.util.Properties;
 
-public abstract class InsertRequestHandler implements InsertRequestTest {
+public abstract class InsertRequestHandler implements OtherRequest {
     protected Reader myReader;
     protected Properties apiProperties;
     protected JSONObject apiResponse;
