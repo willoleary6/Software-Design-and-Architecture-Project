@@ -5,6 +5,7 @@ public class LoggingContext {
     private String username;
     private int airlineID;
     private int flightID;
+    private int bookingID;
     private String logMessage;
     private String extendedDataInJSON;
 
@@ -12,6 +13,14 @@ public class LoggingContext {
         this.userID = userID;
         this.logMessage = logMessage;
         this.username = username;
+        this.extendedDataInJSON = "";
+    }
+
+    public LoggingContext(int userID, String logMessage, String username, int bookingID){
+        this.userID = userID;
+        this.logMessage = logMessage;
+        this.username = username;
+        this.bookingID = bookingID;
         this.extendedDataInJSON = "";
     }
 

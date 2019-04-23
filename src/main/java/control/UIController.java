@@ -43,6 +43,11 @@ public class UIController {
         currentUser = null;
     }
 
+    public LoggingContext createLoggingContext(String msg) {
+        return new LoggingContext(currentUser.getUserID(), msg,
+                currentUser.getUserName());
+    }
+
     public void accountControl() {
         /**
          *  checks if the user is an airline employee thus giving access to cancellations and change system
@@ -55,8 +60,4 @@ public class UIController {
         }
     }
 
-    public LoggingContext createLoggingContext(String msg) {
-        return new LoggingContext(currentUser.getUserID(), msg,
-                currentUser.getUserName());
-    }
 }
