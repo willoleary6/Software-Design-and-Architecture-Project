@@ -1,7 +1,7 @@
 package backgroundServices.API_Handlers;
 
-import backgroundServices.API_Handlers.requests.get.GetBookingByID;
-import backgroundServices.API_Handlers.requests.get.GetHotelsByAirportID;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetBookingByID;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetHotelsByAirportID;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 

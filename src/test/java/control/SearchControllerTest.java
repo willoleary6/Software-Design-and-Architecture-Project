@@ -1,8 +1,7 @@
 package control;
 
 import backgroundServices.API_Handlers.APIRequest;
-import backgroundServices.API_Handlers.getRequestHandler;
-import backgroundServices.API_Handlers.requests.get.GetAllAirports;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetAllAirports;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 

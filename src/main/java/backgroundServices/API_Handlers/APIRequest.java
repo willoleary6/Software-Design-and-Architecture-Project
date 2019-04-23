@@ -1,8 +1,5 @@
 package backgroundServices.API_Handlers;
 
-import backgroundServices.API_Handlers.requests.adaptors.InsertRequestAdapter;
-import backgroundServices.API_Handlers.requests.get.GetRequestHandler;
-import backgroundServices.API_Handlers.requests.get.GetRequestTest;
 import backgroundServices.resourceReader.Reader;
 import org.json.JSONObject;
 
@@ -12,14 +9,14 @@ public class APIRequest {
     private final Reader myReader;
     private final Properties apiProperties;
     private JSONObject[] responseResult;
-    private GetRequestTest request;
+    private Request request;
 
     public APIRequest() {
         myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
 
-    public void makeRequest(GetRequestTest request) {
+    public void makeRequest(Request request) {
         this.request = request;
         this.request.makeRequest();
     }
@@ -28,7 +25,7 @@ public class APIRequest {
         return request.getApiResponseResults();
     }
 
-    public JSONObject[] getApiResponseResults() {
+    public String[] getApiResponseKeys() {
         return request.getApiResponseKeys();
     }
 }

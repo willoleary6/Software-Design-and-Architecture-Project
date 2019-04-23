@@ -1,10 +1,8 @@
 package interceptor;
 
-import backgroundServices.API_Handlers.insertRequestHandler;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.adaptors.InsertRequestAdapter;
+import backgroundServices.API_Handlers.apiRequests.insertRequest.AddNewLog;
 
 public class LogToServerInterceptor implements LoggingInterceptor{
 
@@ -14,12 +12,12 @@ public class LogToServerInterceptor implements LoggingInterceptor{
         messagesCache.add(newMessage);
         ArrayList<Boolean> messagesToRemoveFromCache = new ArrayList<>();
         for(int i = 0; i < messagesCache.size(); i++){
-            messagesToRemoveFromCache.add(logMessageToServer(messagesCache.get(i)));
+            messagesToRemoveFromCache.add(logMessageToServer(messagesCache.getRequest(i)));
         }
         int offsetCounter = 0;
         for(int j = 0; j < messagesToRemoveFromCache.size(); j++){
-            if (messagesToRemoveFromCache.get(j)){
-                messagesCache.remove(messagesCache.get(j + offsetCounter));
+            if (messagesToRemoveFromCache.getRequest(j)){
+                messagesCache.remove(messagesCache.getRequest(j + offsetCounter));
                 offsetCounter--;
             }
         }
@@ -27,13 +25,13 @@ public class LogToServerInterceptor implements LoggingInterceptor{
 
 
     private void logMessageToServer(LoggingContext context){
-        insertRequestHandler insertApiRequestHandler = new insertRequestHandler();
-        insertApiRequestHandler.addNewLog(
+        APIRequest insertApiRequestHandler = new APIRequest();
+        insertApiRequestHandler.makeRequest(new InsertRequestAdapter(new AddNewLog(
                 context.getUserID(),
                 1,
                 context.getLogMessage(),
                 context.getExtendedDataInJSON()
-        );
+        )));
         //JSONObject[] responseKeys = insertApiRequestHandler.getApiResponseResults();
         /*if(Arrays.toString(responseKeys).equals("[{\"result\":null}]")){
             return true;

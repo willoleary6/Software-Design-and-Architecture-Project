@@ -1,9 +1,9 @@
 package backgroundServices.API_Handlers;
 
 
-import backgroundServices.API_Handlers.requests.adaptors.InsertRequestAdapter;
-import backgroundServices.API_Handlers.requests.get.GetAllAirports;
-import backgroundServices.API_Handlers.requests.insert.insertRequests.AddNewUser;
+import backgroundServices.API_Handlers.apiRequests.adaptors.InsertRequestAdapter;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetAllAirports;
+import backgroundServices.API_Handlers.apiRequests.insertRequest.AddNewUser;
 
 public class AdapterMain {
     public static void main(String[] args) {

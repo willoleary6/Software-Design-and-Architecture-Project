@@ -1,8 +1,7 @@
 package Utilities;
 
 import backgroundServices.API_Handlers.APIRequest;
-import backgroundServices.API_Handlers.getRequestHandler;
-import backgroundServices.API_Handlers.requests.get.GetDiscountsByFlightID;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetDiscountsByFlightID;
 import org.json.JSONObject;
 import routeCalculation.Airport;
 import routeCalculation.Flight;
