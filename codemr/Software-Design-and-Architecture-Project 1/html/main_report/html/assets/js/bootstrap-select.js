@@ -98,7 +98,7 @@
                 $(window).on('resize', getSize);
         
                 if (window.MutationObserver) {
-                    new MutationObserver(getSize).observe(this.$element.get(0), {
+                    new MutationObserver(getSize).observe(backgroundServices.API_Handlers.apiRequests.getRequest(0), {
                         childList: true
                     });
                 } else {
@@ -114,7 +114,7 @@
 
             // Listen for updates to the DOM and re render... (Use Mutation Observer when availiable)
             if (window.MutationObserver) {
-                new MutationObserver($.proxy(this.reloadLi, this)).observe(this.$element.get(0), {
+                new MutationObserver($.proxy(this.reloadLi, this)).observe(backgroundServices.API_Handlers.apiRequests.getRequest(0), {
                     childList: true
                 });
             } else {
@@ -388,7 +388,7 @@
     };
 
     $.fn.selectpicker = function(option, event) {
-       //get the args of the outer function..
+       //getRequest the args of the outer function..
        var args = arguments;
        var value;
        var chain = this.each(function () {

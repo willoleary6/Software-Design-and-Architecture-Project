@@ -1,6 +1,7 @@
 package Utilities;
 
-import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetDiscountsByFlightID;
 import org.json.JSONObject;
 import routeCalculation.Airport;
 import routeCalculation.Flight;
@@ -12,10 +13,10 @@ import java.util.Date;
 import java.util.Locale;
 
 public class JsonObjectConverter {
-    private getRequestHandler dbHandler;
+    private APIRequest dbHandler;
 
     public JsonObjectConverter(){
-        dbHandler = new getRequestHandler();
+        dbHandler = new APIRequest();
     }
 
     public FlightDiscountDecorator jsonObjectToFlightDecorator(JSONObject jsonObject) {
@@ -54,7 +55,7 @@ public class JsonObjectConverter {
     }
 
     private double retrieveDiscountByFlightID(int flightID){
-        dbHandler.getDiscountsByFlightID(flightID);
+        dbHandler.makeRequest(new GetDiscountsByFlightID(flightID));
         try {
             JSONObject[] response = dbHandler.getApiResponseResults();
             Double percentageDiscount = 0.0;

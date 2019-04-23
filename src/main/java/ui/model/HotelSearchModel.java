@@ -1,12 +1,12 @@
 package ui.model;
 
-import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.getRequest.*;
 import org.json.JSONObject;
 import reservation.Hotel;
 import routeCalculation.Airport;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class HotelSearchModel {
@@ -14,8 +14,8 @@ public class HotelSearchModel {
     private Airport destination;
 
     public HotelSearchModel(Airport destination) {
-        getRequestHandler requestHandler = new getRequestHandler();
-        requestHandler.getHotelsByAirportID(destination.getAutoKey());
+        APIRequest requestHandler = new APIRequest();
+        requestHandler.makeRequest(new GetHotelsByAirportID(destination.getAutoKey()));
         JSONObject [] results = requestHandler.getApiResponseResults();
 
         for(int i = 0; i < results.length; i++){

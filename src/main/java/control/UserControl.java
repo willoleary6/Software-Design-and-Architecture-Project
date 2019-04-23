@@ -1,8 +1,10 @@
 package control;
 
 import account.*;
-import backgroundServices.API_Handlers.getRequestHandler;
-import backgroundServices.API_Handlers.insertRequestHandler;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.adaptors.InsertRequestAdapter;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetUserInformation;
+import backgroundServices.API_Handlers.apiRequests.insertRequest.AddNewUser;
 import org.json.JSONObject;
 
 public class UserControl {
@@ -10,22 +12,21 @@ public class UserControl {
     private Factory factory;
     private FactoryProducer prodcuer;
     // simple factory pattern implemented to support extensibility of user types and to better manage dependencies
-    private getRequestHandler dbPullHandler;
-    private insertRequestHandler dbInsertHandler;
+    private APIRequest dbPullHandler, dbInsertHandler;
 
 
     public UserControl(){
         prodcuer = new FactoryProducer();
-        dbPullHandler = new getRequestHandler();
-        dbInsertHandler = new insertRequestHandler();
+        dbPullHandler = new APIRequest();
+        dbInsertHandler = new APIRequest();
     }
 
     /**
      * Method that sets the user factory by using the factory producer based on the user type
      * then uses the user factory to create the user and return it
      */
-    public User getUser(String username, String password){
-        dbPullHandler.getUserInformation(username,password);
+    public User getUser(String username, String password) {
+        dbPullHandler.makeRequest(new GetUserInformation(username, password));
         try {
             JSONObject[] obj = dbPullHandler.getApiResponseResults();
             // check credentials match then passes type to factory producer and passes object to factor
@@ -41,8 +42,8 @@ public class UserControl {
         }
     }
 
-    public User createUser(String username, String password, String email, int userType){
-        dbInsertHandler.addNewUser(username, email, password);
+    public User createUser(String username, String password, String email, int userType) {
+        dbInsertHandler.makeRequest(new InsertRequestAdapter(new AddNewUser(username, email, password)));
         try {
             JSONObject[] obj = dbInsertHandler.getApiResponseResults();
             return getUser(username, password);

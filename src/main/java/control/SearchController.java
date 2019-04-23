@@ -1,7 +1,8 @@
 package control;
 
 import Utilities.JsonObjectConverter;
-import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.getRequest.*;
 import org.json.JSONObject;
 import routeCalculation.*;
 import routeCalculation.CostBasedCalculation;
@@ -14,12 +15,12 @@ import java.util.Date;
 //import routeCalculation.CostGrapher;
 
 public class SearchController {
-    private getRequestHandler dbHandler;
+    private APIRequest dbHandler;
     private JsonObjectConverter jsonObjectConverter;
     private ArrayList<Airport> airports = new ArrayList<Airport>();
 
     public SearchController(){
-        dbHandler = new getRequestHandler();
+        dbHandler = new APIRequest();
         jsonObjectConverter = new JsonObjectConverter();
         retrieveAirports();
     }
@@ -36,23 +37,23 @@ public class SearchController {
         return airports;
     }
 
-    public void retrieveAirports(){
-        dbHandler.getAllAirports();
+    public void retrieveAirports() {
+        dbHandler.makeRequest(new GetAllAirports());
         JSONObject[] response = dbHandler.getApiResponseResults();
         airports.clear();
-        for(int i = 0; i < response.length;i++) {
+        for(int i = 0; i < response.length; i++) {
             airports.add(jsonObjectConverter.jsonObjectToAirport(response[i]));
             airports.get(i).setFlightsDeparting(retrieveFlightsFromServerByAirport(airports.get(i).getAutoKey()));
         }
 
     }
 
-    private ArrayList<FlightDiscountDecorator> retrieveFlightsFromServerByAirport(int departureAirportID){
-        dbHandler.getFlightsByDepartureAirport(departureAirportID);
+    private ArrayList<FlightDiscountDecorator> retrieveFlightsFromServerByAirport(int departureAirportID) {
+        dbHandler.makeRequest(new GetFlightsByDepartureAirport(departureAirportID));
         ArrayList<FlightDiscountDecorator> flights = new ArrayList<FlightDiscountDecorator>();
         JSONObject[] response = dbHandler.getApiResponseResults();
-        for(int i = 0; i < response.length;i++) {
-            flights.add(jsonObjectConverter.jsonObjectToFlightDecorator(response[i]));
+        for (JSONObject jsonObject : response) {
+            flights.add(jsonObjectConverter.jsonObjectToFlightDecorator(jsonObject));
         }
         return flights;
     }
@@ -61,8 +62,8 @@ public class SearchController {
      *  method to retrieve all flights as opposed to flight decorator
      * @return all flights
      */
-    public ArrayList<Flight> retrieveAllFlightsFromServer(){
-        dbHandler.getAllFlights();
+    public ArrayList<Flight> retrieveAllFlightsFromServer() {
+        dbHandler.makeRequest(new GetAllFlights());
         ArrayList<Flight> flights = new ArrayList<Flight>();
         JSONObject[] response = dbHandler.getApiResponseResults();
         for(JSONObject i : response)

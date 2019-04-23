@@ -20,7 +20,7 @@ public class Hotel {
     private HotelService [] extractAdditionalServicesFromExtendedDataInJSON(JSONObject extendedDataInJSON){
         try{
 
-            // get the raw results data and remove any characters we cant play with.
+            // getRequest the raw results data and remove any characters we cant play with.
             String results = extendedDataInJSON.get("additional_services").toString()
                     .replaceAll("\\[", "").replaceAll("\\]", "");
             /*
