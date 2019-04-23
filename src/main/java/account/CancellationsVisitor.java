@@ -1,9 +1,9 @@
 package account;
 
+import backgroundServices.API_Handlers.apiRequests.adaptors.InsertRequestAdapter;
+import backgroundServices.API_Handlers.apiRequests.insertRequest.DisableBookingByID;
 import interceptor.LoggingContext;
 import interceptor.LoggingDispatcher;
-
-import backgroundServices.API_Handlers.insertRequestHandler;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class CancellationsVisitor implements UserVisitor {
                     try {
                         int bookingID = Integer.parseInt(input);
                         if (bookingID !=0) {
-                            new insertRequestHandler().disableBookingByID(bookingID);
+                            new InsertRequestAdapter(new DisableBookingByID(bookingID));
                             LoggingDispatcher.getInstanceOfDispatcher().accountChange(createUserContext(user,
                                     bookingID));
                             System.out.println("Booking canceled");

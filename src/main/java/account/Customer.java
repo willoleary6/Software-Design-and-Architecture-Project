@@ -1,6 +1,7 @@
 package account;
 
-import backgroundServices.API_Handlers.getRequestHandler;
+import backgroundServices.API_Handlers.APIRequest;
+import backgroundServices.API_Handlers.apiRequests.getRequest.GetBookingByID;
 import org.json.JSONObject;
 
 public class Customer extends User implements UserVisitable {
@@ -30,8 +31,8 @@ public class Customer extends User implements UserVisitable {
     }
 
     public boolean hasBookings(){
-        getRequestHandler dbPullHandler = new getRequestHandler();
-        dbPullHandler.getBookingByID(getUserID());
+        APIRequest dbPullHandler = new APIRequest();
+        dbPullHandler.makeRequest(new GetBookingByID(getUserID()));
         if(dbPullHandler.getApiResponseResults() == null)
             return false;
         else {
