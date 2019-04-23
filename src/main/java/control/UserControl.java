@@ -24,7 +24,7 @@ public class UserControl {
      * Method that sets the user factory by using the factory producer based on the user type
      * then uses the user factory to create the user and return it
      */
-    public User getUser(String username, String password){
+    public User getUser(String username, String password) {
         dbPullHandler.getUserInformation(username,password);
         try {
             JSONObject[] obj = dbPullHandler.getApiResponseResults();

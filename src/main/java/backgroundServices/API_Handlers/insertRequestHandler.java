@@ -1,6 +1,6 @@
 package backgroundServices.API_Handlers;
 
-import backgroundServices.API_Handlers.adapter.OtherAPIRequests;
+
 import backgroundServices.resourceReader.Reader;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
