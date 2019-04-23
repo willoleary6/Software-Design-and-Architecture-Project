@@ -5,13 +5,13 @@ title __CONTROL's Class Diagram__\n
   package  {
     package control {
       class SearchControllerTest {
-          ~ retriveAllFlights()
+          ~ retrieveAllFlights()
       }
     }
   }
   
 
-  SearchControllerTest o-- getRequestHandler : dbHandler
+  SearchControllerTest o-- APIRequest : dbHandler
   SearchControllerTest o-- SearchController : search
 
 

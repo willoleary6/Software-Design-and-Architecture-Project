@@ -3,6 +3,62 @@
 title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
 
   package  {
+    package backgroundServices.API_Handlers {
+      class APIRequest {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      class AdapterMain {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        class AddNewDiscount {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        class AddNewHotel {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        class AddNewLog {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        class AddNewUser {
+        }
+      }
+    }
+  }
+  
+
+  package  {
     package control {
       class AirlineAccountController {
       }
@@ -29,22 +85,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   package  {
     package ui.model {
       class AirportComboBoxModel {
-      }
-    }
-  }
-  
-
-  package  {
-    package backgroundServices.API_Handlers {
-      interface ApiRequestHandler {
-      }
-    }
-  }
-  
-
-  package  {
-    package prototypes.interceptor {
-      class Application {
       }
     }
   }
@@ -107,6 +147,14 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
+    package interceptor {
+      interface BookingInterceptor {
+      }
+    }
+  }
+  
+
+  package  {
     package account {
       class CancellationsVisitor {
       }
@@ -127,30 +175,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
       package booking.compositePrototype {
         class CompositeDemo {
         }
-      }
-    }
-  }
-  
-
-  package  {
-    package prototypes.interceptor {
-      class ConcreteFrameWork {
-      }
-    }
-  }
-  
-
-  package  {
-    package prototypes.interceptor {
-      class ConcreteInterceptor {
-      }
-    }
-  }
-  
-
-  package  {
-    package prototypes.interceptor {
-      class Context {
       }
     }
   }
@@ -199,8 +223,10 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
-    package prototypes.interceptor {
-      class Dispatcher {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        class DisableBookingByID {
+        }
       }
     }
   }
@@ -273,6 +299,14 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
+    package interceptor {
+      class FlightBookingContext {
+      }
+    }
+  }
+  
+
+  package  {
     package routeCalculation {
       class FlightDiscountDecorator {
       }
@@ -329,6 +363,94 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
+    package interceptor {
+      class FullBookingContext {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetAllAirports {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetAllFlights {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetBookingByID {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetDiscountsByFlightID {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetFlightsByDepartureAirport {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetHotelsByAirportID {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        abstract class GetRequestHandler {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.getRequest {
+        class GetUserInformation {
+        }
+      }
+    }
+  }
+  
+
+  package  {
     package booking {
       package booking.compositePrototype {
         class HeadDepartment {
@@ -349,6 +471,14 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   package  {
     package booking {
       class HotelBooking {
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class HotelBookingContext {
       }
     }
   }
@@ -411,8 +541,30 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
-    package prototypes.interceptor {
-      interface Interceptor {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.adaptors {
+        class InsertRequestAdapter {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        abstract class InsertRequestHandler {
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      package backgroundServices.API_Handlers.apiRequests.insertRequest {
+        interface InsertRequestTest {
+        }
       }
     }
   }
@@ -577,6 +729,14 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
+    package backgroundServices.resourceReader {
+      class Reader {
+      }
+    }
+  }
+  
+
+  package  {
     package ui.view {
       class RegisterFrame {
       }
@@ -603,6 +763,14 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   package  {
     package ui.model {
       class RegisterModel {
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      interface Request {
       }
     }
   }
@@ -736,30 +904,12 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   }
   
 
-  package  {
-    package backgroundServices.API_Handlers {
-      class getRequestHandler {
-      }
-    }
-  }
-  
-
-  package  {
-    package backgroundServices.API_Handlers {
-      class insertRequestHandler {
-      }
-    }
-  }
-  
-
-  package  {
-    package backgroundServices.resourceReader {
-      class reader {
-      }
-    }
-  }
-  
-
+  APIRequest o-- Reader : myReader
+  APIRequest o-- Request : request
+  AddNewDiscount -up-|> InsertRequestHandler
+  AddNewHotel -up-|> InsertRequestHandler
+  AddNewLog -up-|> InsertRequestHandler
+  AddNewUser -up-|> InsertRequestHandler
   AirlineAccountController o-- AirlineEmployee : currentUser
   AirlineAccountController o-- SearchController : search
   AirlineEmployee -up-|> UserVisitable
@@ -777,7 +927,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   BookingCheckoutTableModel o-- Booking : bookings
   BookingComposite -up-|> Booking
   CancellationsVisitor -up-|> UserVisitor
-  ConcreteInterceptor -up-|> Interceptor
   CostBasedCalculation -up-|> RouteCalculationStrategy
   CostBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationsLambdaFunctions
   Customer -up-|> UserVisitable
@@ -786,7 +935,7 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   CustomerAccountController o-- Customer : currentUser
   CustomerAccountController o-- SearchController : search
   CustomerFactory -up-|> Factory
-  Dispatcher -up-|> Interceptor
+  DisableBookingByID -up-|> InsertRequestHandler
   EdgeDecorator -up-|> Edge
   EdgeDecorator o-- Edge : decoratedEdge
   EmployeeFactory -up-|> Factory
@@ -807,6 +956,17 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   FlightSearchResultsController o-- IMainMenuCoordinator : coordinator
   FlightSearchResultsFrame -up-|> JFrame
   FlightSearchResultsTableModel -up-|> AbstractTableModel
+  FullBookingContext o-- FlightBookingContext : flightContext
+  FullBookingContext o-- HotelBookingContext : hotelContext
+  GetAllAirports -up-|> GetRequestHandler
+  GetAllFlights -up-|> GetRequestHandler
+  GetBookingByID -up-|> GetRequestHandler
+  GetDiscountsByFlightID -up-|> GetRequestHandler
+  GetFlightsByDepartureAirport -up-|> GetRequestHandler
+  GetHotelsByAirportID -up-|> GetRequestHandler
+  GetRequestHandler -up-|> Request
+  GetRequestHandler o-- Reader : myReader
+  GetUserInformation -up-|> GetRequestHandler
   HeadDepartment -up-|> Department
   HotelBooking -up-|> Booking
   HotelSearchFrame -up-|> JFrame
@@ -816,7 +976,11 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   HotelSearchResultsController o-- HotelSearchModel : model
   HotelSearchResultsController o-- Booking : reservations
   HotelSearchTableModel -up-|> AbstractTableModel
-  JsonObjectConverter o-- getRequestHandler : dbHandler
+  InsertRequestAdapter -up-|> Request
+  InsertRequestAdapter o-- InsertRequestHandler : insertRequest
+  InsertRequestHandler -up-|> InsertRequestTest
+  InsertRequestHandler o-- Reader : myReader
+  JsonObjectConverter o-- APIRequest : dbHandler
   LogToFileInterceptor -up-|> LoggingInterceptor
   LogToServerInterceptor -up-|> LoggingInterceptor
   LoggingDispatcher -up-|> LoggingInterceptor
@@ -844,7 +1008,7 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   Route o-- Airport : origin
   Route o-- Edge : discountedFlight
   SalesDepartment -up-|> Department
-  SearchController o-- getRequestHandler : dbHandler
+  SearchController o-- APIRequest : dbHandler
   SearchController o-- JsonObjectConverter : jsonObjectConverter
   TimeBasedCalculation -up-|> RouteCalculationStrategy
   TimeBasedCalculation o-- RouteCalculationLambdaFunctions : routeCalculationLambdaFunctions
@@ -852,15 +1016,11 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   UIController o-- UserControl : userCon
   UserControl o-- Factory : factory
   UserControl o-- FactoryProducer : prodcuer
-  UserControl o-- getRequestHandler : dbPullHandler
-  UserControl o-- insertRequestHandler : dbInsertHandler
+  UserControl o-- APIRequest : dbPullHandler
+  UserControl o-- APIRequest : dbInsertHandler
   WelcomeFrame -up-|> JFrame
   WelcomeFrameController -up-|> BaseFrameController
   WelcomeFrameController o-- ILoginCoordinator : coordinator
-  getRequestHandler -up-|> ApiRequestHandler
-  getRequestHandler o-- reader : myReader
-  insertRequestHandler -up-|> ApiRequestHandler
-  insertRequestHandler o-- reader : myReader
 
 
 right footer

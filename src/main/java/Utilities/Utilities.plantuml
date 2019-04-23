@@ -15,7 +15,7 @@ title __UTILITIES's Class Diagram__\n
   }
   
 
-  JsonObjectConverter o-- getRequestHandler : dbHandler
+  JsonObjectConverter o-- APIRequest : dbHandler
 
 
 right footer

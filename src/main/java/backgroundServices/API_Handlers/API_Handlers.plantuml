@@ -4,7 +4,31 @@ title __API_HANDLERS's Class Diagram__\n
 
   package  {
     package backgroundServices.API_Handlers {
-      interface ApiRequestHandler {
+      class APIRequest {
+          - apiProperties : Properties
+          - responseResult : JSONObject[]
+          + APIRequest()
+          + makeRequest()
+          + getApiResponseResults()
+          + getApiResponseKeys()
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      class AdapterMain {
+          {static} + main()
+      }
+    }
+  }
+  
+
+  package  {
+    package backgroundServices.API_Handlers {
+      interface Request {
+          {abstract} + makeRequest()
           {abstract} + getApiResponseResults()
           {abstract} + getApiResponseKeys()
       }
@@ -12,50 +36,8 @@ title __API_HANDLERS's Class Diagram__\n
   }
   
 
-  package  {
-    package backgroundServices.API_Handlers {
-      class getRequestHandler {
-          - apiProperties : Properties
-          - apiResponse : JSONObject
-          + getRequestHandler()
-          + getAllAirports()
-          + getAllFlights()
-          + getFlightsByDepartureAirport()
-          + getDiscountsByFlightID()
-          + getUserInformation()
-          + getUserInformation()
-          + getUserInformation()
-          + getHotelsByAirportID()
-          + getBookingByID()
-          + getApiResponseResults()
-          + getApiResponseKeys()
-      }
-    }
-  }
-  
-
-  package  {
-    package backgroundServices.API_Handlers {
-      class insertRequestHandler {
-          - apiProperties : Properties
-          - apiResponse : JSONObject
-          + insertRequestHandler()
-          + addNewUser()
-          + addNewHotel()
-          + addNewLog()
-          + addNewDiscount()
-          + disableBookingByID()
-          + getApiResponseResults()
-          + getApiResponseKeys()
-      }
-    }
-  }
-  
-
-  getRequestHandler -up-|> ApiRequestHandler
-  getRequestHandler o-- reader : myReader
-  insertRequestHandler -up-|> ApiRequestHandler
-  insertRequestHandler o-- reader : myReader
+  APIRequest o-- Reader : myReader
+  APIRequest o-- Request : request
 
 
 right footer

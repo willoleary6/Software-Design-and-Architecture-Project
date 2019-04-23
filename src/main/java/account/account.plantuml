@@ -23,7 +23,8 @@ title __ACCOUNT's Class Diagram__\n
       class CancellationsVisitor {
           + visit()
           + visit()
-          - createContext()
+          - createAirlineContext()
+          - createUserContext()
       }
     }
   }
@@ -32,9 +33,12 @@ title __ACCOUNT's Class Diagram__\n
   package  {
     package account {
       class Customer {
+          - bookings : JSONObject[]
           + Customer()
           + getPoints()
           + accept()
+          + showBookings()
+          + hasBookings()
       }
     }
   }

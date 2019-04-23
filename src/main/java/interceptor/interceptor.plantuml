@@ -4,6 +4,65 @@ title __INTERCEPTOR's Class Diagram__\n
 
   package  {
     package interceptor {
+      interface BookingInterceptor {
+          {abstract} + flightBooked()
+          {abstract} + hotelBooked()
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class FlightBookingContext {
+          - flightRoutes : ArrayList<String>
+          - flightCosts : ArrayList<Double>
+          - totalJourneyCost : Double
+          - dates : ArrayList<Date>
+          + FlightBookingContext()
+          + getFlightRoutes()
+          + getFlightCosts()
+          + getTotalJourneyCost()
+          + getDates()
+          + setDates()
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class FullBookingContext {
+          + FullBookingContext()
+          + getFlightContext()
+          + getHotelContext()
+          + getTotalCostOfTrip()
+          + getAllDetails()
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
+      class HotelBookingContext {
+          - hotels : ArrayList<String>
+          - hotelCosts : ArrayList<Double>
+          - totalHotelCost : Double
+          - dates : ArrayList<Date>
+          + HotelBookingContext()
+          + getHotels()
+          + getHotelCosts()
+          + getTotalHotelCost()
+          + getDates()
+          + setDates()
+      }
+    }
+  }
+  
+
+  package  {
+    package interceptor {
       class LogToFileApp {
           + loggingRegister()
           + removeInterceptor()
@@ -62,8 +121,10 @@ title __INTERCEPTOR's Class Diagram__\n
           - username : String
           - airlineID : int
           - flightID : int
+          - bookingID : int
           - logMessage : String
           - extendedDataInJSON : String
+          + LoggingContext()
           + LoggingContext()
           + LoggingContext()
           + getUserID()
@@ -113,6 +174,8 @@ title __INTERCEPTOR's Class Diagram__\n
   }
   
 
+  FullBookingContext o-- FlightBookingContext : flightContext
+  FullBookingContext o-- HotelBookingContext : hotelContext
   LogToFileInterceptor -up-|> LoggingInterceptor
   LogToServerInterceptor -up-|> LoggingInterceptor
   LoggingDispatcher -up-|> LoggingInterceptor

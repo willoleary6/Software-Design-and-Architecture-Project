@@ -18,7 +18,7 @@ class insertRequestHandlerTest {
         APIRequest hotelTest = new APIRequest();
         hotelTest.makeRequest(new InsertRequestAdapter(new AddNewHotel("test3", 1,27, "{}")));
         JSONObject[] responseKeys = hotelTest.getApiResponseResults();
-        assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
+        assertEquals(Arrays.toString(responseKeys), "[{\"results\":true}]");
     }
 
     @Test
@@ -30,7 +30,7 @@ class insertRequestHandlerTest {
         APIRequest logTest = new APIRequest();
         logTest.makeRequest(new InsertRequestAdapter(new AddNewLog(userID, logType, logMessage, extendedDataInJSON)));
         JSONObject[] responseKeys = logTest.getApiResponseResults();
-        assertEquals(Arrays.toString(responseKeys), "[{\"result\":null}]");
+        assertEquals(Arrays.toString(responseKeys), "[{\"results\":true}]");
     }
 
     @Test
@@ -38,7 +38,7 @@ class insertRequestHandlerTest {
         APIRequest disableBookingTest = new APIRequest();
         disableBookingTest.makeRequest(new InsertRequestAdapter(new DisableBookingByID(1)));
         JSONObject[] responseKeys = disableBookingTest.getApiResponseResults();
-        assertEquals(Arrays.toString(responseKeys), "[{\"result\":\"\"}]");
+        assertEquals(Arrays.toString(responseKeys), "[{\"results\":true}]");
     }
 
 

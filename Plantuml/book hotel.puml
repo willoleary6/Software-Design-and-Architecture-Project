@@ -1,0 +1,28 @@
+@startuml
+actor User
+
+User -> LoginCoordinator: Login Request
+LoginCoordinator -> User: Login Successful
+LoginCoordinator -> MainMenuCoordinator:
+MainMenuCoordinator -> UIController:
+MainMenuCoordinator -> LoginCoordinator: User Logs Out
+UIController -> FlightSearchFrameController: Move to flight search
+database AWS
+FlightSearchFrameController -> AWS: Retrieve Airports
+AWS --> FlightSearchFrameController: Returns Airports
+MainMenuCoordinator -> SearchController: Move to Search Controller
+SearchController -> CostBasedCalculation: User selects cost based algorithm
+CostBasedCalculation -> SearchController: most efficient route found
+
+SearchController --> UIController: UI controller receives results
+UIController -> FlightSearchResultsFrameController: Displaying list of flights
+FlightSearchResultsFrameController -> MainMenuCoordinator: User Cancels and is returned to the main menu
+FlightSearchResultsFrameController -> HotelBookingFrameController: User wants to book hotel
+HotelBookingFrameController -> AWS: Retrieve Hotels tied to destination airport
+AWS -> HotelBookingFrameController: Return list of hotels tied to airport
+HotelBookingFrameController -> BookingConfirmationFrameController: User confirms flights and hotels
+FlightSearchResultsFrameController -> BookingConfirmationFrameController: User confirms flights
+BookingConfirmationFrameController -> AWS: User confirms bookings
+BookingConfirmationFrameController -> MainMenuCoordinator: User is returned to main menu
+BookingConfirmationFrameController -> MainMenuCoordinator: User cancels booking
+@enduml
