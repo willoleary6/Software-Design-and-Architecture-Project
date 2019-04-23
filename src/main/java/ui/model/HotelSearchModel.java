@@ -1,13 +1,12 @@
 package ui.model;
 
 import backgroundServices.API_Handlers.APIRequest;
-import backgroundServices.API_Handlers.requests.get.*;
+import backgroundServices.API_Handlers.apiRequests.getRequest.*;
 import org.json.JSONObject;
 import reservation.Hotel;
 import routeCalculation.Airport;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class HotelSearchModel {

@@ -2,7 +2,7 @@ package control;
 
 import Utilities.JsonObjectConverter;
 import backgroundServices.API_Handlers.APIRequest;
-import backgroundServices.API_Handlers.requests.get.*;
+import backgroundServices.API_Handlers.apiRequests.getRequest.*;
 import org.json.JSONObject;
 import routeCalculation.*;
 import routeCalculation.CostBasedCalculation;
