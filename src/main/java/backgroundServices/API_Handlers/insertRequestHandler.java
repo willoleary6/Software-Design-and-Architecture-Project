@@ -1,6 +1,6 @@
 package backgroundServices.API_Handlers;
 
-import backgroundServices.resourceReader.reader;
+import backgroundServices.resourceReader.Reader;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
@@ -9,12 +9,12 @@ import org.json.JSONObject;
 import java.util.Properties;
 
 public class insertRequestHandler  implements ApiRequestHandler{
-    private reader myReader;
+    private Reader myReader;
     private Properties apiProperties;
     private JSONObject apiResponse;
 
     public insertRequestHandler(){
-        myReader = new reader();
+        myReader = new Reader();
         apiProperties = myReader.readFromResources("src/main/resources/APIs.properties");
     }
 
