@@ -17,7 +17,6 @@ public abstract class InsertRequestHandler implements OtherRequest {
     }
 
     public  boolean requestIsSuccessful(){
-        System.out.println(apiResponse);
         String results = apiResponse.get("results").toString()
                 .replaceAll("\\[", "").replaceAll("\\]", "");
         /*
