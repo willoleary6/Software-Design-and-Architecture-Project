@@ -12,6 +12,7 @@ public class APIRequest {
     private final Reader myReader;
     private final Properties apiProperties;
     private JSONObject[] responseResult;
+    private GetRequestTest request;
 
     public APIRequest() {
         myReader = new Reader();
@@ -19,19 +20,16 @@ public class APIRequest {
     }
 
     public void makeRequest(GetRequestTest request) {
-        request.getApiResponseResults();
-        request.getApiResponseKeys();
-        request.makeRequest();
-        // System.out.println(request.getApiResponseResults()[0]);
-        if (request instanceof GetRequestHandler)
-            System.out.println("Get All Airports");
-        else if(request instanceof InsertRequestAdapter)
-            System.out.println("Other");
-
+        this.request = request;
+        this.request.makeRequest();
     }
 
-    /*public JSONObject[] getApiResponseResults() {
-        return getApiResponseResults();
-    }*/
+    public JSONObject[] getApiResponseResults() {
+        return request.getApiResponseResults();
+    }
+
+    public JSONObject[] getApiResponseResults() {
+        return request.getApiResponseKeys();
+    }
 }
 
