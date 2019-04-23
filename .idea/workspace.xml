@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4814eccf-e590-4e27-9205-ea9f469344a8" name="Default Changelist" comment="" />
+    <list default="true" id="a9c9da16-7005-457b-85e0-042c5f16b165" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDD.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,54 +16,75 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/APIRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/adaptors/InsertRequestAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="34" />
-              <folding>
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/insertRequest/AddNewLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/control/UserControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="54" selection-start-line="43" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/insertRequest/InsertRequestHandler.java">
+        <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="26" column="5" selection-end-line="980" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/getRequest/GetAllAirports.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/getRequestHandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="33" column="148" selection-start-line="33" selection-start-column="148" selection-end-line="33" selection-end-column="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/model/HotelSearchModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/backgroundServices/API_Handlers/insertRequestHandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/control/SearchControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,43 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/insertRequest/AddNewUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/account/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/getRequest/GetUserInformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/AdapterMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="833">
+              <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -141,35 +131,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
-              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
-              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
-              <item name="adapter" type="1f31426a:PackageElementNode" />
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
-              <item name="reservation" type="1f31426a:PackageElementNode" />
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,72 +215,35 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
+              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
+              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
+              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
+              <item name="backgroundServices" type="1f31426a:PackageElementNode" />
+              <item name="API_Handlers" type="1f31426a:PackageElementNode" />
+              <item name="adapter" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
-              <item name="apiRequests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Software-Design-and-Architecture-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backgroundServices" type="462c0819:PsiDirectoryNode" />
-              <item name="API_Handlers" type="462c0819:PsiDirectoryNode" />
-              <item name="apiRequests" type="462c0819:PsiDirectoryNode" />
-              <item name="insertRequest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Software-Design-and-Architecture-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Software-Design-and-Architecture-Project" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Software-Design-and-Architecture-Project" type="616d4139:PackageViewModuleNode" />
+              <item name="reservation" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Software-Design-and-Architecture-Project">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Software-Design-and-Architecture-Project" />
@@ -337,9 +311,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in Software-Design-and-Architecture-Project" />
         <item itemvalue="JUnit.getRequestHandlerTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -386,9 +360,9 @@
     <option name="totallyTimeSpent" value="41000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.54831016" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,18 +488,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="12" selection-end-line="1033" />
         </state>
       </provider>
     </entry>
@@ -539,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/backgroundServices/API_Handlers/apiRequests/getRequest/GetAllAirports.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -553,14 +520,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/model/HotelSearchModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reservation/HotelServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -575,6 +542,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software-Design-and-Architecture-Project.plantuml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-end-line="980" />
         </state>
       </provider>
     </entry>
