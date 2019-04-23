@@ -171,16 +171,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
-    package booking {
-      package booking.compositePrototype {
-        class CompositeDemo {
-        }
-      }
-    }
-  }
-  
-
-  package  {
     package routeCalculation {
       class CostBasedCalculation {
       }
@@ -207,16 +197,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   package  {
     package account {
       class CustomerFactory {
-      }
-    }
-  }
-  
-
-  package  {
-    package booking {
-      package booking.compositePrototype {
-        interface Department {
-        }
       }
     }
   }
@@ -267,16 +247,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   package  {
     package account {
       class FactoryProducer {
-      }
-    }
-  }
-  
-
-  package  {
-    package booking {
-      package booking.compositePrototype {
-        class FinancialDepartment {
-        }
       }
     }
   }
@@ -444,16 +414,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
     package backgroundServices.API_Handlers {
       package backgroundServices.API_Handlers.apiRequests.getRequest {
         class GetUserInformation {
-        }
-      }
-    }
-  }
-  
-
-  package  {
-    package booking {
-      package booking.compositePrototype {
-        class HeadDepartment {
         }
       }
     }
@@ -801,16 +761,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   
 
   package  {
-    package booking {
-      package booking.compositePrototype {
-        class SalesDepartment {
-        }
-      }
-    }
-  }
-  
-
-  package  {
     package control {
       class SearchController {
       }
@@ -939,7 +889,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   EdgeDecorator -up-|> Edge
   EdgeDecorator o-- Edge : decoratedEdge
   EmployeeFactory -up-|> Factory
-  FinancialDepartment -up-|> Department
   Flight -up-|> Edge
   FlightBooking -up-|> Booking
   FlightDiscountDecorator -up-|> EdgeDecorator
@@ -967,7 +916,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   GetRequestHandler -up-|> Request
   GetRequestHandler o-- Reader : myReader
   GetUserInformation -up-|> GetRequestHandler
-  HeadDepartment -up-|> Department
   HotelBooking -up-|> Booking
   HotelSearchFrame -up-|> JFrame
   HotelSearchModel o-- Airport : destination
@@ -1007,7 +955,6 @@ title __SOFTWARE-DESIGN-AND-ARCHITECTURE-PROJECT's Class Diagram__\n
   Route o-- Airport : destination
   Route o-- Airport : origin
   Route o-- Edge : discountedFlight
-  SalesDepartment -up-|> Department
   SearchController o-- APIRequest : dbHandler
   SearchController o-- JsonObjectConverter : jsonObjectConverter
   TimeBasedCalculation -up-|> RouteCalculationStrategy
